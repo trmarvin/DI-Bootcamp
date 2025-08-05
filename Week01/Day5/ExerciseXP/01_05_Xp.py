@@ -101,3 +101,22 @@ print("Number of keys in brand:", len(brand))
 
 # 9. Print all keys of the dictionary
 print("Keys in brand:", list(brand.keys()))
+
+# Exercise 4: Disney Characters
+
+users = ["Mickey", "Minnie", "Donald", "Ariel", "Pluto"]
+
+# Create a dictionary that maps characters to their indices:
+
+user_dict = {name: index for index, name in enumerate(users)}
+print(user_dict)
+
+# Create a dictionary that maps indices to characters:
+
+index_dict = {index: name for index, name in enumerate(users)}
+print(index_dict)
+
+# Create a dictionary where characters are sorted alphabetically and mapped to their indices:
+
+sorted_dict = {name: users.index(name) for name in sorted(users)}
+print(sorted_dict)
