@@ -1,65 +1,77 @@
+# Challenge 1: Letter Index Dictionary
+
 '''
-In cryptography, a Caesar cipher is one of the simplest and most widely known encryption techniques.
-It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some 
-fixed number of positions down the alphabet.
+1. User Input:
 
-For example, with a left shift of 3 –> D would be replaced by A,
-–> E would become B, and so on.
+Ask the user to enter a word.
+Store the input word in a variable.
 
-The method is named after Julius Caesar, who used it in his private correspondence.
+2. Creating the Dictionary:
 
-Create a python program that encrypts and decrypts messages with ceasar cypher.
-The user enters the program, and then the program asks him if he wants to encrypt or decrypt, 
-and then execute encryption/decryption on a given message and a given shift.
+Iterate through each character of the input word using a loop.
+And check if the character is already a key in the dictionary.
+If it is, append the current index to the list associated with that key.
+If it is not, create a new key-value pair in the dictionary.
+Ensure that the characters (keys) are strings.
+Ensure that the indices (values) are stored in lists.
+
+3. Expected Output:
+
+For the input “dodo”, the output should be: {"d": [0, 2], "o": [1, 3]}.
+For the input “froggy”, the output should be: {"f": [0], "r": [1], "o": [2], "g": [3, 4], "y": [5]}.
+For the input “grapes”, the output should be: {"g": [0], "r": [1], "a": [2], "p": [3], "e": [4], "s": [5]}.
 '''
 
-# encryption function
+word = input("Enter a word: ")
 
-def caesar_encrypt(text, shift):
-    result = ""
-    for char in text:
-        if char.isalpha():
-            base = ord('A') if char.isupper() else ord('a')
-            result += chr((ord(char) - base + shift) % 26 + base)
-        else:
-            result += char
-    return result
+char_indices = {}
 
- # decryption function
+for index, char in enumerate(word):
+    if char in char_indices:
+        char_indices[char].append(index)
+    else:
+        char_indices[char] = [index]
 
-def caesar_decrypt(text, shift):
-    return caesar_encrypt(text, -shift)
+print("Character index dictionary:")
+print(char_indices)
 
-# main program
+# Challenge 2: Affordable Items
 
-def main():
-    print("Welcome to the Caesar Cipher program!")
-    
-    while True:
-        choice = input("Do you want to (E)ncrypt or (D)ecrypt a message? (E/D): ").strip().upper()
-        if choice not in ['E', 'D']:
-            print("Invalid choice. Please enter 'E' or 'D'.")
-            continue
+'''
+1. Store Data:
 
-        message = input("Enter your message: ")
+You will be provided with a dictionary (items_purchase) where the keys are the item names and the values are their prices (as strings with a dollar sign).
+You will also be given a string (wallet) representing the amount of money you have.
+
+2. Data Cleaning:
+
+3. Determining Affordable Items:
+
+4. Sorting and Output:
+
+Sort the list of affordable items in alphabetical order.
+If the list is empty (no items can be afforded), return the string “Nothing”.
+Otherwise, return the sorted list.
+'''
+
+items_purchase = {"Water": "$1", "Bread": "$3", "TV": "$1,000", "Fertilizer": "$20"}
+wallet = "$300"
+
+def affordable_items(items_purchase, wallet):
+    wallet_amount = int(wallet.replace("$", "").replace(",", ""))
+
+    affordable = []
+
+    for item, price_str in items_purchase.items():
+        price = int(price_str.replace("$", "").replace(",", ""))
         
-        try:
-            shift = int(input("Enter the shift value (e.g. 3): "))
-        except ValueError:
-            print("Shift must be a number.")
-            continue
+        if price <= wallet_amount:
+            affordable.append(item)
 
-        if choice == 'E':
-            encrypted = caesar_encrypt(message, shift)
-            print("Encrypted message:", encrypted)
-        else:
-            decrypted = caesar_decrypt(message, shift)
-            print("Decrypted message:", decrypted)
+    if not affordable:
+        return "Nothing"
+    else:
+        return sorted(affordable)
 
-        again = input("Do you want to run the program again? (Y/N): ").strip().upper()
-        if again != 'Y':
-            print("Goodbye!")
-            break
-
-if __name__ == "__main__":
-	main()
+result = affordable_items(items_purchase, wallet)
+print(result)
