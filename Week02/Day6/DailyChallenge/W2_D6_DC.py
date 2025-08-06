@@ -49,15 +49,10 @@ class Farm:
         else:
             self.animals[animal_type] = count
 
-    # def get_animals(self):
-        # return self.animals
-
     def get_info(self):
         info = f"{self.farm_name}'s farm\n"
-        # info += "-" * 20 + "\n"
         for animal, count in self.animals.items():
             info += f"{animal:<10} : {count:>3}\n"
-        # info += "-" * 20 + "\n"
         info += "E-I-E-I-0!"
         return info
 
