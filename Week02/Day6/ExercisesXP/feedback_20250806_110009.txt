@@ -1,0 +1,12 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week02/Day6/ExercisesXP/W2_D6_XP.py
+suggestions for improvement:
+- In Exercise 1, while the code correctly identifies the oldest cat, using a more descriptive variable name than `oldest` would enhance readability.  For example, `oldest_cat`.
+- In Exercise 2, the instructions ask to compare dog sizes.  The code only prints the details and doesn't perform a direct comparison (e.g., determining which dog is taller).
+- Exercise 4's `get_groups()` method is missing,  preventing the complete display of grouped animals as specified in the instructions.
+- In Exercise 4, add input validation to prevent unexpected behavior (e.g., empty strings or numbers as animal names).
+Brief justification:
+- correctness: The code correctly implements the core functionalities of each exercise as described,  with minor omissions. Exercise 1, 2, and 3 directly address the class creation, object instantiation, method usage, and attribute manipulation, all central to the chapter's content. Exercise 4 correctly implements most of the required methods. The missing `get_groups()` method in Exercise 4 and the absence of a size comparison in Exercise 2 are the primary reasons for not achieving a perfect score.
+- readability: The code is generally well-structured and easy to follow. However, variable names could be more descriptive in some cases (Exercise 1). The comments adequately explain the purpose of code sections.
+- performance: The algorithms used are efficient for the tasks at hand. The time complexity for finding the oldest cat and sorting animals are acceptable for the small scale of data involved. No significant performance bottlenecks are present.
+- security: The code does not contain any obvious security vulnerabilities. No external inputs are directly used in a way that could lead to issues like SQL injection or cross-site scripting (XSS). There's also no interaction with filesystems or networks.
+
