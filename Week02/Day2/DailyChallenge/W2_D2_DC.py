@@ -23,6 +23,7 @@ for col in range(cols):
         raw_message += matrix[row][col]
 
 # Step 3: Replace non-letter groups between letters with space
+# I could not do this step without help from AI
 cleaned = re.sub(r'(?<=[A-Za-z])[^A-Za-z]+(?=[A-Za-z])', ' ', raw_message)
 
 # Step 4: Remove any leftover non-letter characters
