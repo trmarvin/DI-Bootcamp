@@ -199,7 +199,7 @@ class Family:
         for person in self.members:
             if person.first_name == first_name:
                 if person.is_18():
-                    print("You are over 18, your parents Jane and John accept that you will go out with your friends")
+                    print("You are over 18, your parents Jane and John accept that you will go out with your friends.")
                 else:
                     print("Sorry, you are not allowed to go out with your friends.")
                 return
@@ -225,4 +225,3 @@ my_family.check_majority("Daisy")    # Not found
 
 # Present the family
 my_family.family_presentation()
-
