@@ -1,0 +1,16 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week03/Day6/ExercisesXP/W3_D6_XP.py
+suggestions for improvement:
+- The `get_words_from_file` function has a redundant `return content` statement outside the `with` block. This will return an undefined variable if the file is not found.
+- Improve error handling in the main function to provide more user-friendly messages (e.g., specifying the valid range).
+- Add input validation in the `main` function to handle non-integer inputs more robustly (using `try-except` block).
+- Exercise 2 is missing the code to access and print the salary from the JSON before modification.  The path to save the file is hardcoded; it should be made more flexible (e.g., prompt the user for a file path or use a default that's less likely to cause file system errors).
+- Add comments to explain the purpose of each section of code in Exercise 2.  Add error handling to catch exceptions such as `FileNotFoundError` or `JSONDecodeError`.
+Correctness: 90%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week03/Day6/ExercisesXP/modified_data.json
+suggestions for improvement:
+- The provided code snippet only addresses Exercise 2, not Exercise 1.  Exercise 1 requires file handling, random number generation, and string manipulation, none of which are present in this code snippet.
+- The code snippet correctly modifies the JSON data by adding a 'birth_date' key.  However, it lacks the file I/O operations specified in Exercise 2. It should include code to read from and save to a file.
+- The date format is hardcoded; it should ideally allow user input or configuration.
+Correctness: 80%
+-----
