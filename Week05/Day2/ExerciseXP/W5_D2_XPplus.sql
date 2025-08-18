@@ -1,0 +1,1 @@
+SELECT * FROM students WHERE birthdate >= '01/01/2000';
