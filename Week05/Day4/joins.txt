@@ -1,0 +1,37 @@
+JOINS IN SQL
+
+Inner join: see only related rows
+
+SELECT actors.first_name, actors.Last_name, movies.movie_title
+FROM actors
+INNER JOIN movies
+ON actors.actor_id = movies.actor_playing_id
+
+Left join: see all columns, including NULL, from the right
+
+SELECT actors.first_name, actors.Last_name, movies.movie_title
+FROM actors
+LEFT JOIN movies
+ON actors.actor_id = movies.actor_playing_id
+
+Right join
+
+SELECT actors.first_name, actors.Last_name, movies.movie_title
+FROM actors
+RIGHT JOIN movies
+ON actors.actor_id = movies.actor_playing_id
+
+Full join: shows all the rows from both tables
+
+SELECT actors.first_name, actors.Last_name, movies.movie_title
+FROM actors
+Full JOIN movies
+ON actors.actor_id = movies.actor_playing_id
+
+DELETING
+
+Options on what happens if I delete a row on the parent table:
+ON DELETE RESTRICT: it is not possible to delete a record if it is related to another table
+
+ON DELETE or ON UPDATE CASCADE: it will delete the row and the reference on the child will 
+be deleted s well

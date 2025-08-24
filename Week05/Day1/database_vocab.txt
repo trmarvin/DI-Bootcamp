@@ -1,0 +1,20 @@
+DATABASE = a software/memory to store data in an organized way (tables)
+Relational X not Relational
+We will learn a relational database called postgresql
+SQL = Structured Query Language for databases
+Postgres = RDMS (Relational Database Management System)
+PGadmin
+
+Table structure
+a field = the "label" of a column
+a record or a row
+a columna NULL value = the absence of a value
+
+Data value
+- numeric - integer, decimal, smallint, bigint
+- string - 
+- date/timestamp
+- boolean
+- monetary
+
+Constraints
