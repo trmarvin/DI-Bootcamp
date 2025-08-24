@@ -7,7 +7,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 
 connection = psycopg2.connect(database = 'countries',
     user = 'postgres',
-    password = '1234',
+    password = '07Nathan30!',
     host = 'localhost',
     port = '5432')
 
