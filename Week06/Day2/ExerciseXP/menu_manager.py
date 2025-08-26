@@ -28,8 +28,4 @@ class MenuManager:
         with conn.cursor() as cur:
             cur.execute("SELECT item_id, item_name, item_price FROM menu_items ORDER BY item_id;")
             rows = cur.fetchall()
-        return [{"id": r[0], "name": r[1], "price": r[2]} for r in rows]
-
-item = MenuItem('Burger', 35)
-item.save()
-item.delete()
+        return [MenuItem(name=r[1], price=r[2], item_id=r[0]) for r in rows]
