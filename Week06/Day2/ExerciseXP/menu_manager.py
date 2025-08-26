@@ -1,3 +1,5 @@
+from menu_item import MenuItem
+
 import psycopg2
 
 conn = psycopg2.connect(
@@ -8,19 +10,26 @@ conn = psycopg2.connect(
     port=5432
 )
 
-cur = conn.cursor()
-
 class MenuManager:
-    def __init__(self):
-        self.menu_items = []
+    @classmethod
+    def get_by_name(cls, name):
+        with conn.cursor() as cur:
+            cur.execute(
+                "SELECT item_id, item_name, item_price FROM menu_items WHERE item_name = %s LIMIT 1;",
+                (name,)
+            )
+            row = cur.fetchone()
+            if row is None:
+                return None
+            return MenuItem(name=row[1], price=row[2], item_id=row[0])
 
-    if:
-        def get_by_name(self, name):
-            cur.execute("SELECT item_name, item_price FROM menu_items WHERE item_name = %s", (name,))
-    else:
-        print("None")
+    @classmethod
+    def all_items(cls):
+        with conn.cursor() as cur:
+            cur.execute("SELECT item_id, item_name, item_price FROM menu_items ORDER BY item_id;")
+            rows = cur.fetchall()
+        return [{"id": r[0], "name": r[1], "price": r[2]} for r in rows]
 
-cur.close()
-conn.close()
-
-            
+item = MenuItem('Burger', 35)
+item.save()
+item.delete()
