@@ -139,7 +139,7 @@ function planeRideCost() {
 }
 
 let cost = planeRideCost();
-console.log("The price is $" + cost);
+console.log("The price of your plane tickets is $" + cost);
 
 
 /* Define a function called rentalCarCost().
@@ -147,10 +147,36 @@ It should ask the user for the number of days they would like to rent the car.
 If the user doesn’t answer or if the answer is not a number, ask again.
 Calculate the cost to rent the car. The car costs $40 everyday.
 If the user rents a car for more than 10 days, they get a 5% discount.
-The function should return the total price of the car rental.
+The function should return the total price of the car rental. */
 
-Define a function called totalVacationCost() that returns the total cost of the user’s vacation by calling the 3 functions that you created above.
+function rentalCarCost() {
+    let days = Number(prompt("How many days would you like to rent the car?"));
+    while (isNaN(days) || days <= 0) {
+        days = Number(prompt("Please enter a valid number of days."));
+    }
+    let totalCost = days * 40;
+    if (days > 10) {
+        totalCost *= 0.95; // Apply 5% discount
+    }
+    return totalCost;
+}
+
+console.log("Your total car rental cost is $" + rentalCarCost());
+
+/* Define a function called totalVacationCost() that returns the total cost of 
+the user’s vacation by calling the 3 functions that you created above.
 Example : The car cost: $x, the hotel cost: $y, the plane tickets cost: $z.
-Hint: You have to call the functions hotelCost(), planeRideCost() and rentalCarCost() inside the function totalVacationCost().
+Hint: You have to call the functions hotelCost(), planeRideCost() and 
+rentalCarCost() inside the function totalVacationCost().
 
 Call the function totalVacationCost() */
+
+function totalVacationCost() {
+    const myHotelCost = hotelCost();
+    const myPlaneRideCost = planeRideCost();
+    const myRentalCarCost = rentalCarCost();
+
+    return myHotelCost + myPlaneRideCost + myRentalCarCost;
+}
+
+console.log("The total cost of your vacation is $" + totalVacationCost());
