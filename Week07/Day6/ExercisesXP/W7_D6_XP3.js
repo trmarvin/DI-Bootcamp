@@ -30,3 +30,69 @@ const lastListItem = document.getElementById("socialNetworkNavigation").lastElem
 
 console.log(firstListItem.textContent);
 console.log(lastListItem.textContent);
+
+/* In the js file, create an array called allBooks. This is an array of objects. 
+Each object is a book that has 4 keys (ie. 4 properties) :
+title,
+author,
+image : a url,
+alreadyRead : which is a boolean (true or false). */
+
+/* Initiate the array with 2 books of your choice (ie. Add manually 2 books objects 
+in the array) */
+
+let allBooks = [];
+allBooks = [
+    {
+        title: "Harry Potter and the Sorcerer's Stone",
+        author: "J.K. Rowling",
+        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Few.com%2Fbooks%2Fharry-potter-book-covers%2F%3Fsrsltid%3DAfmBOoqQVQqVdrijte8LTJbtkEqskaTHDfMnCA4cnf2xGabZZyWXkeAg&psig=AOvVaw0aIW5JA7v8UVTtjsXPSB1Q&ust=1757341721045000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjm75nuxo8DFQAAAAAdAAAAABAE",
+        alreadyRead: true
+    },
+    {
+        title: "The Hobbit",
+        author: "J.R.R. Tolkien",
+        image: "https://www.steimatzky.co.il/pub/media/catalog/product/cache/054fd023ed4beb824f3143faa6fcc008/0/2/020882653-171213636686232.jpg",
+        alreadyRead: false
+    }
+];
+
+/* Requirements : All the instructions below need to be coded in the js file:
+Using the DOM, render each book inside a div (the div must be added to the <section> 
+created in part 1).
+
+For each book :
+You have to display the book’s title and the book’s author.
+Example: HarryPotter written by JKRolling.
+The width of the image has to be set to 100px.
+If the book is already read. Set the color of the book’s details to red. */ 
+
+const section = document.querySelector(".listBooks");
+
+    // Loop through the books
+    for (let i = 0; i < allBooks.length; i++) {
+      const book = allBooks[i];
+
+      // Create a div for each book
+      const bookDiv = document.createElement("div");
+
+      // Add the text (title + author)
+      const details = document.createElement("p");
+      details.textContent = book.title + " written by " + book.author;
+
+      // Make text red if already read
+      if (book.alreadyRead) {
+        details.style.color = "red";
+      }
+
+      // Add the image
+      const img = document.createElement("img");
+      img.src = book.image;
+      img.style.width = "100px";
+
+      // Put everything together
+      bookDiv.appendChild(details);
+      bookDiv.appendChild(img);
+
+      section.appendChild(bookDiv);
+    }
