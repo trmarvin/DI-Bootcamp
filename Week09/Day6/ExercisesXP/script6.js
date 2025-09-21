@@ -44,6 +44,6 @@ class Mammal extends Animal {
 name, a type and a color and calls the sound method that “moos” her information.
 For example: Moooo I'm a cow, named Lily and I'm brown and white */
 
-const farmerCow = new Mammal {"Lily", "cow", "brown and white", "Moooo")};
+const farmerCow = new Mammal("Lily", "cow", "brown and white", "Moooo");
 
 console.log(farmerCow.makeSound());
