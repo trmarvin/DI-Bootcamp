@@ -1,25 +1,17 @@
-/* Exercise 3 : Counter class 
+/* 🌟 Exercise 3: User & id
+Using this object: */
 
-Analyze the code below, what will be the output? */
+const users = { user1: 18273, user2: 92833, user3: 90315 }
 
-class Counter {
-  constructor() {
-    this.count = 0;
-  }
+/* Using methods taught in class, turn the users object into an array:
+Excepted output: [ [ 'user1', 18273 ], [ 'user2', 92833 ], [ 'user3', 90315 ] ]
+FYI : The number is their ID number. */
 
-  increment() {
-    this.count++;
-  }
-}
+const userArrays = Object.entries(users);
+console.log(Object.entries(users));
 
-const counterOne = new Counter();
-counterOne.increment();
-counterOne.increment();
+/* Modify the outcome of part 1, by multipling the user’s ID by 2.
+Excepted output: [ [ 'user1', 36546 ], [ 'user2', 185666 ], [ 'user3', 180630 ] ] */
 
-const counterTwo = counterOne;
-counterTwo.increment();
-
-console.log(counterOne.count);
-
-/* Result is 3 because this.count is updated on each call and is called twice (=2), then is fed into
-CounterTwo and incremented again (= 3). */
+const updatedUserArrays = userArrays.map(([user, id]) => [user, id * 2]);
+console.log(updatedUserArrays);

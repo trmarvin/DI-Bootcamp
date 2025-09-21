@@ -1,21 +1,18 @@
-/* Exercise 1 : print Full Name
+/* 🌟 Exercise 1 : Location
+Analyze the code below. What will be the output? */
 
-Create a function called printFullName.
-The function should return a string like the example below
-printFullName({first: 'Elie', last:'Schoppik'}) 
-// 'Your full name is Elie Schoppik` */
-
-function printFullName({ first, last }) {
-  return `Your full name is ${first} ${last}`;
+const person = {
+    name: 'John Doe',
+    age: 25,
+    location: {
+        country: 'Canada',
+        city: 'Vancouver',
+        coordinates: [49.2827, -123.1207]
+    }
 }
 
-console.log(printFullName({ first: 'Elie', last: 'Schoppik' }));
+const {name, location: {country, city, coordinates: [lat, lng]}} = person;
 
-/* Destructure this object directly from the parameters (ie. Look at the Advanced Object lesson - 
-Part II : Object destructuring used as an assignment to a function)
+console.log(`I am ${name} from ${city}, ${country}. Latitude(${lat}), Longitude(${lng})`);
 
-The output of the printFullName function should be the exact same as the displayStudentInfo function. 
-(Exercise XP) */
-
-const {first, last} = printFullName({first: 'Elie', last: 'Schoppik'});
-
+/* I am John Doe from Vancouver, Canada. Latitude 49.2827, Longitude 123.1207 */
