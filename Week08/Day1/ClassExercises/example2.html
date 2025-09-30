@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banner</title>
+<style>
+    /* Style the banner */
+    #salesBanner {
+        display: none;
+        /* hidden at first */
+        background-color: red;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+</style>
+
+</head>
+<body>
+
+<div id="salesBanner">The sales end in 10 min!</div>
+
+<script>
+    // After 5 seconds, show the banner
+    setTimeout(function () {
+        document.getElementById("salesBanner").style.display = "block";
+    }, 5000);
+
+// Use the same code as before but create a countdown in the banner.
+// ... "The sales end in 10sec ! "
+// ... "The sales end in 9sec ! "
+// etc ... until 0
+        const startTime = Date.now();
+        const COUNTDOWN = 10;
+    
+        const countdownInterval = setInterval(function () {
+            // Do something every 5 seconds
+            document.getElementById("salesBanner").innerText = "The sales end in " + i + "sec!";
+        }, 5000);
+
+</script>
+
+</body>
+</html>

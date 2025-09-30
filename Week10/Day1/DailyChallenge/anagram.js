@@ -17,8 +17,6 @@ function areAnagrams(a, b) {
   const A = stringPrep(a);
   const B = stringPrep(b);
   if (A.length !== B.length) return false;
-
-  // Sort approach
   return [...A].sort().join("") === [...B].sort().join("");
 }
 
@@ -28,5 +26,5 @@ const secondString = prompt("Enter the second string:");
 if (areAnagrams(firstString, secondString)) {
   alert("They are anagrams!");
 } else {
-  alert("These rae not anagrams.");
+  alert("These are not anagrams.");
 }

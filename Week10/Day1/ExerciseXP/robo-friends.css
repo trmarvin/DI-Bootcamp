@@ -84,13 +84,6 @@ body {
             var(--card-teal);
 }
 
-/* .card:hover,
-.card:focus-within {
-    transform: translateY(-2px);
-    box-shadow: 0 14px 34px rgba(0, 0, 0, .25);
-    background: var(--card-teal-dark);
-} */
-
 .card img {
     width: 100%;
     max-width: 220px;
@@ -111,5 +104,4 @@ body {
     margin: 0;
     font-size: 14px;
     opacity: .85;
-    word-break: break-all;
 }

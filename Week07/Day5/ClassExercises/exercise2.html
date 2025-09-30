@@ -1,0 +1,47 @@
+<html>
+
+<body>
+    <div id="container">Users:</div>
+    <ul class="list">
+        <li>John</li>
+        <li>Pete</li>
+    </ul>
+    <ul class="list">
+        <li>Sarah</li>
+        <li>Dan</li>
+    </ul>
+
+/* For each of the questions, find 2 WAYS to access :
+
+1. The div node
+2. The ul nodes, and render all of its children one by one
+3. The first li of each ul */
+
+<script>
+    document.getElementsByTagName("div");
+    document.querySelector("div");
+
+    //n.2
+    document.getElementsByTagName("ul");
+    document.querySelectorAll("ul");
+
+    document.getElementsByTagName("ul")[0].children;
+    document.querySelectorAll("ul")[0].children;
+
+    document.getElementsByTagName("ul")[1].children;
+    document.querySelectorAll("ul")[1].children;
+
+    document.getElementsByTagName("ul")[0].firstElementChild;
+    document.querySelectorAll("ul")[0].firstElementChild;
+
+    document.getElementsByTagName("ul")[1].firstElementChild;
+    document.querySelectorAll("ul")[1].firstElementChild;
+
+    // 3
+    document.querySelectorAll("ul li:first-child");
+
+</script>
+
+</body>
+
+</html>

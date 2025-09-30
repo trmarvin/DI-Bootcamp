@@ -104,7 +104,6 @@ const robots = [
 
     function render(list){
       grid.replaceChildren(...list.map(createCard));
-    //   countEl.textContent = `${list.length} robot${list.length===1?'':'s'} shown`;
     }
 
     // --- Search / Filter ---
