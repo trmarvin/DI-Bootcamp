@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form id="nameForm" action="" method="POST" novalidate>
+        <div>
+            <p><label for="firstName">Name</label></p>
+            <input id="firstName" name="firstName" type="text" placeholder="John" required />
+        </div>
+        <div>
+            <p><label for="comments">Comments</label></p>
+            <textarea id="comments" name="comments" placeholder="Hello this is a comment" rows="12"
+                cols="40"></textarea>
+        </div> 
+        <p><button id="submitBtn" type="submit">Send</button></p>
+    </form>
+    <script src="form.js" defer></script>
+</body>
+
+</html>
+
+// POST sends data in the HTTP body
