@@ -10,15 +10,19 @@
 <body>
     <form id="nameForm" action="" method="GET" novalidate>
         <div>
-            <p><label for="name">Name</label></p>
+            <p><label for="firstName">Name</label></p>
             <input id="firstName" name="firstName" type="text" placeholder="John" required />
         </div>
+
         <div>
             <p><label for="comments">Comments</label></p>
-            <textarea id="comments" name="comments" type="text" placeholder="Hello this is a comment" rows="12" cols=""40"></textarea>
+            <!-- ✅ Removed stray quote in cols and removed invalid type attribute -->
+            <textarea id="comments" name="comments" placeholder="Hello this is a comment" rows="12"
+                cols="40"></textarea>
         </div>
-            <p><button id="submitBtn" type="submit">Send</button></p>
-        </div>
+
+        <!-- ✅ Removed extra closing </div> -->
+        <p><button id="submitBtn" type="submit">Send</button></p>
     </form>
 
     <script src="form.js" defer></script>
