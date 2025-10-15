@@ -4,5 +4,4 @@ const delayedSuccess = new Promise((resolve) => {
   }, 4000);
 });
 
-// Test
 delayedSuccess.then(result => console.log(result));
