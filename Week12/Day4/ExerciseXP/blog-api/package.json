@@ -1,0 +1,22 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "blog api",
+  "keywords": [
+    "none"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "license": "MIT",
+  "author": "TRM",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
