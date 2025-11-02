@@ -1,0 +1,18 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week03/Day4/ExerciseXP/W3_D4_XP.py
+suggestions for improvement:
+- In Exercise 1, the `__add__` method should return a new `Currency` object instead of just the sum of amounts. This maintains object immutability, a best practice in object-oriented programming.  The same applies to `__iadd__` which should return `self`.
+- Exercise 2 requires creating two separate files (`func.py` and `exercise_one.py`).  The provided code only shows the solution within the single file. 
+- Exercise 5 calculates the time difference without handling potential timezone issues or daylight saving time shifts for better accuracy. Using only `datetime` may cause slight inaccuracies.
+- In Exercise 6,  input validation could be improved to handle various date formats or provide more informative error messages.
+Correctness: 90%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week03/Day4/ExerciseXP/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week03/Day4/ExerciseXP/exercise_one.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
