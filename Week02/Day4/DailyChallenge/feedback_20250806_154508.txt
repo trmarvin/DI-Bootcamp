@@ -1,0 +1,10 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week02/Day4/DailyChallenge/W2_D4_DC.py
+suggestions for improvement:
+- Challenge 1: The code for Challenge 1 perfectly addresses the prompt's requirements.  No improvements needed.
+- Challenge 2: The `longest_word` function in Challenge 2 has a minor flaw. It uses `sentence.split()` which splits on whitespace.  This means punctuation is treated as a word separator, and thus the function does not correctly find the longest word that includes punctuation (as specified). Consider using a regular expression or other method to split words appropriately while preserving punctuation within words.
+Brief justification:
+- correctness: Challenge 1: The code correctly takes comma-separated input, splits it into a list, sorts the list alphabetically, and joins it back into a comma-separated string, exactly as specified in the instructions. This directly addresses the chapter's focus on Python basics, string manipulation, lists, and sorting. Challenge 2: The code mostly addresses the challenge but fails to correctly handle words with internal punctuation because it splits on whitespace. The core logic is sound (finding the longest word), but the incorrect splitting means it doesn't fully meet the requirements. 
+- readability: The code is well-structured, uses meaningful variable names, and is easy to follow for both challenges.  The comments in the provided text are not in the code, but the code's structure is clear and well-organized.
+- performance: The performance is excellent for both challenges. The algorithms used for sorting and finding the longest word are efficient for the input sizes expected.
+- security: There are no security concerns in this code. It only handles user input and performs simple string manipulations.
+
