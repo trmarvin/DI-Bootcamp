@@ -1,0 +1,29 @@
+<div class="posts">
+    <% if (!posts || posts.length===0) { %>
+        <p class="text-muted">No posts to display.</p>
+        <% } else { %>
+            <% posts.forEach(post=> { %>
+                <article class="post">
+                    <h3>
+                        <a href="<%= post.link %>" target="_blank" rel="noopener noreferrer">
+                            <%= post.title %>
+                        </a>
+                    </h3>
+                    <p class="meta">
+                        <span><strong>Date:</strong>
+                            <%= post.pubDate %>
+                        </span>
+                        <% if (post.creator) { %> · <span><strong>Creator:</strong>
+                                <%= post.creator %>
+                            </span>
+                            <% } %>
+                                <% if (post.categories && post.categories.length) { %>
+                                    · <span><strong>Category:</strong>
+                                        <%= post.categories.join(', ') %></span>
+          <% } %>
+        </p>
+        <p><%= post.content %></p>
+      </article>
+    <% }) %>
+  <% } %>
+</div>
