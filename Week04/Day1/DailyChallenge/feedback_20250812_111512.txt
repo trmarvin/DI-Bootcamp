@@ -1,0 +1,11 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week04/Day1/DailyChallenge/W4_D1_DC.py
+suggestions for improvement:
+- The `Deck` class's `shuffle` method should explicitly check if the deck contains 52 cards before shuffling.  A simple `assert len(self.cards) == 52` within the `shuffle` method would provide a stronger guarantee of data integrity.
+- Add docstrings to the methods to explain their purpose and functionality.
+- Consider adding error handling (e.g., exceptions) to the `deal` method to handle cases where the deck is empty, rather than just returning `None`.
+Brief justification:
+- correctness: The code accurately implements a `Card` class with suit and value attributes and a `Deck` class with `shuffle` and `deal` methods as specified. The `Deck` class does not inherit from the `Card` class. The `reset` method is an additional feature not explicitly requested but helpful and well implemented.  The 90% score accounts for the missing assertion in `shuffle` to ensure it only shuffles a complete deck. 
+- readability: The code is well-structured, uses clear variable names, and is easy to follow. The list comprehension for creating the deck is efficient and concise. The use of `__str__` and `__repr__` for the `Card` class enhances readability.
+- performance: The code's performance is reasonably good.  The list comprehension for creating the deck is efficient.  The `shuffle` method uses Python's built-in `random.shuffle`, which is optimized. The `pop()` method in `deal` is efficient for removing elements. The 90% score reflects the potential minor performance gain with an explicit check of deck size before shuffling.
+- security: The code does not contain any obvious security vulnerabilities. No external inputs are used in a way that could lead to security risks.
+
