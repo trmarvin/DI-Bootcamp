@@ -1,0 +1,11 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week02/Day2/DailyChallenge/W2_D2_DC.py
+suggestions for improvement:
+- The code uses regular expressions which are not explicitly mentioned in the chapter content, although they are efficient.  Consider a more explicit approach using loops and conditional statements as instructed, to better demonstrate the skills outlined in the chapter.
+- Error handling (e.g., for empty input or unexpected string formats) could be improved.  Currently, the code assumes a specific input format which may not always be the case. Add checks to handle potential errors more gracefully.
+- The comments could be more descriptive, particularly explaining the purpose of the regular expressions used.
+Brief justification:
+- correctness: The code correctly extracts the alphabetic characters from the matrix string in a column-wise manner and replaces non-alphabetic character sequences with spaces. The algorithm aligns with the problem statement's instructions despite using regular expressions, a technique not specifically mentioned but still achieving the goal.  The deduction in score reflects the use of regular expressions, which, while effective, deviates slightly from the learning objectives of explicitly using loops and conditional statements. 
+- readability: The code is reasonably readable, with clear variable names. However, the use of regular expressions without clear comments makes understanding the code's logic slightly more difficult than it could be with a more explicit approach. Adding more comments to clarify the logic would significantly improve readability.
+- performance: The use of regular expressions generally provides good performance. The code is efficient in processing the string, and the time complexity is relatively low. The algorithm scales well with the size of the matrix input.
+- security: No security concerns are present in this code. The code only processes the input string and does not interact with external resources or user input that could introduce vulnerabilities.
+
