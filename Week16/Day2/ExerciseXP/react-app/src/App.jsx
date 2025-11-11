@@ -1,4 +1,5 @@
 import UserFavoriteAnimals from "./UserFavoriteAnimals";
+import Exercise from "./exercise3";
 
 function App() {
   const myelement = <h1>I Love JSX!</h1>;
@@ -10,7 +11,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={{ textAlign: 'center' }}>
       <div>
         <p>Hello World!</p>
       </div>
@@ -27,6 +28,9 @@ function App() {
       <div>
         <h1>Favorite Animals</h1>
         <UserFavoriteAnimals favAnimals={user.favAnimals} />
+      </div>
+      <div>
+        <Exercise />
       </div>
     </div>
   );
