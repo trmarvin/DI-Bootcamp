@@ -1,0 +1,11 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week01/Day4/DailyChallenge/01_04_DC.py
+suggestions for improvement:
+- Challenge 1: The code could include input validation to handle non-integer inputs.  A `try-except` block would gracefully handle potential `ValueError` exceptions.
+- Challenge 2: The code is efficient for this task, but a more advanced technique like using `itertools.groupby` could be explored for even better performance with very large strings.  Consider adding a check for empty input strings.
+- Both Challenges: Add docstrings to functions (even though these are small scripts) for better readability and maintainability.  A more descriptive variable name such as `consecutive_duplicates` could be used in Challenge 2 instead of just `result`.
+Brief justification:
+- correctness: Both challenges are correctly solved.  Challenge 1 accurately generates a list of multiples as specified, using a `for` loop, list, and basic arithmetic (multiplication), all topics covered in the chapter content. Challenge 2 correctly removes consecutive duplicate letters from a string using a `for` loop, string manipulation, and conditional statements (`if`), also as detailed in the chapter's learning objectives. The code directly addresses the problem statements and examples provided.
+- readability: The code is well-structured and easy to follow. Variable names are mostly descriptive, and the logic is clear. However, adding docstrings and more descriptive variable names (as suggested in feedback) would enhance readability.
+- performance: The code's performance is good for the intended use cases, and the algorithms have linear time complexity.  However, for extremely large inputs, minor performance improvements might be considered (as suggested in feedback).
+- security: The code doesn't introduce any security vulnerabilities.  It directly handles user input as intended and doesn't interact with external resources or perform actions that could pose a security risk. Input validation would make it even more robust, although not strictly necessary given the problem specification.
+

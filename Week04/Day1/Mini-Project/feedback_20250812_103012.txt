@@ -1,0 +1,18 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week04/Day1/Mini-Project/anagram.py
+suggestions for improvement:
+- The `anagram_checker.py` file is missing, preventing a complete assessment of the `AnagramChecker` class implementation.  The provided code assumes its existence and correct functionality.
+- The hardcoded file path in `anagram_checker_instance = anagram_checker.AnagramChecker('G:\My Drive\Programming\DI-Bootcamp\Week04\Day1\Mini-Project\sowpods.txt')` makes the code less portable. Consider using a relative path or allowing the user to specify the file path.
+- Error handling could be improved.  Instead of just printing error messages, consider raising exceptions for more robust error management. 
+- The performance can be improved by optimizing the anagram search algorithm within the `AnagramChecker` class (assuming it's implemented efficiently). Consider using more efficient data structures and algorithms if necessary.
+- Add more comprehensive input validation to handle edge cases and potential vulnerabilities (though the existing validation is good).
+Correctness: 85%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week04/Day1/Mini-Project/anagram_checker.py
+suggestions for improvement:
+- The `AnagramChecker` class should not contain `print` statements.  Output should be handled by the UI in `anagrams.py`.
+- The `__init__` method should handle potential file errors (e.g., FileNotFoundError).
+- The `get_anagrams` method is inefficient for large word lists. Consider using a dictionary or set for faster lookup.
+- The code is missing the `anagrams.py` file, which is crucial for the user interface and overall functionality as described in the instructions.
+- The `words` attribute should store words with newline characters removed for accurate comparison.
+Correctness: 70%
+-----
