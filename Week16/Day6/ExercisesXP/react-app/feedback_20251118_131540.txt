@@ -1,0 +1,64 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/ExercisesXP/react-app/eslint.config.js
+suggestions for improvement:
+- This code appears to be an ESLint configuration file. It is completely unrelated to the React lifecycle methods, error boundaries, or event handling which were the focus of the provided exercises. The submission needs to implement the React components and logic described in the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/ExercisesXP/react-app/index.html
+suggestions for improvement:
+- The provided code is an HTML file that sets up the basic structure for a React application, including linking to the main JavaScript file. However, it does not contain any of the React components or logic required by the exercises described in the prompt. The exercises require creating components to handle error boundaries, implement lifecycle methods, and manage events. Because the code does not address any of these exercises, it receives a score of 0 for correctness.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/ExercisesXP/react-app/package-lock.json
+suggestions for improvement:
+- This file is a package-lock.json file, automatically generated and managed by npm. It's not a React component implementation and does not address any of the exercises outlined in the prompt.
+- Therefore, it's irrelevant to the actual questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/ExercisesXP/react-app/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes the dependencies and scripts for a React project. It does not implement any of the functionality described in the exercise instructions (Error Boundaries, Lifecycle methods, Event Handlers).
+- To fulfill the exercises, you need to create React components that use class components, state, lifecycle methods (componentDidCatch, shouldComponentUpdate, componentDidUpdate, getSnapshotBeforeUpdate, componentWillUnmount), and event handlers.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/ExercisesXP/react-app/src/App.css
+suggestions for improvement:
+- The provided code is CSS, while the exercises focus on React components, lifecycle methods, and error boundaries. The submission needs to include React code addressing the specific instructions in Exercises 1, 2, and 3.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/ExercisesXP/react-app/src/App.jsx
+suggestions for improvement:
+- Uncomment the ErrorBoundary import to make the error boundary simulations fully functional.
+- Consider creating separate components for each simulation to improve code organization and readability.
+Correctness: 75%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/ExercisesXP/react-app/src/Components/Color.jsx
+suggestions for improvement:
+- Consider separating the Child component into its own file for better organization, especially if it grows more complex.
+- Add PropTypes validation to the Color and Child components to ensure the correct data types are being passed as props.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/ExercisesXP/react-app/src/ErrorBoundary.jsx
+suggestions for improvement:
+- The ErrorBoundary component is correctly implemented. However, the instructions also require a BuggyCounter component and the implementation of three simulation scenarios. This submission only addresses the ErrorBoundary part of Exercise 1.
+- Need to create the BuggyCounter component as described in Exercise 1 instructions.
+- Need to implement the simulation scenarios described in Exercise 1 by rendering ErrorBoundary and BuggyCounter components in different configurations within the App component.
+Correctness: 50%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/ExercisesXP/react-app/src/index.css
+suggestions for improvement:
+- The provided code is CSS, not React components implementing error boundaries or lifecycle methods as described in the exercise. Therefore, it does not address the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/ExercisesXP/react-app/src/main.jsx
+suggestions for improvement:
+- The provided code is the entry point of a React application and does not implement any of the functionalities described in the exercises, such as Error Boundaries, Lifecycle methods, or Event Handlers.
+- The App.jsx file, which should contain the actual implementation, is missing. Without the contents of App.jsx, it is impossible to evaluate the code's correctness.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/ExercisesXP/react-app/vite.config.js
+suggestions for improvement:
+- This code defines a Vite configuration, which is a build tool. While useful for React development in general, it doesn't directly address any of the specific requirements of the React Lifecycle, Event Handlers, or Error Boundary exercises described in the chapter content.
+- The chapter content focuses on implementing React components and lifecycle methods. This Vite configuration is a setup detail and is not directly related to those component-level tasks.
+- The instructions explicitly ask for React components, event handlers, and error boundaries to be created.
+Correctness: 0%
+-----
