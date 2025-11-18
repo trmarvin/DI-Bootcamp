@@ -1,29 +1,30 @@
 import React from "react";
-import ErrorBoundary from "./ErrorBoundary.jsx";
+// import ErrorBoundary from "./ErrorBoundary.jsx";
+import Color from "./Components/Color.jsx";
 
-class BuggyCounter extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { counter: 0 };
-  }
+// class BuggyCounter extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = { counter: 0 };
+//   }
 
-  handleClick = () => {
-    this.setState(prevState => {
-      if (prevState.counter + 1 === 5) {
-        throw new Error("I crashed!");
-      }
-      return { counter: prevState.counter + 1 };
-    });
-  };
+//   handleClick = () => {
+//     this.setState(prevState => {
+//       if (prevState.counter + 1 === 5) {
+//         throw new Error("I crashed!");
+//       }
+//       return { counter: prevState.counter + 1 };
+//     });
+//   };
 
-  render() {
-    return (
-      <h1 onClick={this.handleClick}>
-        {this.state.counter}
-      </h1>
-    );
-  }
-}
+//   render() {
+//     return (
+//       <h1 onClick={this.handleClick}>
+//         {this.state.counter}
+//       </h1>
+//     );
+//   }
+// }
 
 // Simulation 1:
 
@@ -58,13 +59,24 @@ class BuggyCounter extends React.Component {
 
 // Simulation 3:
 
+// function App() {
+//   return (
+//     <div className="App">
+//       <h2>Other UI that will also “die”</h2>
+//       <BuggyCounter />
+//     </div>
+//   );
+// }
+
+// Color section
+
 function App() {
   return (
-    <div className="App">
-      <h2>Other UI that will also “die”</h2>
-      <BuggyCounter />
+    <div>
+        <Color />
     </div>
-  );
+  )
 }
+
 
 export default App;
