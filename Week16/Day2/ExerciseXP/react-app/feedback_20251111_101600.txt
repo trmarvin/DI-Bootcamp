@@ -1,0 +1,69 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/eslint.config.js
+suggestions for improvement:
+- The provided code is an ESLint configuration file, which is unrelated to the React exercises described in the chapter content.
+- The exercises focus on creating React components, using JSX, styling components, and passing data between components. This ESLint configuration does not address any of those topics.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/index.html
+suggestions for improvement:
+- The provided code is an HTML file (index.html), which is part of a standard React application setup, but it doesn't address any of the specific React exercises described in the instructions. The exercises involve creating React components with JSX and styling them, which would be implemented in JavaScript files (e.g., App.js, UserFavoriteAnimals.js, Exercise3.js).
+- To address the exercises, you should provide the code for the React components (App.js, UserFavoriteAnimals.js, Exercise3.js) as described in the instructions, demonstrating the use of JSX, styling, and component composition.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/package-lock.json
+suggestions for improvement:
+- This is a package-lock.json file, not React code fulfilling the exercises. It doesn't attempt any of the tasks.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/package.json
+suggestions for improvement:
+- The provided code is a package.json file which describes the dependencies and scripts for a React application. It doesn't address any of the specific exercises outlined in the chapter content, which involve creating React components, using JSX, and applying styles.
+- The submission should include the code for the React components specified in the exercises, not just the package.json file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/src/App.css
+suggestions for improvement:
+- This CSS code, while syntactically correct, does not address any of the React-specific exercises or instructions provided in the chapter content. It appears to be general styling for a React application but isn't directly related to the creation of components, JSX usage, or styling methods (inline, objects, CSS files) outlined in the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/src/App.jsx
+suggestions for improvement:
+- Consider adding keys to the top-level div in the map function inside the UserFavoriteAnimals component for better performance, although it's not explicitly required.
+- No major improvements needed. The code is well-structured and fulfills all requirements.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/src/UserFavoriteAnimals.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/src/exercise.css
+suggestions for improvement:
+- The provided code is a CSS snippet, not a React component. It should be part of Exercise 3, specifically the part that involves creating and using Exercise.css.
+- To fully address Exercise 3, ensure there is a React component (Exercise.js) using this CSS, and also handling the inline styling part.
+- Make sure to create all the files mentioned in the instructions: App.js, UserFavoriteAnimals.js, Exercise3.js, and Exercise3.css
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/src/exercise3.jsx
+suggestions for improvement:
+- Consider moving the inline style for the h1 to a separate object or a CSS class for better organization.
+- The image source is from pexels it should be local or a constant for the purpose of this XP
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling and doesn't address the React exercises that were specified in the instructions. The exercises required creating React components, using JSX, and styling them.
+- The CSS code itself is fine but irrelevant to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/src/main.jsx
+suggestions for improvement:
+- This code sets up the React application entry point, but doesn't actually fulfill any of the exercises. The exercises require modifying App.js and creating a new component, which this code doesn't do.
+- The provided code is only the entry point and needs to implement functionality of exercises
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day2/ExerciseXP/react-app/vite.config.js
+suggestions for improvement:
+- The submitted code is a Vite configuration file, which is unrelated to the React exercises outlined in the chapter content. It doesn't address JSX, styling, or component creation as described in the exercises.
+Correctness: 0%
+-----
