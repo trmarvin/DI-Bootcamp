@@ -1,0 +1,52 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/voting-app/eslint.config.js
+suggestions for improvement:
+- The provided code is an ESLint configuration file and has nothing to do with the prompt's requirements of creating a React voting app with state management and click handlers.
+- The code should implement the React voting app logic as described in the prompt, including state initialization and vote incrementing function.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/voting-app/index.html
+suggestions for improvement:
+- The provided code is an HTML document, specifically the index.html file often used in React projects. It sets up the basic structure for a React application, including the root div where the React components will be rendered and the script tag that loads the main JavaScript file. However, it does not implement any of the voting app's functionality as described in the instructions.
+- The instructions ask for the creation of React components and state management to handle votes. This HTML file doesn't include any of that. Therefore, the code fails to address the core requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/voting-app/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is a dependency manifest and not the React component code requested in the problem description.
+- The task requires creating a React component with specific functionalities, such as managing state and handling events. This file does not address any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/voting-app/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a React project's dependencies and scripts. It doesn't implement the voting app's logic as described in the instructions. Therefore, it does not address the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/voting-app/src/App.css
+suggestions for improvement:
+- The provided code is CSS, which is not directly implementing the React voting app logic described in the instructions. The instructions ask for React components and state management in `App.js`, using JSX, which would involve JavaScript code, not CSS styling.
+- The CSS code itself seems fine for styling purposes, but it doesn't address the core requirements of the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/voting-app/src/App.jsx
+suggestions for improvement:
+- Consider extracting the language item into its own component to improve readability and maintainability, especially if you plan to add more features to each language item.
+- The code could benefit from PropTypes for type checking, especially as the application grows. This helps catch potential errors during development.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/voting-app/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling, which is not directly related to the instructions of creating a React voting app with specific functionalities using React state.
+- The task requires creating React components and implementing state management for voting, which is not reflected in the given CSS code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/voting-app/src/main.jsx
+suggestions for improvement:
+- The provided code is the entry point for a React application, setting up the root element and rendering the App component. However, it does not directly address the core task of creating a voting app as outlined in the chapter content, which involves managing component state (languages and votes) and implementing vote incrementing functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/voting-app/vite.config.js
+suggestions for improvement:
+- The submitted code is a Vite configuration file, which is not relevant to the problem description in the prompt. The prompt asks for a React voting app with specific functionalities (state management, event handling to increment votes).
+- The provided code should include the React component code that implements the voting functionality, including the state initialization and the function to handle vote increments.
+Correctness: 0%
+-----
