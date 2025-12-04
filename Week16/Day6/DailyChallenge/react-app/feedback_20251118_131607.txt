@@ -1,0 +1,60 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/DailyChallenge/react-app/eslint.config.js
+suggestions for improvement:
+- The provided code is an ESLint configuration file and does not implement the React form functionality described in the problem statement.
+- The code does not address the requirements of creating a stateful component, handling form data, or constructing a URL with form parameters.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/DailyChallenge/react-app/index.html
+suggestions for improvement:
+- The provided code is a basic HTML structure for a React application, which doesn't address the challenge requirements of creating a React form container with state, handleChange function, and URL parameter passing.
+- The code needs to include React components, state management, form elements, and event handling to meet the challenge criteria.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/DailyChallenge/react-app/package-lock.json
+suggestions for improvement:
+- The provided code is package-lock.json, it does not contain react code to solve the the Form challenge.
+- Need to create react components and functions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/DailyChallenge/react-app/package.json
+suggestions for improvement:
+- This package.json file does not implement any of the required functionalities related to JSX, Components, React State, or Forms as described in the problem description. It's a configuration file, not a functional component.
+- The package.json file does not address the requirement to create a stateful component with props in App.js.
+- The package.json file does not implement the handleChange function to retrieve input values and handle checkboxes.
+- The package.json file does not render a FormComponent or pass the entered data in the URL on submit.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/DailyChallenge/react-app/src/App.css
+suggestions for improvement:
+- The provided code is CSS, not React code to implement the form functionality as described in the problem. It should include the App.js with the component, state management, and form submission logic.
+- The CSS provided has nothing to do with forms it styles a logo and card
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/DailyChallenge/react-app/src/App.jsx
+suggestions for improvement:
+- Consider using the URLSearchParams API for constructing the query string instead of manual string concatenation. This can improve readability and reduce potential errors related to URL encoding.
+- Using `window.location.href` will cause a full page refresh. Consider using a routing library such as React Router if you want to navigate within your application without full page reloads, offering a smoother user experience.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/DailyChallenge/react-app/src/FormComponent.jsx
+suggestions for improvement:
+- The URL parameter 'lactoseFree=on' should be included in the URL only when the checkbox is checked. Currently the FormComponent doesn't handle this. You will need to adjust your handleSubmit to include only the checked properties
+- Consider using more descriptive variable names where appropriate to enhance readability, especially in the context of props.
+- The component could be further enhanced by adding input validation to the `age` field or other fields as necessary.
+Correctness: 90%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/DailyChallenge/react-app/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling, which is unrelated to the React form challenge requirements. The challenge asks for React components, state management, form handling, and URL parameter creation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/DailyChallenge/react-app/src/main.jsx
+suggestions for improvement:
+- The provided code only renders the App component. It does not address the requirements of the challenge: creating a stateful component with props, implementing the handleChange function, rendering the FormComponent, and passing the entered data in the URL on submit.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day6/DailyChallenge/react-app/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file, which is irrelevant to the React form challenge described in the chapter content. The chapter asks for creating React components, handling form data, and updating the URL upon form submission.
+Correctness: 0%
+-----
