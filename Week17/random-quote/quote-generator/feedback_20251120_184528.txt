@@ -1,0 +1,56 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/random-quote/quote-generator/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file, which is unrelated to the React quote generator project described in the chapter content.
+- The project requires building a React component to display quotes and authors, handle button clicks to generate new quotes, and change the background and text colors randomly. This configuration file doesn't fulfill any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/random-quote/quote-generator/index.html
+suggestions for improvement:
+- The provided code is a basic HTML structure for a React application, setting up the root element and including the main JavaScript file. However, it doesn't contain any of the React components or logic required to build the Random Quote Generator as described in the instructions. Therefore, it does not address the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/random-quote/quote-generator/package-lock.json
+suggestions for improvement:
+- This submission is a `package-lock.json` file, which describes the dependencies of a Node.js project. It doesn't contain any source code related to the Random Quote Generator project described in the instructions.
+- The task asks for a React component that displays quotes, handles button clicks to fetch new quotes, and changes the background color. A lockfile is not a solution to this problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/random-quote/quote-generator/package.json
+suggestions for improvement:
+- This package.json file provides metadata about a React project, but it doesn't implement any of the specific functionalities requested in the problem description (random quote generation, background color changes, etc.). It defines dependencies, scripts, and other project-related information but contains no application logic. It is therefore unrelated to the core task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/random-quote/quote-generator/src/App.css
+suggestions for improvement:
+- The code provided is only CSS styling and does not contain the React component or logic to fetch, display, and update quotes as described in the instructions. This does not address the core functionality of the random quote generator.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/random-quote/quote-generator/src/App.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/random-quote/quote-generator/src/index.css
+suggestions for improvement:
+- The provided code is only CSS styling and does not include React components or the logic required to fulfill the requirements of the problem description. The React part is entirely missing.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/random-quote/quote-generator/src/main.jsx
+suggestions for improvement:
+- The provided code only bootstraps a React application. It does not implement any of the requirements outlined in the instructions, such as displaying a random quote, author, button, changing background color, or preventing duplicate quotes.
+- The code needs to include the implementation of the random quote generator based on the instructions provided in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/random-quote/quote-generator/src/quotes.js
+suggestions for improvement:
+- This code only exports the array of quotes, but doesn't create a React component or implement any of the required logic for generating and displaying quotes, handling events, or changing colors.  It needs to implement a React component with state and event handling.
+- The code does not address the primary task of the chapter: building a Random Quote Generator with React, meaning it doesn't use React state, React Components, or Event Handlers to display and update quotes.
+- The code does not change the background, header, or button colors. It also does not prevent the same quote from being displayed twice.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/random-quote/quote-generator/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file, which is not directly related to building the React Random Quote Generator as described in the chapter content. The code should include the React components, state management, event handling, and styling logic for the quote generator application.
+- The absence of any React component code, state management (using useState or similar), and event handling logic makes the submission incomplete.
+Correctness: 0%
+-----
