@@ -1,0 +1,62 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week18/Day4/ExerciseXP/to-do-list/eslint.config.js
+suggestions for improvement:
+- This code configures ESLint, which is a linting tool for JavaScript. While useful for a React project, it doesn't directly implement the todo list application as described in the prompt.
+- The code does not create a Redux store, define actions or reducers, or build React components for a todo list.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week18/Day4/ExerciseXP/to-do-list/index.html
+suggestions for improvement:
+- The provided code is an HTML template, likely for the entry point of a React application. It does not include any Redux-related code or React components as requested by the exercise instructions, so it cannot be assessed for correctness against the problem description.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week18/Day4/ExerciseXP/to-do-list/package-lock.json
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week18/Day4/ExerciseXP/to-do-list/package.json
+suggestions for improvement:
+- The provided code snippet is a `package.json` file, which only lists the project's dependencies and scripts. It doesn't contain any actual implementation of the React-Redux to-do list application as described in the instructions.
+- The instructions specifically require the creation of a Redux store, defining actions and reducers, and developing React components. This file provides none of those elements.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week18/Day4/ExerciseXP/to-do-list/src/App.css
+suggestions for improvement:
+- The provided code is CSS, which is only related to the styling aspect mentioned as an 'Additional Tip'.
+- The code does not implement any of the core functionality: setting up the Redux store, defining actions/reducers, or creating React components with Redux connection as described in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week18/Day4/ExerciseXP/to-do-list/src/App.jsx
+suggestions for improvement:
+- Consider moving the inline styles to a CSS file or using a styling library for better maintainability.
+- While the code is functional, adding PropTypes can improve component documentation and help catch potential bugs related to prop types.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week18/Day4/ExerciseXP/to-do-list/src/index.css
+suggestions for improvement:
+- This CSS code, while potentially part of a todo list application, doesn't directly address the core requirement of the exercise, which is implementing the todo list logic using React and Redux.
+- The code focuses on styling, while the prompt requires implementing Redux store, actions, reducers and connecting them to React components.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week18/Day4/ExerciseXP/to-do-list/src/main.jsx
+suggestions for improvement:
+- This code only sets up the Redux Provider. It needs to include the implementation of actions, reducers, and React components to qualify as a complete todo list application as requested by the exercise.
+- The actions, reducers and the react components for todo app has to be added into the project.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week18/Day4/ExerciseXP/to-do-list/src/store.js
+suggestions for improvement:
+- Consider using constants for action types to avoid typos.
+- Add comments to explain complex logic, especially in the reducer.
+- Although not required in the exercise, consider using Redux Toolkit to simplify Redux setup.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week18/Day4/ExerciseXP/to-do-list/vite.config.js
+suggestions for improvement:
+- The submitted code is a Vite configuration file, which is not related to the requested todo list application using React and Redux.
+- Implement the todo list application as described in the instructions, including Redux store setup, actions, reducers, and React components.
+- Create actions for adding, toggling, and removing todos.
+- Implement reducers to handle these actions and update the state immutably.
+- Design React components to display and interact with the todo list.
+Correctness: 0%
+-----

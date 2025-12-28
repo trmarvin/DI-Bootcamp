@@ -1,0 +1,12 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week02/Day2/ExerciseXP/W2_D2_XP.py
+suggestions for improvement:
+- In `check_number`, consider adding more robust error handling for inputs outside the 1-100 range.  Currently, it only prints an error message and continues.  You might want to raise an exception or return a specific value to indicate an error.
+- The `make_shirt` function could benefit from more descriptive variable names (e.g., `shirt_size` instead of `size`).
+- In `make_great`, modifying the list in place might not always be desirable. Consider returning a new list with the modified names to maintain the original list unchanged. This improves code flexibility and avoids unexpected side effects.
+- The `main` and `get_random_temp` functions in Exercise 7 could be enhanced with more sophisticated temperature ranges and advice. Consider using floating-point numbers for more realistic temperatures and expanding the advice to include more nuanced suggestions based on weather conditions.
+Brief justification:
+- correctness: The code accurately implements all seven exercises as described in the chapter content. Each function fulfills the specified requirements, including parameter handling, default values, conditional logic, and interactions with the `random` module.  The output matches the expected output for each exercise.
+- readability: The code is generally well-structured and easy to understand. Function names are descriptive, and the code follows consistent indentation. Minor improvements in variable naming and error handling would enhance readability further.
+- performance: The code is efficient for its purpose.  There are no noticeable performance bottlenecks.  The use of f-strings for string formatting is efficient and readable.
+- security: No security vulnerabilities are present in the provided code. The code does not interact with external resources or handle user inputs in a way that could create security risks.
+

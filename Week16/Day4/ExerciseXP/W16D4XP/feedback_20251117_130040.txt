@@ -1,0 +1,77 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/eslint.config.js
+suggestions for improvement:
+- This code is entirely unrelated to the React exercises described in the prompt.
+- The prompt is asking for React components, state management, event handling, and the useEffect hook.
+- The submitted code appears to be an ESLint configuration file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/index.html
+suggestions for improvement:
+- The provided code is an HTML file (index.html), which is not directly related to the React exercises described in the Chapter Content/Questions.
+- The exercises require creating React components and implementing specific functionalities using JSX, state hooks, and event handlers. The HTML file only provides a basic structure for the React app.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/package-lock.json
+suggestions for improvement:
+- The provided code is a package-lock.json file, which does not implement any of the described exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/package.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/src/App.css
+suggestions for improvement:
+- The provided code is CSS, but the exercises are asking for React components using JSX, state, useEffect, and event handlers. This CSS code is unrelated to the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/src/App.jsx
+suggestions for improvement:
+- The provided App.js only imports and renders components, it doesn't implement any of the logic or functionality described in the exercises. Each exercise has specific instructions to be implemented within their respective components, not in App.js.  App.js should only be responsible for importing and displaying these components after they are correctly implemented.
+- Missing the implementation of the Car, Events, Phone, and Color components according to the provided instructions.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/src/Components/Car.jsx
+suggestions for improvement:
+- The carInfo object from Part I is not being used.
+- The model is being passed as props instead of using the carInfo object.
+Correctness: 60%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/src/Components/Color.jsx
+suggestions for improvement:
+- Consider moving the alert inside the useEffect to before you change the state, if you want to guarantee the alert triggers before the state change is processed.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/src/Components/Events.jsx
+suggestions for improvement:
+- Consider adding comments to explain the purpose of each section, especially for more complex logic.
+- The code is well-structured, but adding some spacing between JSX elements might enhance readability further.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/src/Components/Garage.jsx
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/src/Components/Phone.jsx
+suggestions for improvement:
+- Consider adding PropTypes for better component documentation and error handling, especially for larger projects.
+- While object spread is good, consider if `useReducer` might be beneficial for more complex state logic in the future, though it's not needed here.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/src/index.css
+suggestions for improvement:
+- This CSS code is not relevant to the React exercises described in the prompt. The exercises focus on creating React components, using JSX, state, event handlers, and the useEffect hook.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/src/main.jsx
+suggestions for improvement:
+- The provided code is the entry point for the React application (index.js), and it's not directly related to any specific exercise described in the chapter content. Therefore, it does not fulfill any of the exercise instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week16/Day4/ExerciseXP/W16D4XP/vite.config.js
+suggestions for improvement:
+- The submitted code is a Vite configuration file, which is irrelevant to the React exercises outlined in the chapter content. The exercises focus on creating React components, using JSX, managing state with useState and useEffect hooks, and handling events.
+Correctness: 0%
+-----

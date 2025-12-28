@@ -1,0 +1,53 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/calculator/eslint.config.js
+suggestions for improvement:
+- The provided code is an ESLint configuration file. This is completely unrelated to the React calculator application described in the problem statement, which requires implementing a React component with state, event handling, and basic arithmetic operations.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/calculator/index.html
+suggestions for improvement:
+- The provided HTML file is a basic setup for a React application but doesn't implement the calculator functionality described in the problem statement.
+- The code needs to include React components, state management, event handling, and the logic for performing calculations based on user input.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/calculator/package-lock.json
+suggestions for improvement:
+- The code provided is a `package-lock.json` file. It describes the dependency tree of a Node.js project but does not implement the calculator functionality described in the problem statement.
+- The `package-lock.json` file by itself doesn't contribute to solving the problem of creating a React calculator. It needs to be accompanied by React component code and associated logic to achieve the specified task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/calculator/package.json
+suggestions for improvement:
+- The code provided is a package.json file, which describes the dependencies and scripts for a React project. It doesn't implement any of the calculator functionality described in the problem description.
+- The package.json file itself is fine, but it doesn't address the actual problem of creating a React calculator.
+- To solve the problem, the code should include React components for input fields, buttons, and display of the result. Event handlers should be implemented to handle user input and perform calculations.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/calculator/src/App.css
+suggestions for improvement:
+- The provided code is CSS, but the challenge requires a React application. Therefore, it does not address the prompt at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/calculator/src/App.jsx
+suggestions for improvement:
+- Consider adding input validation to ensure that users only enter numbers.
+- For the bonus, implement the select dropdown for different operations and update the handleAdd function accordingly.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/calculator/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling and doesn't implement any of the required React functionality or logic for the calculator application.
+- There's no React code provided to handle state, component creation, event handling, or the calculator logic itself.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/calculator/src/main.jsx
+suggestions for improvement:
+- The provided code is a basic React application setup. It doesn't implement any of the calculator functionalities described in the challenge, such as taking two numbers as input, performing addition (or other operations), and displaying the result. The code only renders the `App` component.
+- The `App` component's code is missing, so it's impossible to assess if it contributes towards solving the challenge or not. To address the challenge, the App component needs to include input fields, a button, and logic to perform calculations and display the result.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/calculator/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file, which is not directly related to the React calculator challenge described in the chapter content.
+- The challenge requires implementing a React component with state and event handling to perform calculations based on user input.
+Correctness: 0%
+-----
