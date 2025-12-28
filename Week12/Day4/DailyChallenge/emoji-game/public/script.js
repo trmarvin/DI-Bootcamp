@@ -1,4 +1,6 @@
- let currentRound = null;
+// Using a form, present the player with the random emoji and multiple choice options (including the correct name).
+
+let currentRound = null;
 
  async function loadRound() {
     const res = await fetch("/api/round");

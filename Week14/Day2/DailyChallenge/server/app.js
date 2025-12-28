@@ -29,6 +29,13 @@ app.post('/users', (req, res) => {
   res.status(201).json({ message: 'User created', user: newUser });
 });
 
+// generic error handler
+app.use((err, req, res, next) => {
+  console.error(err);
+  const status = err.status || 500;
+  res.status(status).json({ error: err.message || 'Server error' });
+});
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

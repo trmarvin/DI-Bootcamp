@@ -1,3 +1,5 @@
+// In your app.js file, import the router module you created and mount it in your Express application:
+
 import express from "express";
 import router from "./routes/index.js";
 

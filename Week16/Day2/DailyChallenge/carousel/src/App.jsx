@@ -1,11 +1,22 @@
+import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // required CSS
 
-export default function App() {
+function App() {
   return (
-    <div style={{ maxWidth: 700, margin: "2rem auto", border: "1px solid #999" }}>
-      <h1 style={{ marginBottom: 12 }}>Carousel sanity check</h1>
-      <Carousel showStatus={false} showThumbs={false} infiniteLoop>
+    <div style={{ maxWidth: 700, margin: "2rem auto" }}>
+      <Carousel
+        showThumbs={true}
+        infiniteLoop
+        autoPlay
+        interval={3500}
+        stopOnHover
+        swipeable
+        emulateTouch
+        dynamicHeight={false}
+        useKeyboardArrows
+        ariaLabel="Featured images carousel"
+      >
         <div>
           <img src="/hongkong.jpg" alt="Hong Kong" />
           <p className="legend">Hong Kong</p>
@@ -26,3 +37,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
