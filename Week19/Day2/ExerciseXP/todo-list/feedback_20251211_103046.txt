@@ -1,0 +1,79 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file, which is unrelated to the React-Redux todo list application described in the instructions. Therefore, it does not address any of the specified requirements.
+- While the code itself is well-structured for its intended purpose (linting), it is not relevant to the exercise.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/index.html
+suggestions for improvement:
+- The provided HTML code is a basic document structure for a React application, but it doesn't implement any of the specific functionality requested in the exercise (Redux Toolkit slice, Redux store, React components for a todo list).
+- The HTML file only sets up the basic structure for the React application. The core logic for the Todo List application using React-Redux and Redux Toolkit is missing. The actual implementation of Redux store, slices, and React components are not present in this submission.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which describes the dependencies of a Node.js project.  It does not implement any of the to-do list functionality described in the instructions.
+- Since the file doesn't contain React code to assess readability, performance, and security, N/A is assigned.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/package.json
+suggestions for improvement:
+- The submission only provides the package.json file, which lists the project dependencies. It does not contain any of the code required to implement the React-Redux Todo List application as described in the exercise instructions.
+- The submission should include the code for creating the Redux Toolkit slice, initializing the Redux store, implementing the React components (TodoList, AddTodo, TodoItem), connecting the components to the Redux store using useSelector and useDispatch, and testing the functionality.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/src/App.css
+suggestions for improvement:
+- The provided code is CSS, but the exercise asks for a React-Redux application with Redux Toolkit.  CSS styling is not relevant to the core requirements of the exercise.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/src/App.jsx
+suggestions for improvement:
+- The provided code only sets up the basic App component and imports the other components, but it does not include any Redux logic or implementations for the individual components.
+- The exercise requires creating Redux slices, implementing the Redux store, connecting React components to the Redux store, and testing the functionality. This code does none of that.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/src/components/AddTodo.jsx
+suggestions for improvement:
+- Consider adding error handling or validation for edge cases.
+- The styling could be extracted into a separate CSS file or styled using a styling library for better maintainability.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/src/components/TodoItem.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/src/components/TodoList.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/src/features/todoSlice.js
+suggestions for improvement:
+- Consider using a more descriptive variable name than 't' in the toggleTodo and removeTodo reducers for improved readability (e.g., 'todo' or 'item').
+- While `Date.now()` is suitable for generating unique IDs in this context, be aware that in more complex applications, a more robust ID generation strategy might be preferred.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/src/index.css
+suggestions for improvement:
+- The code provided is CSS styling and does not address any of the functional requirements specified in the chapter content, so it is irrelevant.
+- The response should contain React components, Redux slices, and store configurations to implement the Todo list application.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/src/main.jsx
+suggestions for improvement:
+- This code sets up the Redux store provider, but doesn't implement any of the specific todo list functionality described in Exercise 1 (creating a slice, reducers, components, etc.).
+- The code is readable, but lacks context without the actual implementation of the todo list application.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/src/store.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/ExerciseXP/todo-list/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file, which is not directly related to the React-Redux Todo List exercise described in the chapter content.
+Correctness: 0%
+-----
