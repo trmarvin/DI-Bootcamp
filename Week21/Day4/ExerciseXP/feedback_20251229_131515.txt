@@ -1,0 +1,27 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day4/ExerciseXP/exercise1.ts
+suggestions for improvement:
+- The provided code defines an `Employee` class, but it does not address any of the exercises presented in the chapter content.  Specifically, it doesn't demonstrate intersection types, type guards, type casting, type assertions, generics, or generic constraints as described in the exercises. Therefore, it's unrelated to the learning objectives.
+- Consider aligning your code with the specific requirements of each exercise to ensure it effectively demonstrates the intended concepts.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day4/ExerciseXP/exercise2.ts
+suggestions for improvement:
+- The provided code is a class definition for a `Product` which is not related to any of the exercises in the chapter.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day4/ExerciseXP/exercise3.ts
+suggestions for improvement:
+- This code is unrelated to the chapter content. It defines classes Animal and Dog, but the exercises are on intersection types, type guards, type casting, type assertions, generics, and generic constraints.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day4/ExerciseXP/exercise4.ts
+suggestions for improvement:
+- This code calculates the sum and difference of two numbers, which is unrelated to the TypeScript features outlined in the chapter content (Intersection Types, Type Guards, Type Casting, Type Assertions, TypeScript Generics, Generic Constraints).
+- Consider implementing the exercises as described to demonstrate understanding of the material.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day4/ExerciseXP/exercise5.ts
+suggestions for improvement:
+- The code example is not relevant to any of the exercises in the chapter. It demonstrates basic TypeScript interfaces and optional properties, but it doesn't address intersection types, type guards, type casting, type assertions, or generics, as outlined in the chapter content.
+Correctness: 0%
+-----
