@@ -1,0 +1,2289 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/data/tasks.json
+suggestions for improvement:
+- The provided code is a JSON array representing task data, not an Express.js API implementing the specified routes and functionalities.
+- The response should include server-side code that handles HTTP requests, reads and writes to the JSON file, and implements the required CRUD operations.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/.package-lock.json
+suggestions for improvement:
+- This is a npm lockfile that specifies the versions of dependencies used in a Node.js project.
+- The provided file is not an implementation of the task management API described in the prompt. It's a dependency manifest, not code that defines routes, reads/writes to a JSON file, or handles requests.
+- The prompt requests for the implementation of a Task Management API with Express.js. The submission does not contain the required server-side logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/accepts/index.js
+suggestions for improvement:
+- This code is completely unrelated to the task. It provides a module for content negotiation (Accepts) and not a Task Management API with Express.js and JSON file storage.
+- The code does not include any Express.js routes, JSON file read/write operations, or task management logic as requested in the prompt.
+- The code lacks error handling specific to file operations (since it doesn't interact with files) or route validation (since there are no routes).
+- The code does not implement any validation for task data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/accepts/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module named `accepts`. This module provides higher-level content negotiation functionalities, but it does not implement the Task Management API as requested in the prompt.
+- The provided file is not an Express.js application or API, and it does not include any of the routes (GET, POST, PUT, DELETE) specified in the prompt for task management.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/body-parser/index.js
+suggestions for improvement:
+- This code provides functionality for parsing request bodies, which is not the core task specified in the instructions (creating a Task Management API).
+- The code does not implement the required routes (GET, POST, PUT, DELETE for /tasks and /tasks/:id).
+- The code does not address file storage using a JSON file, validation, or error handling as outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/body-parser/lib/read.js
+suggestions for improvement:
+- The provided code is not related to the task management API described in the chapter content. It appears to be a body-parser library, which is used for parsing request bodies, but it doesn't implement any of the required API endpoints or file storage functionality.
+- The code's purpose is completely different from the stated problem, therefore it cannot solve the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/body-parser/lib/types/json.js
+suggestions for improvement:
+- This code appears to be the body-parser middleware, specifically the JSON parser. It is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage as outlined in the prompt. It doesn't implement any of the required routes (GET, POST, PUT, DELETE for /tasks), doesn't interact with a JSON file for storage, and doesn't perform any task-specific validation or error handling as requested.
+- The code handles parsing JSON request bodies, which is a general utility function, but not the specific API requested.
+- Since the code does not address the chapter content, it needs to be replaced with code that implements the API endpoints as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/body-parser/lib/types/raw.js
+suggestions for improvement:
+- The submitted code is a middleware for parsing raw request bodies. This is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage as described in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/body-parser/lib/types/text.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which asks for an Express.js API for Task Management with CRUD operations and JSON file storage.
+- The provided code appears to be a body-parser middleware, specifically for handling text/plain content type, which is not relevant to the task at hand.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/body-parser/lib/types/urlencoded.js
+suggestions for improvement:
+- This code is not relevant to the task. It seems to be the body-parser middleware, which is used for parsing request bodies, and has nothing to do with creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/body-parser/lib/utils.js
+suggestions for improvement:
+- The provided code appears to be a utility module for parsing request bodies, potentially part of a larger framework. It does not implement the task management API with Express.js as described in the prompt. The functions `getCharset` and `normalizeOptions` are related to handling request content types and options, but not to creating the API endpoints (GET, POST, PUT, DELETE) for managing tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/body-parser/package.json
+suggestions for improvement:
+- The submitted code is a `package.json` file, which describes a node module but doesn't implement any of the API functionality requested in the chapter content. The chapter content explicitly asks to create an API with CRUD operations, JSON storage, and validation, all of which are absent from the given file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/bytes/index.js
+suggestions for improvement:
+- This code provides utilities for formatting and parsing byte sizes, but it is completely unrelated to the task management API described in the prompt.
+- The code does not address any of the requirements of the task, such as creating an Express.js application, defining routes for task management, using a JSON file for storage, or implementing validation and error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/bytes/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for a bytes utility, which is entirely unrelated to the task management API described in the chapter content. The chapter content asks for an Express.js API with CRUD operations on tasks stored in a JSON file.
+- The submitted file does not implement any of the required API endpoints (GET, POST, PUT, DELETE) or use Express.js.
+- The file does not handle any task data or interact with a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/.github/FUNDING.yml
+suggestions for improvement:
+- This file contains funding model platforms and is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/actualApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/actualApply.js
+suggestions for improvement:
+- This code snippet appears to be a utility function related to function application and binding, which is completely unrelated to the task management API described in the chapter content. The provided code does not address any of the requirements, such as setting up an Express.js application, implementing routes, creating a JSON file for storage, or handling validation and errors specific to task management.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/applyBind.d.ts
+suggestions for improvement:
+- The provided code appears to be related to TypeScript utility types for function argument manipulation, specifically around an `applyBind` function that seems to be connected to an `actualApply` function. This code is entirely unrelated to the task management API described in the Chapter Content/Questions. The instructions are to create an Express.js API for managing tasks using a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/applyBind.js
+suggestions for improvement:
+- This code snippet appears to be a utility function related to function binding and application, which is entirely unrelated to the task management API described in the chapter content. The provided code does not address any of the requirements outlined in the instructions, such as setting up an Express.js application, implementing API routes, using a JSON file for storage, or handling validation and errors in the context of a task management system.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/functionApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/functionApply.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/functionCall.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/functionCall.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/index.d.ts
+suggestions for improvement:
+- This code appears to be a complex TypeScript type definition for a `callBind` function, and has nothing to do with creating a Task Management API using Express.js and JSON file storage, as requested by the prompt.
+- The code does not address the creation of API endpoints (GET, POST, PUT, DELETE) for tasks, file handling (reading/writing to JSON), validation, or error handling, as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/index.js
+suggestions for improvement:
+- The code provided appears to be a utility function for binding and calling functions, which is completely unrelated to the task management API described in the chapter content. The chapter content requires setting up an Express.js application with specific routes for task management, including reading from and writing to a JSON file. The provided code does not address any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/package.json
+suggestions for improvement:
+- This code is a `package.json` file, which describes a JavaScript library related to function binding. It does not implement the Task Management API described in the Chapter Content/Questions.
+- The submission needs to include the Express.js application code with routes for task management and JSON file interaction, as per the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/reflectApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/reflectApply.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/test/index.js
+suggestions for improvement:
+- The provided code appears to be a unit test for a `callBind` function, which is completely unrelated to the task management API described in the chapter content. It does not implement any of the required API endpoints or file storage functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bind-apply-helpers/tsconfig.json
+suggestions for improvement:
+- This code is a tsconfig.json file, which configures the TypeScript compiler. It does not implement the task management API described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bound/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is a YAML file specifying funding model platforms, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.  It does not address any of the requirements outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bound/index.d.ts
+suggestions for improvement:
+- This code appears to be a type definition file related to intrinsic Javascript functions and doesn't implement any of the API functionality requested in the prompt. The prompt asks for an Express.js API with routes for managing tasks stored in a JSON file, including GET, POST, PUT, and DELETE methods, along with validation and error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bound/index.js
+suggestions for improvement:
+- The submitted code appears to be a utility for binding intrinsics in JavaScript, and is completely unrelated to the task management API described in the chapter content.
+- The code does not implement any of the required routes (GET, POST, PUT, DELETE) for task management.
+- The code does not involve any file operations or data storage related to tasks.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bound/package.json
+suggestions for improvement:
+- The submitted code is a `package.json` file, which describes a Node.js package. This file is unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The `package.json` file provides metadata about the `call-bound` package, including its dependencies, scripts, and other configuration details. It does not contain any code related to the requested API functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bound/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a `callBound` function, which is unrelated to the task management API described in the chapter content.
+- The code does not implement any of the required API endpoints (GET, POST, PUT, DELETE) for managing tasks.
+- The code does not use Express.js or JSON file storage as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/call-bound/tsconfig.json
+suggestions for improvement:
+- The provided code appears to be a TypeScript configuration file. It is not related to creating a Task Management API with Express.js and JSON file storage as described in the Chapter Content/Questions. The task requires building an API with specific routes and functionalities.
+- The code should implement the described API endpoints (GET /tasks, GET /tasks/:id, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id), JSON file storage, and validation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/content-disposition/index.js
+suggestions for improvement:
+- The provided code appears to be a library for handling 'content-disposition', not an Express.js API for task management as described in the chapter content. Therefore, it's completely unrelated to the requirements.
+- The code's purpose (content-disposition handling) is not inherently insecure or inefficient, but without understanding the context in which it would be used, it's difficult to provide specific feedback on these aspects.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/content-disposition/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a node module called `content-disposition`. This module deals with HTTP headers and is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The submission does not include any Express.js code or any code that handles tasks, reads/writes to a JSON file, or implements the API routes specified in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/content-type/index.js
+suggestions for improvement:
+- The code provided appears to be a library for parsing and formatting content types (MIME types), not an Express.js API for task management as requested by the chapter content.
+- The code needs to implement the Express.js routes (GET, POST, PUT, DELETE) for managing tasks stored in a JSON file.
+- Error handling and validation for task creation/update should be implemented within the Express.js routes.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/content-type/package.json
+suggestions for improvement:
+- The provided JSON is a package.json file, which describes a Node.js module. This file doesn't implement any of the task management API functionalities described in the prompt, such as creating routes, handling data storage, or validating user input.
+- The file is entirely unrelated to the problem of building a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/cookie-signature/index.js
+suggestions for improvement:
+- This code is for signing and unsigning cookies and is not related to creating a Task Management API with Express.js and JSON file storage as requested in the prompt.
+- The code is not relevant to the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/cookie-signature/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for the `cookie-signature` library, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The submission does not include any code related to Express.js routes, JSON file manipulation, or task management functionality as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/cookie/index.js
+suggestions for improvement:
+- This code is entirely unrelated to the task management API requested in the chapter content.
+- The code deals with cookie parsing and serialization, not with creating an Express.js API for task management with JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/cookie/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, seemingly for the `cookie` library. It doesn't implement any of the task management API functionalities described in the prompt.
+- The code should include the Express.js application setup, route definitions (GET, POST, PUT, DELETE for tasks), JSON file reading/writing logic, validation, and error handling, as outlined in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/debug/package.json
+suggestions for improvement:
+- The provided code is a package.json file for the 'debug' package, which is a debugging utility. This is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/debug/src/browser.js
+suggestions for improvement:
+- This code appears to be a browser implementation of a debugging library, and it's completely unrelated to the task management API described in the problem. It handles color formatting for console output and local storage for debugging namespaces, which are irrelevant to creating an Express.js API for managing tasks with JSON file storage.
+- The code doesn't use Express.js, implement any routes, read or write to a JSON file, or handle tasks in any way.  Therefore, it fails to address any of the requirements.
+- Since the provided code is for a debugging library and not a task management API, it's inappropriate for this context.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/debug/src/common.js
+suggestions for improvement:
+- The provided code appears to be the implementation of a debugging utility, completely unrelated to the task management API described in the prompt.
+- The code does not involve creating an Express.js application, defining routes, interacting with a JSON file, or implementing validation or error handling for API requests. Therefore, it does not address any of the instructions in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/debug/src/index.js
+suggestions for improvement:
+- This code is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/debug/src/node.js
+suggestions for improvement:
+- The submitted code is the implementation of the `debug` module for Node.js, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code does not address any of the requirements specified in the prompt.
+- The code includes concepts like logging, color-coded output, and environment variable handling, but none of these pertain to creating an Express API for task management.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/depd/index.js
+suggestions for improvement:
+- The provided code is a deprecation utility, not a task management API. It's entirely unrelated to the chapter's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/depd/lib/browser/index.js
+suggestions for improvement:
+- This code appears to be a deprecation utility library, completely unrelated to the task management API described in the chapter content.
+- Since the code doesn't address the requirements of the chapter, no improvements related to the task management API can be suggested.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/depd/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a node module 'depd'. It does not implement any of the API functionality described in the Chapter Content/Questions. It's completely unrelated.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/dunder-proto/.github/FUNDING.yml
+suggestions for improvement:
+- The provided YAML file is unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/dunder-proto/get.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/dunder-proto/get.js
+suggestions for improvement:
+- The submitted code appears to be a utility for accessing the `__proto__` property of an object or its prototype, which is entirely unrelated to the task management API described in the chapter content. The chapter content specifically asks for creating an Express.js API with routes for task management using a JSON file for storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/dunder-proto/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a javascript package. It does not implement the task management API as described in the chapter content.
+- The code should implement the REST API endpoints using Express.js and store/retrieve data from a JSON file.
+- The code should include error handling and input validation.
+- The code should use `express.Router` to define the routes.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/dunder-proto/set.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/dunder-proto/set.js
+suggestions for improvement:
+- The provided code snippet is unrelated to the task of creating a Task Management API with Express.js and JSON file storage. It appears to be related to manipulating the `__proto__` property in JavaScript, which is not mentioned or required in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/dunder-proto/test/get.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a `getDunderProto` function, and it's unrelated to the task of creating a Task Management API with Express.js and JSON file storage as described in the chapter content.
+- The code does not implement any of the required API endpoints (GET /tasks, GET /tasks/:id, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id).
+- It does not use Express.js, nor does it interact with a JSON file for task storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/dunder-proto/test/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/dunder-proto/test/set.js
+suggestions for improvement:
+- This code is completely unrelated to the task management API described in the chapter content. It appears to be testing functionality related to setting the `__proto__` property of objects, which has nothing to do with creating an Express.js API for managing tasks.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/dunder-proto/tsconfig.json
+suggestions for improvement:
+- The provided code is a TypeScript configuration file and is unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/ee-first/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code appears to be a utility for handling the first event emitted from a set of event emitters, which has no relevance to the chapter's instructions.
+- Since the code's purpose is unrelated, no improvements can be suggested within the context of the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/ee-first/package.json
+suggestions for improvement:
+- This submission is a package.json file, which describes a node module. It does not implement the task management API described in the problem statement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/encodeurl/index.js
+suggestions for improvement:
+- This code snippet focuses on URL encoding, which is not directly related to the task management API requested in the prompt. The prompt asks for the creation of a REST API using Express.js to manage tasks stored in a JSON file.
+- Consider developing the API as described in the prompt, implementing the routes, data handling, and validation as specified.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/encodeurl/package.json
+suggestions for improvement:
+- This code snippet is a `package.json` file, which describes a Node.js package named `encodeurl`. While it's a valid file, it doesn't implement any of the task management API functionalities requested in the chapter content.  It is completely unrelated.
+- The submission should include the actual Express.js code that defines the routes, reads/writes to the JSON file, and handles validation and error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-define-property/.github/FUNDING.yml
+suggestions for improvement:
+- This submission is not code related to the task management API described in the chapter content. It appears to be a funding model configuration file, which is completely irrelevant to the assignment.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-define-property/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-define-property/index.js
+suggestions for improvement:
+- The submitted code is entirely unrelated to the task of creating a Task Management API with Express.js and JSON file storage. It appears to be a utility function for defining object properties, which has no bearing on the chapter's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-define-property/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package. It does not implement any of the API routes or functionalities described in the chapter content.
+- The chapter content requests an Express.js application with specific API endpoints for task management, along with JSON file storage. This `package.json` file, while essential for a Node.js project, doesn't fulfill any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-define-property/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a `defineProperty` function, possibly a polyfill. It does not implement the task management API with Express.js and JSON file storage as described in the chapter content.
+- The code's purpose is entirely unrelated to the chapter's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-define-property/tsconfig.json
+suggestions for improvement:
+- The provided code is a tsconfig.json file, which configures the TypeScript compiler. It does not implement any of the API functionalities (GET, POST, PUT, DELETE) or file operations required by the chapter content.
+- The code doesn't address the Express.js application setup, route implementation, JSON file interaction, validation, or error handling as specified in the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/.github/FUNDING.yml
+suggestions for improvement:
+- This file appears to be a funding model configuration, unrelated to the task management API described in the instructions. It does not address any of the requirements, such as setting up an Express.js application, implementing routes, using a JSON file for storage, or handling errors.
+- Since the file is unrelated to the instructions, there is no relevant feedback for improvement in the context of the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/eval.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/eval.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file and doesn't implement the task management API as described in the problem description.
+- The `package.json` file relates to a library called `es-errors`, which has nothing to do with creating a task management API.
+- The code should include an Express.js application with routes for creating, retrieving, updating, and deleting tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/range.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/range.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/ref.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/ref.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/syntax.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/syntax.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/test/index.js
+suggestions for improvement:
+- The provided code appears to be testing error types, and is unrelated to creating a Task Management API with Express.js and JSON file storage as described in the prompt.
+- The code does not implement any of the required routes (GET, POST, PUT, DELETE for /tasks)
+- The code does not handle JSON file operations for storing and retrieving task data.
+- There's no Express.js application setup or routing logic present.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/tsconfig.json
+suggestions for improvement:
+- The provided code is a tsconfig.json file, which configures the TypeScript compiler. It does not implement the task management API as described in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/type.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/type.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/uri.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-errors/uri.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/.github/FUNDING.yml
+suggestions for improvement:
+- The provided YAML file is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The file seems to be a funding model declaration, which has nothing to do with the chapter's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/RequireObjectCoercible.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/RequireObjectCoercible.js
+suggestions for improvement:
+- This code snippet has nothing to do with the creation of a Task Management API using Express.js and JSON file storage as described in the chapter content. It seems to be a utility function for requiring object coercibility.
+- The code does not implement any of the requested routes (GET /tasks, GET /tasks/:id, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id).
+- The code does not include any Express.js setup or JSON file handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/ToObject.d.ts
+suggestions for improvement:
+- The provided code snippet does not implement the required task management API with Express.js and JSON file storage. It's a TypeScript declaration for a `ToObject` function, which is irrelevant to the chapter's instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/ToObject.js
+suggestions for improvement:
+- This code snippet is irrelevant to the task management API described in the instructions. It appears to be a utility function for converting a value to an object, which is not explicitly required by the chapter's instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/isObject.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/isObject.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package. It doesn't implement the task management API as described in the problem description, therefore the code is irrelevant.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/test/index.js
+suggestions for improvement:
+- The provided code appears to be testing JavaScript object coercion and type checking, using a testing framework. This is completely unrelated to the prompt, which asked for an Express.js API for task management with JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/es-object-atoms/tsconfig.json
+suggestions for improvement:
+- This code snippet is a tsconfig.json file, which is not related to the task management API requested in the prompt. The task asks for an Express.js API with routes for task management and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/escape-html/index.js
+suggestions for improvement:
+- The provided code is for escaping HTML, which is not related to the task management API described in the chapter content.
+- The code does not implement any of the required routes (GET, POST, PUT, DELETE) for managing tasks.
+- The code does not interact with a JSON file for storing task data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/escape-html/package.json
+suggestions for improvement:
+- The provided code appears to be a package.json file for a library called 'escape-html'. This is entirely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/etag/index.js
+suggestions for improvement:
+- This code calculates ETags, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code doesn't address any of the instructions provided in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/etag/package.json
+suggestions for improvement:
+- The provided code is a package.json file for the 'etag' library, which is completely unrelated to the task management API described in the chapter content. Therefore, it does not address any of the requirements.
+- The submission should include the Express.js code for creating the API, including the routes, file handling, and validation logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/express/index.js
+suggestions for improvement:
+- The provided code is just the entry point for the Express.js library itself. It doesn't implement any of the task management API functionality described in the chapter content. The code does not create any routes, read/write to a JSON file, or implement any validation or error handling related to task management.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/express/lib/application.js
+suggestions for improvement:
+- The code provided is the source code for the Express.js framework itself, not a solution to the task of creating a Task Management API as described in the chapter content.
+- The submission does not include any code related to reading/writing to a JSON file, implementing the required routes, or implementing data validation and error handling as specified in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/express/lib/express.js
+suggestions for improvement:
+- The provided code is the source code of the Express.js framework itself, not a solution to the task management API problem described in the prompt. It defines how an Express application is created and its core components.
+- The submission needs to include the code that implements the API endpoints (GET, POST, PUT, DELETE) for managing tasks, as specified in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/express/lib/request.js
+suggestions for improvement:
+- The code provided is the `req.js` file from the Express.js library, which defines the request object prototype. It does not implement any of the task management API functionality described in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/express/lib/response.js
+suggestions for improvement:
+- This code represents the Express.js `response` object prototype. It does not implement any of the API endpoints for task management as described in the chapter content/questions.
+- Since the code does not implement the required API, it fails to address the core problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/express/lib/utils.js
+suggestions for improvement:
+- The provided code appears to be internal utility functions from the Express.js framework itself, not an implementation of the requested task management API.
+- The code does not address the requirements of creating an Express.js application with routes for task management, JSON file storage, validation, and error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/express/lib/view.js
+suggestions for improvement:
+- The provided code appears to be an internal module of Express.js related to view rendering, which is entirely unrelated to the task management API described in the chapter content.
+- The code doesn't implement any of the required API endpoints (GET, POST, PUT, DELETE for tasks).
+- The code doesn't interact with a JSON file for task storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/express/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes the dependencies and metadata for an Express.js project, but does not actually implement the task management API as described in the problem description.
+- The submission needs to include the actual JavaScript code that defines the Express.js routes, data storage, validation, and error handling logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/finalhandler/index.js
+suggestions for improvement:
+- The code provided is a 'finalhandler' module, which is used for handling errors and sending responses in Express.js applications. It is not related to the task of creating a Task Management API as described in the chapter content.
+- The code contains functions for creating HTML documents, getting error messages, and sending responses, but it does not implement any of the API endpoints or file storage logic required by the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/finalhandler/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js package named 'finalhandler'. This file does not implement any of the API functionalities (GET, POST, PUT, DELETE routes for task management) as described in the problem statement. Therefore, the code does not address the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/forwarded/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter's instructions on building a Task Management API with Express.js and JSON file storage.
+- It focuses on parsing the X-Forwarded-For header, which is a networking concern, not an API implementation concern.
+- There is no handling of tasks, routes, or JSON file storage as the problem requires.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/forwarded/package.json
+suggestions for improvement:
+- The provided JSON appears to be a package.json file, likely for an npm module related to parsing HTTP X-Forwarded-For headers. This has absolutely nothing to do with the task management API described in the chapter content. It does not address any of the instructions provided.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/fresh/index.js
+suggestions for improvement:
+- The provided code calculates the freshness of HTTP responses based on request and response headers, which is completely unrelated to the task management API described in the chapter content. The chapter content requests the creation of a task management API using Express.js with JSON file storage, including routes for creating, reading, updating, and deleting tasks.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/fresh/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a node module called 'fresh'. This file alone doesn't implement the API described in the chapter content.
+- The submission needs to include the actual JavaScript code that sets up the Express.js server, defines the routes, reads/writes to the JSON file, and handles validation and error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/function-bind/.github/FUNDING.yml
+suggestions for improvement:
+- This submission does not contain any code related to the task management API described in the chapter content.
+- The provided data appears to be related to funding model platforms and is completely unrelated to Express.js, JSON file storage, or task management.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/function-bind/implementation.js
+suggestions for improvement:
+- This code implements `Function.prototype.bind`, which is completely unrelated to creating a task management API with Express.js and JSON file storage. The code does not address any of the instructions provided in the chapter content.
+- The code is reasonably readable, but it uses non-standard naming conventions (e.g., `concatty`, `slicy`, `joiny`) which reduces clarity.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/function-bind/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/function-bind/package.json
+suggestions for improvement:
+- This package.json file is entirely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/function-bind/test/index.js
+suggestions for improvement:
+- This code is a series of unit tests for a `functionBind` implementation. It doesn't implement the Task Management API described in the chapter content at all. Therefore, it completely misses the mark.
+- The tests cover various aspects of function binding, including context, arguments, and constructor behavior, but are irrelevant to the stated problem.
+- For readability, use more descriptive variable names.
+- The performance is acceptable for unit tests but not a primary concern here.
+- Security considerations are minimal in unit test code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-intrinsic/.github/FUNDING.yml
+suggestions for improvement:
+- This code is a funding model configuration file and has nothing to do with creating a Task Management API with Express.js and JSON file storage.
+- The provided code does not implement any of the required functionalities: setting up an Express.js application, implementing routes for task management, using a JSON file for storage, validation, or error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-intrinsic/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code appears to be a utility library for retrieving JavaScript intrinsics, which has nothing to do with the specified API development task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-intrinsic/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a JavaScript package. It does not implement the task management API described in the chapter content.
+- The task requires building an Express.js API with specific routes and JSON file storage. This package.json file does not address any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-intrinsic/test/GetIntrinsic.js
+suggestions for improvement:
+- The code provided is a test suite for a `GetIntrinsic` function, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- This code does not address any of the requirements specified in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-proto/.github/FUNDING.yml
+suggestions for improvement:
+- This code does not implement the task management API as described in the chapter content. It appears to be a funding model configuration file, which is completely unrelated.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-proto/Object.getPrototypeOf.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-proto/Object.getPrototypeOf.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-proto/Reflect.getPrototypeOf.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-proto/Reflect.getPrototypeOf.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-proto/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-proto/index.js
+suggestions for improvement:
+- The provided code appears to be related to retrieving the prototype of an object in JavaScript, which is completely unrelated to the task of creating a task management API using Express.js and JSON file storage.
+- The code does not address any of the specified requirements of the chapter, such as setting up an Express.js application, implementing routes for task management, using a JSON file for storage, implementing validation, or implementing error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-proto/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for a library called `get-proto`, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-proto/test/index.js
+suggestions for improvement:
+- The provided code is a test suite for a `getProto` function, which is completely unrelated to the task management API requested in the chapter content.
+- The code does not implement any of the required API endpoints (GET, POST, PUT, DELETE for tasks).
+- The code does not use Express.js or JSON file storage as requested.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/get-proto/tsconfig.json
+suggestions for improvement:
+- This submission appears to be a tsconfig.json file, which configures the TypeScript compiler. It does not implement any of the API routes or functionalities described in the prompt (creating an Express.js application, implementing routes, handling JSON file storage, performing validation, or implementing error handling).
+- The prompt explicitly requires an Express.js API for task management. This file does not fulfill that requirement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/gopd/.github/FUNDING.yml
+suggestions for improvement:
+- The provided YAML file is for specifying funding models for a project and is entirely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code does not implement any of the required functionalities such as creating routes for tasks, reading/writing to a JSON file, or handling validation and errors.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/gopd/gOPD.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/gopd/gOPD.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/gopd/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/gopd/index.js
+suggestions for improvement:
+- The provided code appears to be a utility related to `Object.getOwnPropertyDescriptor` and is not related to the task of creating a Task Management API with Express.js and JSON file storage. The code does not implement any of the required API endpoints (GET, POST, PUT, DELETE) or file storage functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/gopd/package.json
+suggestions for improvement:
+- The submitted code is a `package.json` file, which describes a JavaScript package. It doesn't implement any of the API endpoints (GET, POST, PUT, DELETE) or the task management logic described in the chapter content.  It also doesn't create the `tasks.json` file or handle any file operations.
+- The code is entirely unrelated to the problem described in the chapter content, which is to build a task management API with Express.js.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/gopd/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a `gOPD` function, which likely stands for 'getOwnPropertyDescriptor'.
+- This code is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code does not address any of the specific requirements outlined in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/gopd/tsconfig.json
+suggestions for improvement:
+- The submitted code is a tsconfig.json file, which configures the TypeScript compiler. This is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage. The task requires implementing API endpoints, handling file I/O, and performing data validation, none of which are addressed by the provided configuration file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/has-symbols/.github/FUNDING.yml
+suggestions for improvement:
+- This code is completely unrelated to the task management API described in the chapter content. It appears to be a funding model configuration file, not an Express.js application or any related code for task management.
+- The file does not implement any of the required routes (GET, POST, PUT, DELETE) for task management.
+- It does not interact with a JSON file for storing task data, nor does it implement any form of validation or error handling related to task management.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/has-symbols/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/has-symbols/index.js
+suggestions for improvement:
+- This code snippet appears to be related to checking for native Symbol support in JavaScript environments, not to building a task management API with Express.js and JSON file storage.
+- The provided code does not address any of the requirements outlined in the chapter content/questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/has-symbols/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for a library called `has-symbols`. This file describes metadata about the package, its dependencies, scripts, and other configuration details. It does not implement any of the API functionality described in the chapter content, which involves creating a task management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/has-symbols/shams.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/has-symbols/shams.js
+suggestions for improvement:
+- The submitted code appears to be a utility function for detecting Symbol support in JavaScript environments, which is completely unrelated to the task management API requested in the prompt.
+- The code doesn't implement any of the required API endpoints (GET /tasks, GET /tasks/:id, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id).
+- The code doesn't use Express.js or JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/has-symbols/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for checking Symbol support in JavaScript environments. This is completely unrelated to the task management API described in the chapter content. Therefore, it does not address any of the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/has-symbols/test/shams/core-js.js
+suggestions for improvement:
+- The provided code appears to be testing for Symbol support or polyfilling Symbols. This is completely unrelated to creating a Task Management API with Express.js and JSON file storage, as described in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/has-symbols/test/shams/get-own-property-symbols.js
+suggestions for improvement:
+- The provided code appears to be related to testing Symbol polyfills and doesn't implement the task management API described in the chapter content. It focuses on testing native Symbol support and polyfilling Symbols, which is unrelated to creating API endpoints for managing tasks using Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/has-symbols/test/tests.js
+suggestions for improvement:
+- The provided code appears to be testing functionality related to the `Symbol` object in JavaScript, and it is not relevant to creating a task management API with Express.js as requested by the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/has-symbols/tsconfig.json
+suggestions for improvement:
+- This code is a tsconfig.json file, which is used for configuring the TypeScript compiler. It does not implement any of the API endpoints or functionalities described in the problem statement. Therefore, it is completely unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/hasown/.github/FUNDING.yml
+suggestions for improvement:
+- This file does not contain any code related to the task management API described in the instructions. It seems to be a configuration file for funding or sponsorship platforms, completely unrelated to Express.js, JSON file storage, or task management.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/hasown/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/hasown/index.js
+suggestions for improvement:
+- This code snippet appears to be a utility function related to checking object properties, not the requested Task Management API. The code provided does not address the problem of creating an Express.js API with CRUD operations on tasks stored in a JSON file, as described in the instructions.
+- The code has no relevance to the problem outlined in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/hasown/package.json
+suggestions for improvement:
+- This submission is a package.json file for a JavaScript library called `hasown`. It does not address the task of creating a Task Management API with Express.js and JSON file storage.
+- The code does not implement any of the required routes (GET, POST, PUT, DELETE) for managing tasks.
+- The code does not use Express.js or interact with a JSON file to store task data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/hasown/tsconfig.json
+suggestions for improvement:
+- This appears to be a TypeScript configuration file, not the requested Express.js API implementation. It should contain the server-side code for managing tasks.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/http-errors/index.js
+suggestions for improvement:
+- The code provided is for the `http-errors` library, which is a utility for creating HTTP error objects. It is not related to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code should implement the API endpoints (GET, POST, PUT, DELETE) for managing tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/http-errors/node_modules/statuses/codes.json
+suggestions for improvement:
+- The code provided is a JSON object containing HTTP status codes and their descriptions, which is entirely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/http-errors/node_modules/statuses/index.js
+suggestions for improvement:
+- The code provided is a module for HTTP status codes and messages, which is completely unrelated to the task management API requested in the chapter content. The task requires creating an Express.js application with specific routes for managing tasks stored in a JSON file.
+- The code should implement an Express.js application, define routes (GET, POST, PUT, DELETE) for tasks, read and write to a JSON file, include input validation, and handle file read/write errors.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/http-errors/node_modules/statuses/package.json
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which describes creating a task management API with Express.js and JSON file storage.
+- The provided code appears to be the package.json file for an HTTP status code utility, not an Express.js API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/http-errors/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module named `http-errors`. This does not implement any of the task management API functionality described in the chapter content. The chapter asks for an Express.js application with routes for managing tasks, reading/writing to a JSON file, and error handling. This `package.json` provides metadata about a completely different library.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/.github/dependabot.yml
+suggestions for improvement:
+- The provided code is a Dependabot configuration file, which is irrelevant to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/.idea/codeStyles/Project.xml
+suggestions for improvement:
+- The provided code is a configuration file for code style settings, not the implementation of a task management API as described in the problem description.
+- The submission does not contain any code related to Express.js, routing, JSON file manipulation, or any of the required API endpoints.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/.idea/codeStyles/codeStyleConfig.xml
+suggestions for improvement:
+- The submitted file is a project configuration file and not the code requested by the problem description.
+- A proper Express.js application with routes and JSON file storage implementation is required.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/.idea/inspectionProfiles/Project_Default.xml
+suggestions for improvement:
+- The provided code is an IntelliJ IDEA inspection profile configuration file, not the Express.js API code requested by the instructions.
+- The submission does not implement any of the required API endpoints (GET /tasks, GET /tasks/:id, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id).
+- The submission does not handle file storage of tasks in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/.idea/modules.xml
+suggestions for improvement:
+- The provided XML file describes a project module configuration, not the Express.js API requested by the chapter. There is no code implementing the API endpoints, file storage, or validation as described in the chapter content.
+- The submission does not implement any of the required API functionality.
+- The submission is completely unrelated to the instructions provided.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/.idea/vcs.xml
+suggestions for improvement:
+- The provided XML file is a project configuration file for an IDE (likely IntelliJ IDEA or a similar JetBrains IDE). It specifies the version control system (Git) mapping for the project directory. This file does not implement any of the task management API functionalities described in the chapter content (creating routes, reading/writing to JSON, validation, error handling, etc.).
+- The submission does not contain the required Express.js application code.
+- The submission does not include the `tasks.json` file or any code that interacts with it.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/dbcs-codec.js
+suggestions for improvement:
+- This code appears to be a codec implementation, likely for character encoding/decoding, and is completely unrelated to the task management API described in the chapter content.
+- The code is complex and difficult to understand without prior knowledge of character encoding techniques.
+- There's no attempt to address any of the instructions related to creating an Express.js API for task management.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/dbcs-data.js
+suggestions for improvement:
+- This code appears to be character encoding data for various East Asian languages. It has absolutely nothing to do with creating a task management API using Express.js and JSON file storage as described in the prompt.
+- This submission demonstrates a complete misunderstanding of the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/index.js
+suggestions for improvement:
+- The code provided seems to be related to character encoding, and is completely unrelated to the task management API described in the prompt. Therefore, it does not address the chapter's requirements at all.
+- The code doesn't use Express.js, doesn't implement any routes, and doesn't interact with a JSON file for task management. It's a completely different functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/internal.js
+suggestions for improvement:
+- The provided code is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code appears to be related to encoding and decoding functionalities, which are not mentioned or required by the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/sbcs-codec.js
+suggestions for improvement:
+- The code provided is a single-byte character set (SBCS) codec implementation, which is completely unrelated to the task management API described in the chapter content. It does not address the requirements of creating an Express.js API with routes for managing tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/sbcs-data-generated.js
+suggestions for improvement:
+- The provided code has absolutely nothing to do with the chapter content. It appears to be character encoding data, not an Express.js API for task management.
+- The code should implement the API endpoints as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/sbcs-data.js
+suggestions for improvement:
+- The provided code is entirely unrelated to the chapter content. It appears to be character encoding data, not an Express.js API for task management.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/tables/big5-added.json
+suggestions for improvement:
+- The provided data appears to be random unicode characters with no relation to the instructions for creating a Task Management API with Express.js and JSON File Storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/tables/cp936.json
+suggestions for improvement:
+- The code contains only character encodings and does not implement the requested functionality. It doesn't attempt to set up an Express.js application, implement routes for task management, or use JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/tables/cp949.json
+suggestions for improvement:
+- The provided data appears to be encoded or garbled text, not code related to the chapter's task management API requirements.
+- A proper code submission implementing an Express.js API with JSON file storage is needed to address the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/tables/cp950.json
+suggestions for improvement:
+- The submission contains non-executable code. The code is a collection of characters and their associated codes or descriptions, which doesn't address any of the requirements of building an Express.js API for task management.
+- The content of the provided "code" is irrelevant to the chapter's tasks. It is character mappings which do not implement task management API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/tables/eucjp.json
+suggestions for improvement:
+- The provided data appears to be character mappings from a character encoding system, likely related to Japanese or another East Asian language. It does not contain any code related to building a Task Management API with Express.js and JSON file storage, as described in the chapter content.
+- Since the data is irrelevant to the task, any attempt to evaluate its functionality in the context of the chapter would be meaningless.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/tables/gbk-added.json
+suggestions for improvement:
+- The provided data appears to be a jumbled list of Unicode characters and numbers, completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/tables/shiftjis.json
+suggestions for improvement:
+- The submitted data is not code. It seems to be character encoding data rather than an implementation of the Task Management API as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/utf16.js
+suggestions for improvement:
+- This code appears to be related to UTF-16 encoding/decoding, which is completely unrelated to the task management API described in the problem statement. Therefore, it cannot be evaluated as a solution to the given problem.
+- The code includes functions for encoding and decoding UTF-16 data, handling byte order marks (BOM), and detecting the encoding type (UTF-16LE or UTF-16BE).
+- The structure includes encoder and decoder prototypes with `write` and `end` methods, as expected for encoding/decoding streams.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/utf32.js
+suggestions for improvement:
+- The submitted code is completely unrelated to the chapter content, which is about creating a task management API using Express.js and JSON file storage. The code appears to be related to UTF-32 encoding and decoding.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/encodings/utf7.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content. The chapter requests an Express.js API for task management with JSON file storage, but the submitted code is for UTF-7 encoding/decoding.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/lib/bom-handling.js
+suggestions for improvement:
+- This code snippet appears to be related to handling Byte Order Mark (BOM) in text encoding, which is not relevant to the task management API described in the chapter content. The chapter asks for building an API using Express.js to manage tasks with CRUD operations and JSON file storage.
+- Consider implementing the requested Express.js API with routes for task management.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/lib/index.d.ts
+suggestions for improvement:
+- The provided code appears to be type definitions for the 'iconv-lite' library, which is unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code does not implement any of the required API endpoints (GET, POST, PUT, DELETE) for managing tasks.
+- The code does not use Express.js or interact with a JSON file for storing task data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/lib/index.js
+suggestions for improvement:
+- The provided code relates to character encoding using the iconv-lite library, and does not implement a task management API using Express.js as described in the prompt.
+- The code doesn't use Express.js, routes (GET, POST, PUT, DELETE), or JSON file storage.
+- The code has nothing to do with task management or the specified API requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/lib/streams.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content. It deals with encoding and decoding streams, not with creating a task management API using Express.js and JSON file storage.
+- The code is well-structured for its intended purpose, but it doesn't address the assignment at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/iconv-lite/package.json
+suggestions for improvement:
+- This submission provides a `package.json` file for the `iconv-lite` library, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The submission does not include any code related to Express.js, routing, JSON file manipulation, or API implementation as requested in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/inherits/inherits.js
+suggestions for improvement:
+- This code snippet appears to be related to inheritance in JavaScript and is not relevant to the task management API described in the chapter content. Therefore, it does not address any of the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/inherits/inherits_browser.js
+suggestions for improvement:
+- This code snippet appears to be a utility function for implementing inheritance in JavaScript, which is not directly related to the task of creating a Task Management API with Express.js and JSON file storage. The code does not implement any of the required API endpoints or file storage mechanisms.
+- The code is not relevant to the provided chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/inherits/package.json
+suggestions for improvement:
+- This submission is a package.json file for the `inherits` package, which provides inheritance functionality. It is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/ipaddr.js/ipaddr.min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/ipaddr.js/lib/ipaddr.js
+suggestions for improvement:
+- The code is entirely unrelated to the chapter content, which focuses on building a Task Management API with Express.js and JSON file storage. The provided code appears to be a library for IP address manipulation.
+- Since the code does not address the problem described in the prompt, there are no suggestions for improvement within the context of the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/ipaddr.js/lib/ipaddr.js.d.ts
+suggestions for improvement:
+- The provided code defines TypeScript declaration file for the ipaddr.js library. This code is completely unrelated to the problem of creating a Task Management API with Express.js and JSON file storage.
+- The submission does not contain any Express.js code or JSON file handling logic as requested by the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/ipaddr.js/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript library for manipulating IP addresses. This is completely unrelated to the chapter's request for an Express.js API for task management using JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/is-promise/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/is-promise/index.js
+suggestions for improvement:
+- This code snippet is unrelated to the chapter's requirements. It defines a function to check if an object is a Promise, but the chapter asks for creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/is-promise/index.mjs
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/is-promise/package.json
+suggestions for improvement:
+- The provided code is a package.json file for the `is-promise` library, which is unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/.github/FUNDING.yml
+suggestions for improvement:
+- This file seems to be a funding configuration file, unrelated to the task of creating a Task Management API with Express.js and JSON file storage. It doesn't address any of the specified requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/abs.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/abs.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/constants/maxArrayLength.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/constants/maxArrayLength.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/constants/maxSafeInteger.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/constants/maxSafeInteger.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/constants/maxValue.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/constants/maxValue.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/floor.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/floor.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/isFinite.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/isFinite.js
+suggestions for improvement:
+- This code is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/isInteger.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/isInteger.js
+suggestions for improvement:
+- This code snippet is unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/isNaN.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/isNaN.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/isNegativeZero.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/isNegativeZero.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/max.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/max.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/min.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/mod.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/mod.js
+suggestions for improvement:
+- The provided code calculates the modulus of a number. This has absolutely nothing to do with creating a Task Management API with Express.js and JSON file storage as described in the problem description.
+- The code does not implement any of the required routes (GET /tasks, GET /tasks/:id, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id).
+- The code does not interact with a JSON file for task storage.
+- The code does not include any Express.js related code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package named `math-intrinsics`. This file does not implement any of the task management API functionality described in the chapter content.
+- The code is completely irrelevant to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/pow.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/pow.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/round.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/round.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/sign.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/sign.js
+suggestions for improvement:
+- This code calculates the sign of a number, which is completely unrelated to the task management API described in the chapter content. The chapter content asks for an Express.js API with routes for managing tasks stored in a JSON file.
+- The code does not implement any of the required API endpoints (GET /tasks, GET /tasks/:id, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id).
+- The code does not interact with a JSON file for storing task data.
+- The code does not include any Express.js setup or route handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/test/index.js
+suggestions for improvement:
+- This code is completely unrelated to the prompt. It seems to be testing numerical functions and constants.
+- The submission should contain an Express.js API for task management, including routes for creating, retrieving, updating, and deleting tasks, along with JSON file storage and validation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/math-intrinsics/tsconfig.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/media-typer/index.js
+suggestions for improvement:
+- The code provided is completely unrelated to the task management API described in the chapter content. It appears to be a library for parsing and formatting media types, which has nothing to do with creating an Express.js API for managing tasks stored in a JSON file.
+- Since the code is irrelevant to the task, it cannot be evaluated for correctness in the context of the chapter's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/media-typer/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for the `media-typer` library. This library is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The submission does not include any Express.js code, route definitions, or file handling logic as requested in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/merge-descriptors/index.d.ts
+suggestions for improvement:
+- The provided code defines a function `mergeDescriptors` which is completely unrelated to the chapter's requirements of creating a Task Management API with Express.js and JSON file storage. The function seems to be for merging properties between objects, which is not mentioned or required in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/merge-descriptors/index.js
+suggestions for improvement:
+- The provided code is a utility function for merging object descriptors, which is unrelated to the task of creating a Task Management API with Express.js and JSON file storage. The task requires building an API with specific routes (GET, POST, PUT, DELETE) for managing tasks stored in a JSON file, including validation and error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/merge-descriptors/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module named `merge-descriptors`. This has nothing to do with creating a Task Management API with Express.js and JSON file storage, as requested by the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/mime-db/db.json
+suggestions for improvement:
+- The provided code is a comprehensive list of MIME types and their corresponding file extensions, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code does not address any of the instructions outlined in the chapter content/questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/mime-db/index.js
+suggestions for improvement:
+- This code snippet appears to be from the 'mime-db' library, which provides a database of MIME types. It's completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/mime-db/package.json
+suggestions for improvement:
+- This submission is a package.json file, not the code required to create a Task Management API with Express.js and JSON file storage, as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/mime-types/index.js
+suggestions for improvement:
+- This code is completely unrelated to the problem description. It appears to be the `mime-types` library, which is not what the instructions asked for.
+- The code is well-structured for what it does (managing MIME types), but it doesn't address the task management API requirement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/mime-types/mimeScore.js
+suggestions for improvement:
+- This code appears to be a mime-type scoring module, which is completely unrelated to the chapter's request to build a Task Management API with Express.js and JSON file storage.
+- The code calculates a score based on various facets of a MIME type string.
+- The code is reasonably readable, but the variable names could be more descriptive to enhance clarity.
+- From a performance standpoint, the code has good complexity. O(1).
+- The code doesn't handle any user input or external data directly, so security risks are relatively low, assuming the input `mimeType` is properly formatted.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/mime-types/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module named 'mime-types'.
+- This file does not implement any of the task management API functionalities described in the chapter content (creating routes, reading/writing to JSON file, validation, error handling).
+- Therefore, the code is entirely unrelated to the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/ms/index.js
+suggestions for improvement:
+- This code snippet is completely unrelated to the prompt. The prompt asks for a Task Management API using Express.js and JSON file storage, while the code provided appears to be a utility for parsing and formatting time durations.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/ms/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a node module named 'ms' (millisecond conversion utility).
+- This file doesn't implement any of the API endpoints or functionalities described in the chapter content (Task Management API with Express.js).
+- The file specifies metadata about the 'ms' package, including its name, version, description, repository, main file, scripts, ESLint configuration, lint-staged configuration, license, and development dependencies.
+- It contains scripts for pre-commit hooks, linting, and testing but does not implement the task management API functionality.
+- The content of this file is unrelated to the exercise prompt, which asks for code implementing an Express.js API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/negotiator/index.js
+suggestions for improvement:
+- This code provides functionality for content negotiation, which is unrelated to the task of creating a Task Management API.
+- The code is well-structured and readable, but it doesn't align with the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/negotiator/lib/charset.js
+suggestions for improvement:
+- The provided code appears to be a library for handling HTTP Accept-Charset headers, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.  It doesn't use Express, interact with a JSON file, or implement any of the required routes.
+- This code needs to be completely replaced with an Express.js application that implements the specified API endpoints and data storage mechanism.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/negotiator/lib/encoding.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content, which is about creating a Task Management API using Express.js and JSON file storage. The code appears to be a module for handling HTTP Accept-Encoding headers, which is a different topic altogether.
+- Ensure that the submitted code addresses the specific problem or implements the functionality explicitly described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/negotiator/lib/language.js
+suggestions for improvement:
+- The provided code appears to be a library for handling Accept-Language headers, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/negotiator/lib/mediaType.js
+suggestions for improvement:
+- The provided code does not implement the task management API as described in the problem description. It's related to media type negotiation, which is a completely different functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/negotiator/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module named `negotiator`. This file doesn't implement any of the task management API functionalities as outlined in the chapter content (creating routes for tasks, reading/writing to a JSON file, etc.).
+- The submission needs to include the actual Express.js code that creates the API endpoints and interacts with the `tasks.json` file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/.github/FUNDING.yml
+suggestions for improvement:
+- This file is a funding model configuration, unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The file does not implement any of the required routes (GET, POST, PUT, DELETE) for task management.
+- It does not handle JSON file operations, validation, or error handling as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/example/all.js
+suggestions for improvement:
+- The submitted code is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage. It appears to be using an 'inspect' module and deals with object inspection and buffer manipulation, not API creation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/example/circular.js
+suggestions for improvement:
+- The provided code is not related to the chapter content, which asks for building a task management API using Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/example/fn.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/example/inspect.js
+suggestions for improvement:
+- The provided code snippet appears to be related to DOM inspection and not a Task Management API as described in the chapter content. The code uses `require('../')`, which indicates it's part of a larger project, but the snippet itself is not implementing the required API endpoints (GET, POST, PUT, DELETE for tasks).
+- The code seems to be using a browser environment (`eslint-env browser`) which is not required for this express API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/index.js
+suggestions for improvement:
+- The provided code appears to be a complex utility for inspecting JavaScript objects, not an Express.js API for task management. It doesn't address any of the specific requirements outlined in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/package-support.json
+suggestions for improvement:
+- The provided JSON seems to be related to package metadata or funding information, not the requested Task Management API. It does not implement any of the required functionalities like setting up an Express.js application, defining routes for task management (GET, POST, PUT, DELETE), or interacting with a JSON file for storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package. It doesn't implement any of the task management API functionalities as requested by the chapter content.
+- The task requires creating an Express.js application with specific routes for task management, including GET, POST, PUT, and DELETE operations, along with JSON file storage and error handling. This `package.json` provides metadata about a package, not the implementation of the API itself.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test-core-js.js
+suggestions for improvement:
+- The code provided is for testing Maps, WeakMaps, Sets, and WeakSets using the `inspect` module and `tape` testing framework. It is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code does not implement any of the required routes (GET, POST, PUT, DELETE) for managing tasks.
+- It does not interact with a JSON file for storing task data.
+- It lacks error handling and validation logic as required by the prompt.
+- This submission appears to be completely unrelated to the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/bigint.js
+suggestions for improvement:
+- The submitted code is a test suite for a `inspect` library, specifically testing the `bigint` functionality. This is completely unrelated to the chapter's instructions to create a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/browser/dom.js
+suggestions for improvement:
+- This code appears to be related to DOM element inspection and testing, likely for a library or framework. It is completely unrelated to the task management API described in the Chapter Content/Questions.
+- The code uses `require('../../')`, which suggests it's part of a larger project with a specific directory structure. This makes it even less likely to be relevant to the provided instructions.
+- The code utilizes 'tape' for testing, indicating its focus on unit testing rather than API development.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/circular.js
+suggestions for improvement:
+- The provided code is a test case for a circular dependency inspection library, completely unrelated to the task management API requested in the prompt.
+- The code does not create an Express.js application, implement routes for task management, use a JSON file for storage, or include validation and error handling as requested.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/deep.js
+suggestions for improvement:
+- The provided code is entirely unrelated to the chapter's requirements. It appears to be a test suite for a node module named 'inspect', and doesn't implement any part of a task management API as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/element.js
+suggestions for improvement:
+- This code is completely unrelated to the task management API described in the chapter content.
+- The code appears to be testing a JavaScript inspection library, which has nothing to do with creating an Express.js API for managing tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/err.js
+suggestions for improvement:
+- The provided code appears to be testing functionality related to error inspection and formatting, possibly within a JavaScript environment.  It does not address the creation of a task management API with Express.js and JSON file storage as described in the chapter content.
+- The code uses 'tape' for testing and 'error-cause' for enhanced error handling, none of which relate to the instructions of the creating and setting up of API endpoints.
+- The code does not include any Express.js code, routes, or file system interactions necessary to fulfill the assignment requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/fakes.js
+suggestions for improvement:
+- The provided code appears to be a test suite related to the `inspect` module and `Symbol.toStringTag`. It doesn't implement any of the task management API functionalities specified in the chapter content. The code is completely unrelated to the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/fn.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content, which focuses on creating a task management API using Express.js and JSON file storage. The code appears to be testing functionality related to function inspection and names.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/global.js
+suggestions for improvement:
+- The provided code snippet appears to be related to a JavaScript inspection library (possibly for debugging purposes) and is completely unrelated to the chapter's instructions on building a Task Management API with Express.js and JSON file storage.
+- The code does not implement any of the required API endpoints (GET, POST, PUT, DELETE) or file handling logic.
+- The code does not use Express.js or any related modules required to achieve the instructions
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/has.js
+suggestions for improvement:
+- This code is completely unrelated to the task management API described in the chapter content. It appears to be a test case for a different library or module.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/holes.js
+suggestions for improvement:
+- The submitted code appears to be a test file for an unrelated npm package, possibly for inspecting data structures. It does not address the prompt's requirement of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/indent-option.js
+suggestions for improvement:
+- The provided code appears to be related to testing and inspecting JavaScript objects, specifically focusing on indentation and formatting. This is entirely unrelated to the task of creating a Task Management API with Express.js and JSON file storage, as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/inspect.js
+suggestions for improvement:
+- This code appears to be testing the `inspect` function, potentially a custom implementation or a wrapper around Node.js's `util.inspect`. It is not related to creating a Task Management API with Express.js and JSON file storage.
+- The code makes extensive use of `tape` for testing and includes checks for symbol support and `util.inspect.custom`, indicating it aims for broad compatibility and thorough testing.
+- The code uses `require` statements to import modules, making it specific to Node.js environment.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/lowbyte.js
+suggestions for improvement:
+- This code is a test file for an unrelated module and does not implement the task management API as specified in the instructions.
+- The code does not use Express.js, implement the required routes (GET, POST, PUT, DELETE), or interact with a JSON file for task storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/number.js
+suggestions for improvement:
+- This code is a series of tests for a JavaScript library and does not implement the task management API described in the chapter content. It's unrelated to creating an Express.js application with routes for task management and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/quoteStyle.js
+suggestions for improvement:
+- This code is completely unrelated to the task management API described in the problem description. It appears to be testing a 'quoteStyle' option for an inspection library. It needs to be replaced with code that creates an Express.js API for managing tasks using a JSON file.
+- The code should implement routes for GET (all tasks, task by ID), POST (create task), PUT (update task), and DELETE (delete task).
+- The code should include validation for task data and error handling for file operations.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/toStringTag.js
+suggestions for improvement:
+- The provided code appears to be related to testing the `Symbol.toStringTag` functionality in JavaScript, and uses the `tape` and `has-tostringtag` libraries. It has absolutely nothing to do with creating a Task Management API using Express.js and JSON file storage, as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/undef.js
+suggestions for improvement:
+- The submitted code does not address the problem of creating a Task Management API with Express.js and JSON file storage. It appears to be a testing script for an unrelated module called 'inspect'.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/test/values.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content. It appears to be test cases for a Javascript inspection library, and it does not implement any of the required API endpoints or file storage logic.
+- There is no Express.js application, no routing, no JSON file handling, and no task management functionality present in the code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/object-inspect/util.inspect.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/on-finished/index.js
+suggestions for improvement:
+- The provided code appears to be the 'on-finished' npm package, which is a utility for determining when a HTTP response has finished. This is completely unrelated to the task management API described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/on-finished/package.json
+suggestions for improvement:
+- The provided code is a package.json file for a node module called `on-finished`. It does not implement any of the API functionality requested in the prompt.
+- The code should implement the API endpoints (GET, POST, PUT, DELETE) for managing tasks as described in the problem statement using Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/once/once.js
+suggestions for improvement:
+- The provided code appears to implement a 'once' function, which ensures that a given function is only executed once. This functionality is entirely unrelated to the task management API described in the chapter content, which requires creating an Express.js API for managing tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/once/package.json
+suggestions for improvement:
+- This submission is a package.json file, which describes a node module, but it does not implement the task management API described in the problem. It needs to contain the express routes and file read/write logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/parseurl/index.js
+suggestions for improvement:
+- This code is a URL parsing utility, which is completely unrelated to the task management API described in the chapter content. It does not implement any of the required functionalities (creating, retrieving, updating, deleting tasks) or use Express.js or JSON file storage as instructed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/parseurl/package.json
+suggestions for improvement:
+- This submission appears to be the package.json file for the 'parseurl' library, which is completely unrelated to the task of creating a task management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/path-to-regexp/dist/index.d.ts
+suggestions for improvement:
+- This code does not address the problem described in the prompt. The prompt requests the creation of a task management API using Express.js and JSON file storage, including specific routes (GET, POST, PUT, DELETE) for managing tasks. This code appears to be related to path parsing and manipulation, which is unrelated to the task management API.
+- The code is well-documented, but this does not compensate for its lack of relevance to the prompt.
+- The code should implement the routes described in the prompt (GET /tasks, GET /tasks/:id, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id) using Express.js.
+- The code should interact with a JSON file to store and retrieve task data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/path-to-regexp/dist/index.js
+suggestions for improvement:
+- The provided code appears to be a utility for parsing and compiling URL paths into regular expressions. This is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/path-to-regexp/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a node module, `path-to-regexp`. This does not implement any of the task management API functionality described in the prompt. Therefore, the code is entirely irrelevant to the prompt's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/proxy-addr/index.js
+suggestions for improvement:
+- The code provided is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage. It appears to be a module for determining the address of a proxied request.
+- Since the code doesn't address the problem, there are no specific improvements to suggest within the context of the given task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/proxy-addr/package.json
+suggestions for improvement:
+- The provided code is a package.json file which describes a node module named 'proxy-addr'.
+- This does not implement the task management API described in the chapter content, which requires creating an Express.js application with routes for managing tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/.github/FUNDING.yml
+suggestions for improvement:
+- This file appears to be a funding configuration file (e.g., for GitHub Sponsors), which is entirely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The file does not contain any code related to Express.js, routing, task management, or JSON file manipulation as required by the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/dist/qs.js
+suggestions for improvement:
+- The code provided is a minified javascript library called 'qs'. This library is for query string parsing and stringification. It has nothing to do with creating a Task Management API using Express.js and JSON file storage, as requested by the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/lib/formats.js
+suggestions for improvement:
+- The provided code snippet appears to be related to URL encoding, which is not relevant to the task management API described in the prompt.  The prompt requires setting up an Express.js application with routes for task management and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/lib/index.js
+suggestions for improvement:
+- This code appears to be a utility for stringifying and parsing data, possibly related to query strings or URL parameters. However, it completely misses the point of the exercise, which is to create a task management API using Express.js and JSON file storage.  It doesn't implement any of the required routes (GET, POST, PUT, DELETE) for tasks, nor does it interact with a JSON file for data persistence.
+- The submitted code has absolutely nothing to do with the prompt. It is not a task management API. It does not use Express.js. It does not perform CRUD operations on a JSON file.
+- The user needs to create an Express.js server with routes for managing tasks, store tasks in a JSON file, and implement validation and error handling as specified in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/lib/parse.js
+suggestions for improvement:
+- The code provided is for parsing query strings, completely unrelated to creating a Task Management API with Express.js and JSON file storage as described in the prompt.
+- The code should implement the routes (GET, POST, PUT, DELETE) for managing tasks, reading from and writing to a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/lib/stringify.js
+suggestions for improvement:
+- The provided code is completely unrelated to the problem description. It appears to be a library for query string serialization, not an Express.js API for task management.
+- The code lacks any implementation of Express.js routes, JSON file handling, or task-related functionality as requested in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/lib/utils.js
+suggestions for improvement:
+- The provided code appears to be a utility library, potentially for query string parsing or similar tasks. It does not implement the task management API described in the problem statement. It lacks any Express.js code, route handling, JSON file interaction, or task-specific logic.
+- Since the code does not address the problem statement, no improvements can be suggested within the context of the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/package.json
+suggestions for improvement:
+- This submission is a package.json file for the 'qs' library, a query string parser. This is completely unrelated to the chapter content, which asks for an Express.js API for task management using JSON file storage.
+- The submission does not address any of the requirements outlined in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/test/empty-keys-cases.js
+suggestions for improvement:
+- This code appears to be related to query string parsing, not the task management API described in the chapter content. It doesn't implement any of the required API endpoints (GET, POST, PUT, DELETE for tasks) or use JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/test/parse.js
+suggestions for improvement:
+- This code is a test suite for the `qs` library, which is used for parsing and stringifying query strings. It has absolutely nothing to do with the prompt asking for an Express.js API for task management with JSON file storage.
+- The code doesn't implement any of the API endpoints (GET, POST, PUT, DELETE) for managing tasks.
+- The code doesn't handle reading from or writing to a JSON file.
+- The code doesn't use Express.js or `express.Router`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/test/stringify.js
+suggestions for improvement:
+- The provided code is a test suite for a query string parsing library, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage. Therefore, it does not address the problem described in the chapter content at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/qs/test/utils.js
+suggestions for improvement:
+- The code appears to be a collection of utility functions, possibly for string manipulation or data type checking. It includes functions like `merge`, `assign`, `combine`, `decode`, `encode`, `isBuffer`, and `isRegExp`, along with corresponding tests.
+- The code does not implement the requested task management API. It doesn't use Express.js to create routes, handle requests, or interact with a JSON file for data storage. Therefore, it completely misses the core requirements of the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/range-parser/index.js
+suggestions for improvement:
+- The code provided does not implement the Task Management API described in the chapter content. It implements range parsing functionality, completely unrelated to the task.
+- Since the code doesn't address the requirements, there's no relevant feedback on Express.js, JSON file handling, or API endpoint implementation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/range-parser/package.json
+suggestions for improvement:
+- The provided code is a package.json file for the 'range-parser' library, which is unrelated to the task of creating a Task Management API with Express.js and JSON file storage. The task requires building an API with specific routes (GET, POST, PUT, DELETE) for managing tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/index.d.ts
+suggestions for improvement:
+- This code appears to be type definitions for a library called 'getRawBody'.
+- The code does not address the problem of creating a Task Management API with Express.js and JSON file storage, as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content, which focuses on creating a task management API using Express.js and JSON file storage.
+- This code appears to be a module for reading the raw body of a stream, likely an HTTP request body, and has nothing to do with managing tasks or using JSON files.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/dbcs-codec.js
+suggestions for improvement:
+- This code appears to be a codec implementation (likely for character encoding), completely unrelated to the task management API described in the prompt.
+- The code is complex and difficult to understand without prior knowledge of character encoding techniques.
+- There are potential buffer overflow vulnerabilities if the allocated buffer sizes are not sufficient for the encoded output.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/dbcs-data.js
+suggestions for improvement:
+- The provided code appears to be character encoding support code, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage. The code doesn't address any of the instructions provided in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/index.js
+suggestions for improvement:
+- This code appears to be related to encoding/decoding and module merging, which is completely unrelated to the task management API described in the chapter content. The code does not implement any of the required API routes (GET, POST, PUT, DELETE) for managing tasks using Express.js and JSON file storage.
+- The code doesn't use Express.js, doesn't create routes, doesn't interact with a JSON file for task storage, and doesn't include any error handling or validation related to task data.
+- The provided code has nothing to do with creating a task management API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/internal.js
+suggestions for improvement:
+- The code provided is completely unrelated to the chapter's instructions. It deals with character encoding, not creating a task management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-codec.js
+suggestions for improvement:
+- The provided code appears to be related to character encoding, specifically single-byte character sets (SBCS).
+- The task is to create a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-data-generated.js
+suggestions for improvement:
+- The provided code appears to be character encoding data, which is completely unrelated to the task management API described in the chapter content.
+- The code does not implement any of the required routes (GET, POST, PUT, DELETE).
+- The code does not handle JSON file storage or error handling related to file operations.
+- The code does not include any Express.js setup or route definitions.
+- The code does not validate user input.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-data.js
+suggestions for improvement:
+- The provided code appears to be character encoding data, not an Express.js API for task management.
+- The code does not implement any of the required routes (GET, POST, PUT, DELETE) for task management.
+- The code does not interact with a JSON file for storing task data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/big5-added.json
+suggestions for improvement:
+- The provided data appears to be random Unicode characters and symbols with no relation to the chapter content or the task of creating a Task Management API using Express.js and JSON file storage.
+- There is no code related to setting up an Express.js application, implementing routes for task management (GET, POST, PUT, DELETE), handling JSON file operations, or implementing validation and error handling as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp936.json
+suggestions for improvement:
+- The code appears to be a character encoding table and is completely unrelated to the task management API described in the Chapter Content/Questions.
+- The submission should implement the requested API endpoints using Express.js and persist data to a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp949.json
+suggestions for improvement:
+- The provided data appears to be machine code or an encoding format, not human-readable code for an Express.js API. It completely fails to address the chapter's instructions for creating a task management API.
+- No aspect of the chapter's requirements is addressed in the provided data. It's unrelated and unusable for the described task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp950.json
+suggestions for improvement:
+- The provided data appears to be character encoding tables, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- There is no code related to Express.js, routing, or JSON file manipulation as required by the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/eucjp.json
+suggestions for improvement:
+- The code provided is a character map, completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/gbk-added.json
+suggestions for improvement:
+- The submitted code appears to be a data file or some kind of encoded data, and not an Express.js API implementation as requested by the prompt.
+- The code does not address any of the requirements outlined in the prompt, such as setting up an Express.js application, implementing routes, using a JSON file, implementing validation, or handling errors.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/shiftjis.json
+suggestions for improvement:
+- The code provided is not related to the task requirements.
+- The submission must contain code that implements the specified API endpoints to manage tasks.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/utf16.js
+suggestions for improvement:
+- The code appears to be related to UTF-16 encoding/decoding, which is completely unrelated to the task management API described in the chapter content.
+- The provided code does not address any of the requirements specified in the chapter, such as creating Express.js routes for task management, using a JSON file for storage, implementing validation, or handling errors related to file operations.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/utf32.js
+suggestions for improvement:
+- The provided code appears to be related to UTF-32 encoding/decoding, which is completely unrelated to the task management API requested in the chapter content.
+- The code should implement an Express.js API with endpoints for creating, reading, updating, and deleting tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/encodings/utf7.js
+suggestions for improvement:
+- The code provided is for UTF-7 encoding and decoding, which is completely unrelated to the task management API described in the chapter content.
+- This code doesn't address any of the requirements: setting up an Express.js application, implementing routes for task management, using a JSON file for storage, validation, or error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/lib/bom-handling.js
+suggestions for improvement:
+- This code appears to be related to handling Byte Order Marks (BOM) in text encoding, which is completely unrelated to the task management API described in the prompt. The prompt asks for creating an Express.js API for managing tasks stored in a JSON file, including routes for GET, POST, PUT, and DELETE operations.
+- The code provided does not address any of the requirements outlined in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/lib/helpers/merge-exports.js
+suggestions for improvement:
+- This code snippet appears to be a utility function for merging modules or objects, which is completely unrelated to the task management API described in the chapter content. The chapter asks for an Express.js API with CRUD operations on tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/lib/index.d.ts
+suggestions for improvement:
+- The code provided is a type definition file for the 'iconv-lite' library, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage. The task requires building a REST API with specific routes (GET, POST, PUT, DELETE) for managing tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/lib/index.js
+suggestions for improvement:
+- The provided code relates to character encoding and is not relevant to the task management API described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/lib/streams.js
+suggestions for improvement:
+- The provided code appears to be related to stream encoding/decoding, specifically using the `iconv-lite` library. This code is completely unrelated to the task management API described in the Chapter Content/Questions.
+- The code implements encoder and decoder streams, which are not part of the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/node_modules/iconv-lite/package.json
+suggestions for improvement:
+- The provided code is a package.json file for the iconv-lite library. It does not implement any of the task management API functionalities described in the chapter content.
+- The code should implement the Express.js API with routes for creating, reading, updating, and deleting tasks, along with JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/raw-body/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, not an Express.js application implementing the task management API described in the problem description. Therefore, it does not address the problem at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/router/index.js
+suggestions for improvement:
+- This code appears to be an internal implementation of an Express.js Router, not the implementation of a task management API as requested in the prompt. Therefore, it does not address the problem.
+- The code contains many variables and deeply nested functions, which can make it difficult to follow.
+- The use of `setImmediate` and Promises introduces asynchronous operations which could have performance implications if not properly managed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/router/lib/layer.js
+suggestions for improvement:
+- This code appears to be an internal module related to routing, possibly a part of Express.js itself. It defines the `Layer` object, which is used to handle individual route layers within the routing middleware.
+- It's entirely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/router/lib/route.js
+suggestions for improvement:
+- This code appears to be an internal module for routing within a framework like Express.js, not a solution to the task management API problem described in the prompt.
+- The code doesn't address the core requirements of the prompt, such as setting up an Express.js app, implementing routes for task management (GET, POST, PUT, DELETE), using a JSON file for storage, validation, or error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/router/package.json
+suggestions for improvement:
+- This JSON appears to be the `package.json` for the `router` package, and not the task management API described in the instructions.
+- The submission needs to include the actual Express.js code and JSON file implementation to address the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/safe-buffer/index.d.ts
+suggestions for improvement:
+- The code provided is a TypeScript declaration file for the 'safe-buffer' module, which defines the type definitions for the Buffer class. This file does not implement the task management API with Express.js and JSON file storage as described in the prompt.
+- The code is entirely unrelated to the chapter content which requests the creation of an API using Express.js.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/safe-buffer/index.js
+suggestions for improvement:
+- The provided code is a polyfill for `safe-buffer`, which is not related to the task management API requested in the chapter content.
+- The code does not implement any of the required routes (GET, POST, PUT, DELETE) for managing tasks.
+- It does not interact with a JSON file for storing task data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/safe-buffer/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js package. It does not implement any of the task management API functionality requested in the prompt. It should include code for creating an Express.js server, defining routes, reading and writing to a JSON file, and handling errors.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/safer-buffer/dangerous.js
+suggestions for improvement:
+- This code appears to be related to buffer manipulation and safety, but it is entirely unrelated to the task of creating a Task Management API with Express.js and JSON file storage as described in the chapter content.
+- The code doesn't implement any of the required API endpoints (GET, POST, PUT, DELETE for /tasks).
+- The code doesn't use Express.js, JSON file storage, or any task-related logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/safer-buffer/package.json
+suggestions for improvement:
+- This submission is a `package.json` file for the `safer-buffer` package, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/safer-buffer/safer.js
+suggestions for improvement:
+- This code appears to be related to safer Buffer handling in Node.js, which is unrelated to the task management API described in the prompt.
+- The code doesn't implement any of the API routes (GET, POST, PUT, DELETE) for task management.
+- There's no interaction with a JSON file for storing and retrieving task data.
+- The code doesn't include any Express.js setup or route definitions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/safer-buffer/tests.js
+suggestions for improvement:
+- This code relates to buffer manipulation, and does not address the problem of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/send/index.js
+suggestions for improvement:
+- The provided code appears to be the 'send' module, which is for serving static files. It is not relevant to the task of creating a Task Management API with Express.js and JSON file storage. Therefore, it completely fails to address the chapter content.
+- The code does not implement any of the required API endpoints (GET /tasks, GET /tasks/:id, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id).
+- The code does not handle JSON file storage or task data management.
+- The code does not include any validation or error handling specific to the task management API requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/send/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for the `send` library. This library handles static file serving, and is not related to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/serve-static/index.js
+suggestions for improvement:
+- This code provides the functionality of serve-static, which is a middleware for serving static files in Express.js. It doesn't implement the task management API with CRUD operations on a JSON file as requested by the prompt.
+- To address the prompt, the code needs to implement routes for creating, reading, updating, and deleting tasks stored in a JSON file.
+- The current code focuses on serving static files and includes features like redirecting, setting headers, and handling errors related to file serving. This is not aligned with the requirement of creating a task management API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/serve-static/package.json
+suggestions for improvement:
+- The provided JSON is a package.json file, likely for the `serve-static` middleware. It does not implement the task management API with Express.js and JSON file storage as described in the prompt.
+- The code does not include any Express.js routes, file I/O operations, or task management logic. It's simply a dependency manifest.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/setprototypeof/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/setprototypeof/index.js
+suggestions for improvement:
+- The provided code appears to be a polyfill for setting the prototype of an object. This functionality is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/setprototypeof/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module named 'setprototypeof'. This module is unrelated to the task management API described in the chapter content.
+- The task requires building an Express.js API with routes for managing tasks stored in a JSON file, including GET, POST, PUT, and DELETE operations. The provided package.json file does not implement any of these functionalities.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/setprototypeof/test/index.js
+suggestions for improvement:
+- This code appears to be a polyfill for `Object.setPrototypeOf` or a similar utility for prototype manipulation, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.  It has nothing to do with creating an API, setting up routes, reading/writing JSON files, or handling HTTP requests.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-list/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is unrelated to the task management API described in the chapter content. It appears to be a funding model configuration file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-list/index.d.ts
+suggestions for improvement:
+- The code provided does not implement the task management API as described in the instructions.
+- The code seems to define TypeScript types/namespaces related to side channels, which is irrelevant to the API creation task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-list/index.js
+suggestions for improvement:
+- The provided code does not address the task of creating a Task Management API with Express.js and JSON file storage. It appears to be an unrelated library for managing side channels.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-list/list.d.ts
+suggestions for improvement:
+- The code appears to be related to linked list operations, which is not relevant to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-list/package.json
+suggestions for improvement:
+- The provided code is a package.json file for a library named 'side-channel-list', which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code does not address any of the requirements outlined in the chapter content, such as setting up an Express.js application, implementing specific routes, or handling data storage in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-list/test/index.js
+suggestions for improvement:
+- The submitted code is a test suite for a side channel list utility. This is completely unrelated to the task management API described in the chapter content, which involves creating an Express.js API with routes for managing tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-list/tsconfig.json
+suggestions for improvement:
+- The provided code is a TypeScript configuration file (tsconfig.json), which is unrelated to the task management API described in the chapter content. The chapter requires creating an Express.js API with specific routes and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-map/.github/FUNDING.yml
+suggestions for improvement:
+- This submission is a funding model file, which is completely unrelated to the task of creating a task management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-map/index.d.ts
+suggestions for improvement:
+- The code provided is TypeScript declaration files and does not implement the requested task management API with Express.js and JSON file storage.
+- The code defines types and a function related to side channels, which is entirely unrelated to the problem description.
+- The code does not include any Express.js routes or file system operations for creating, reading, updating, or deleting tasks from a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-map/index.js
+suggestions for improvement:
+- This code appears to be a utility for creating side channels using Maps, and is unrelated to the task management API requested in the chapter content.
+- The code does not implement any of the required routes (GET, POST, PUT, DELETE) for the `/tasks` endpoint, nor does it interact with a JSON file for storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-map/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package, but it does not implement the task management API as described in the instructions.
+- The `package.json` file specifies metadata about the package, its dependencies, scripts, and other configuration details. It is not executable code that fulfills the API requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-map/test/index.js
+suggestions for improvement:
+- The code is a test suite for a `getSideChannelMap` function, which is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-map/tsconfig.json
+suggestions for improvement:
+- The submitted code is a TypeScript configuration file (tsconfig.json), not an Express.js API implementation as requested by the problem description.  It defines compiler options and excluded directories but does not implement any of the required API routes (GET /tasks, GET /tasks/:id, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id) or file storage logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-weakmap/.github/FUNDING.yml
+suggestions for improvement:
+- This file contains funding model platform information, and is unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-weakmap/index.d.ts
+suggestions for improvement:
+- The provided code appears to be TypeScript declaration files related to a WeakMap implementation (possibly for managing side channels in JavaScript). This code is completely unrelated to the chapter's instructions to create a task management API using Express.js and JSON file storage.
+- The code doesn't address any of the requirements outlined in the chapter content, such as setting up an Express.js application, implementing routes for task management, using a JSON file for data storage, or implementing validation and error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-weakmap/index.js
+suggestions for improvement:
+- The provided code appears to be a utility for managing side channels using WeakMaps or a fallback mechanism. It does not implement any of the task management API functionalities as described in the prompt (creating routes, reading/writing to a JSON file, validation, error handling, etc.).
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-weakmap/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for a library called `side-channel-weakmap`, which is entirely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The code should implement the API endpoints (GET, POST, PUT, DELETE) for managing tasks, as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-weakmap/test/index.js
+suggestions for improvement:
+- The code appears to be a test suite for a library called 'getSideChannelWeakMap'. This library seems to deal with managing side channels using WeakMaps or Maps. This has absolutely nothing to do with creating a Task Management API with Express.js and JSON file storage.
+- The submission completely misses the point of the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel-weakmap/tsconfig.json
+suggestions for improvement:
+- The provided code appears to be a TypeScript configuration file. It does not implement the task management API described in the Chapter Content/Questions.
+- The configuration file specifies compiler options and excluded directories, but it does not define any API endpoints, data storage mechanisms, or validation logic.
+- To address the chapter content, the submission should include code for an Express.js application with routes for creating, retrieving, updating, and deleting tasks, along with JSON file storage and error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel/.github/FUNDING.yml
+suggestions for improvement:
+- This file appears to contain funding model information, which is entirely unrelated to the task management API requested in the prompt. The prompt asks for an Express.js API with routes for managing tasks stored in a JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel/index.d.ts
+suggestions for improvement:
+- The code provided is completely unrelated to the chapter's instructions on creating a Task Management API with Express.js and JSON file storage. It appears to be related to side-channel data management, which is not mentioned or required in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel/index.js
+suggestions for improvement:
+- The provided code appears to be a utility for managing side channels, which is unrelated to the task management API described in the instructions.
+- The code does not implement any of the required API endpoints (GET /tasks, POST /tasks, etc.) or file storage operations.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package. It doesn't implement the task management API described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel/test/index.js
+suggestions for improvement:
+- This code appears to be a test suite for a 'getSideChannel' library, completely unrelated to the task management API requested in the chapter content.
+- Since the code does not address the problem outlined in the prompt, it's not possible to assess its correctness in that context.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/side-channel/tsconfig.json
+suggestions for improvement:
+- The provided file appears to be a TypeScript configuration file, which is not the code requested in the instructions. The instructions asked for an Express.js API that manages tasks. This file does not implement any part of that API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/statuses/codes.json
+suggestions for improvement:
+- The code provides a JSON object containing HTTP status codes and their corresponding messages, but this is unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+- The response provides HTTP status codes, this information is not relevant to the prompt.
+- The code does not address the instructions of setting up an Express.js application, implementing routes, creating a JSON file, validating data, implementing error handling, or testing the API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/statuses/index.js
+suggestions for improvement:
+- This code appears to be a module for handling HTTP status codes, which is completely unrelated to the task of creating a task management API with Express.js and JSON file storage. Therefore, it doesn't address the problem at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/statuses/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for a library named `statuses`, which provides HTTP status code utilities. This is completely unrelated to the task management API described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/toidentifier/index.js
+suggestions for improvement:
+- This code does not implement the task management API as described in the instructions. It provides a function to transform a string into a JavaScript identifier, which is unrelated to the API requirements.
+- The function could be written more concisely using ES6 syntax (arrow functions).
+- While the code itself doesn't introduce security vulnerabilities, it's important to note that this is not related to creating an Express API with file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/toidentifier/package.json
+suggestions for improvement:
+- This code snippet is a `package.json` file, which describes a Node.js package named `toidentifier`. It does not implement any of the task management API functionalities described in the chapter content.  It's completely unrelated to creating an Express.js API for task management with JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/type-is/index.js
+suggestions for improvement:
+- This code appears to be a utility for determining content types of HTTP requests and doesn't address the instructions of creating a task management API using Express.js with JSON file storage.
+- The code is well-structured and uses common JavaScript practices, making it relatively easy to read.
+- The code would need to be re-written to implement the task management API described in the instructions. This would include using Express.js to handle routing, file system operations to read/write tasks to a JSON file, and proper validation and error handling.
+- Consider using `fs.promises` for cleaner asynchronous file handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/type-is/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for the `type-is` library, which is a content-type checking library. This has absolutely nothing to do with the task of creating a Task Management API with Express.js and JSON file storage.
+- The submission needs to contain the actual Express.js code that implements the API endpoints (GET, POST, PUT, DELETE) for task management, as well as the code for reading from and writing to the JSON file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/unpipe/index.js
+suggestions for improvement:
+- The submitted code is completely unrelated to the chapter's instructions on creating a task management API with Express.js and JSON file storage.
+- The code appears to be a utility for removing pipe connections from Node.js streams, which is not relevant to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/unpipe/package.json
+suggestions for improvement:
+- This submission provides a package.json file which describes a node module named 'unpipe', unrelated to the creation of a Task Management API using Express.js and JSON file storage, as requested in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/vary/index.js
+suggestions for improvement:
+- This code does not implement the API requested in the prompt.
+- The code appears to be related to HTTP header manipulation, specifically the 'Vary' header, which is unrelated to task management or JSON file storage as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/vary/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module named `vary`. This file provides metadata about the module but does not implement any of the task management API functionality requested in the Chapter Content/Questions. Therefore, it is unrelated to the problem.
+- The submission should include the actual JavaScript code that defines the Express.js routes, handles JSON file storage, and implements the task management logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/wrappy/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module named `wrappy`. This is completely unrelated to the task of creating a Task Management API with Express.js and JSON file storage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/node_modules/wrappy/wrappy.js
+suggestions for improvement:
+- The provided code appears to be a utility for wrapping functions, which is entirely unrelated to the task of creating a Task Management API with Express.js and JSON file storage as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is not an implementation of the task management API as requested by the instructions. It only describes the dependencies of a Node.js project.
+- The submission needs to contain the actual Express.js code that defines the routes, reads/writes to the JSON file, handles validation, and implements error handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/package.json
+suggestions for improvement:
+- The provided code is a package.json file which only sets up the project and installs the express dependency, but it doesn't implement any of the required task management API functionalities (GET, POST, PUT, DELETE tasks, storing data in JSON file, validation, or error handling) as described in the prompt.
+- The package.json file is well-formed and serves its purpose for dependency management but is completely irrelevant to the core task described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/routes/task-routes.js
+suggestions for improvement:
+- Consider using a more robust ID generation strategy, especially for larger datasets or concurrent access (e.g., UUIDs).
+- For increased performance, especially with frequent read/write operations, consider using a more efficient data storage mechanism like a database.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week14/mini-project/task-manager/server.js
+suggestions for improvement:
+- Need to implement the task-routes.js file to fulfill the requirements for GET, POST, PUT, and DELETE operations on /tasks endpoint as specified in the instructions.
+- Implement validation for request bodies to ensure necessary data is provided when creating or updating tasks, as instructed.
+- Add error handling for file read/write operations in the task-routes.js file as specified in instructions.
+- Create the tasks.json file and initialize it with an empty array.
+Correctness: 50%
+-----
