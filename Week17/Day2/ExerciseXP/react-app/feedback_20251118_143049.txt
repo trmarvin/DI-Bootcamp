@@ -1,0 +1,90 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/eslint.config.js
+suggestions for improvement:
+- This code appears to be ESLint configuration and is unrelated to the React exercises described in the prompt. It does not address React Router, Error Boundaries, or JSON data display.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/index.html
+suggestions for improvement:
+- The submission contains only the basic HTML structure for a React application. It does not address any of the specific exercises outlined in the chapter content (React Router, Error Boundary, JSON data display/posting).
+- There is no React code provided, so it is impossible to evaluate correctness, readability, performance or security in the context of the chapter's objectives.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/package-lock.json
+suggestions for improvement:
+- This submission is a package-lock.json file, which specifies the versions of dependencies used in a project. It doesn't contain any React code implementing the exercises.
+- Because the submission does not contain any code related to the exercise, it is impossible to evaluate correctness, readability, performance or security. The submission does not address any part of the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/package.json
+suggestions for improvement:
+- This package.json file defines the dependencies and scripts for a React application but does not address any of the specific exercises outlined in the chapter content. The exercises cover React Router, Error Boundaries, JSON data display, and POST requests. Therefore, this file alone does not fulfill any of the exercise requirements.
+- The absence of actual component code (ErrorBoundary, HomeScreen, ProfileScreen, ShopScreen, PostList, etc.) and the lack of fetch implementations means that none of the tasks are addressed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/src/App.css
+suggestions for improvement:
+- This code is css and doesn't address any of the requirements outlined in the exercises. The exercises cover React Router, Error Boundaries, JSON data display and posting data to a webhook.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/src/App.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/src/ErrorBoundary.jsx
+suggestions for improvement:
+- Consider adding more specific error messages or logging errorInfo for better debugging.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/src/Example1.jsx
+suggestions for improvement:
+- Consider adding PropTypes for better type checking and documentation.
+- The component could be made more reusable by accepting the data as props instead of directly importing it.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/src/Example2.jsx
+suggestions for improvement:
+- Ensure that `data` (resume.json) is correctly formatted and contains the 'Skills' object as described in Exercise 3.
+- Consider using more descriptive variable names (e.g., `language` instead of `lang`) within the map functions to enhance readability.
+- While `key={index}` works, it's generally better to use a unique identifier from the data if available, as indexes can change and lead to unexpected behavior.
+Correctness: 50%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/src/Example3.jsx
+suggestions for improvement:
+- Consider using more descriptive variable names if the context becomes more complex.
+- While the code is functionally correct, ensure the `resume.json` file is properly placed and accessible.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/src/PostList.jsx
+suggestions for improvement:
+- Consider adding PropTypes for better type checking and documentation.
+- While the code is functional, adding a more descriptive class name than 'container mt-4' might improve maintainability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/src/index.css
+suggestions for improvement:
+- The code provided is only CSS styling and does not address any of the exercises provided.
+- The code needs to implement React components, routing, error boundaries, and JSON data handling as described in the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/src/main.jsx
+suggestions for improvement:
+- The provided code only includes the index.js file, which is responsible for rendering the App component. To evaluate the code based on the chapter content, I need the App.jsx file, the ErrorBoundary component, the PostList component, and any other components or files created to address the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/src/posts.json
+suggestions for improvement:
+- The provided data is a JSON file content, not React code. It's not possible to assess readability, performance or security in this context.
+- This data, while in JSON format as requested in some exercises, does not, by itself, fulfill the requirements for creating React components or implementing React Router and Error Boundaries.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/src/resume.json
+suggestions for improvement:
+- This submission provides a JSON data file but does not include any React code to use or display this data. Therefore, it does not address any of the exercises provided.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/ExerciseXP/react-app/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file, which is unrelated to the React exercises described in the chapter content. It doesn't address any of the tasks involving React Router, Error Boundaries, JSON data display, or POST requests.
+Correctness: 0%
+-----

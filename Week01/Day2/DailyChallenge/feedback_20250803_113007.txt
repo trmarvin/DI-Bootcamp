@@ -1,0 +1,13 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week01/Day2/DailyChallenge/01_02_DC.py
+suggestions for improvement:
+- The bonus section (jumbling the string) is missing.
+- The `char_count = int(string)` line is unnecessary and commented out; it should be removed.
+- The `if len(string) == 10:` check before printing the first and last characters is redundant; it's already ensured by the preceding `else` block.
+- The `build_string` function prints the progressively built string and then returns `None`, which is then printed.  It should either return the built string or directly print within the loop and not return anything. 
+- Add more descriptive variable names (e.g., instead of `string`, use `user_input`).
+Brief justification:
+- correctness: The code correctly implements steps 1-4 of the instructions. It accurately checks the length of the input string, prints the first and last characters, and builds the string character by character using a for loop.  The omission of the bonus task reduces the score slightly.
+- readability: The code is mostly readable but could be improved by removing redundant checks and using more descriptive variable names.  The unnecessary `print(build_string(string))` makes the code slightly harder to read.
+- performance: The code's performance is efficient for this task.  The loop iterates only through the length of the string, which is a linear time complexity.
+- security: The code doesn't have any security vulnerabilities; it simply takes user input and performs string manipulations.
+

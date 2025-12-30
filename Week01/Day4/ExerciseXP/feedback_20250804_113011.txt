@@ -1,0 +1,12 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week01/Day4/ExerciseXP/01_04_XP.py
+suggestions for improvement:
+- In Exercise 2, while the code successfully concatenates tuples, it's important to note that tuples are immutable.  The exercise's intent was likely to highlight this immutability, which the code doesn't explicitly address.
+- Exercise 4 could be improved by directly generating the sequence of floats and integers within a list using a loop, rather than using a `while` loop and conditional checks. This would be a more concise and Pythonic approach.
+- In Exercise 9, the bonus section about a restricted movie is not implemented.
+- The code for Exercise 10 uses slightly different wording for the sandwich names ('Tuna sandwich' vs 'Tuna' in original instructions). While this is minor, it could be adjusted for complete consistency.
+Brief justification:
+- correctness: The code correctly addresses most of the exercises. Exercise 1 uses sets appropriately. Exercise 3 effectively manipulates lists. Exercises 5, 6, 7, 8, and 10 demonstrate good use of loops and conditional statements.  Exercise 4 mostly produces the correct sequence, but could be written more efficiently.  The tuple exercise misses the point about immutability. The Cinemax bonus exercise is missing entirely.
+- readability: The code is well-structured, uses meaningful variable names, and is easy to follow.  Comments would enhance readability, particularly in Exercises 4 and 10.
+- performance: The code is efficient for most exercises.  Exercise 4 could be more efficient by generating the sequence using a range and list comprehension or a loop without conditional checks.  The performance is not a major issue overall, though.
+- security: There are no security vulnerabilities in the provided code. The code only deals with user inputs that do not lead to vulnerabilities.
+

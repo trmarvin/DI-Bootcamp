@@ -1,0 +1,35 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day6/ExerciseXP/exercise1.ts
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day6/ExerciseXP/exercise2.ts
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day6/ExerciseXP/exercise3.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day6/ExerciseXP/exercise4.ts
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day6/ExerciseXP/exercise5.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day6/ExerciseXP/exercise6.ts
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day6/ExerciseXP/exercise7.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
