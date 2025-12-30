@@ -1,0 +1,78 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file, completely unrelated to the prompt's request to create a React Todo List application with TypeScript generics for managing a Book List. It does not address any of the specified requirements.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/index.html
+suggestions for improvement:
+- The provided HTML file does not implement any of the required functionality described in the chapter content, such as defining the Book type, creating a generic List component, managing state with useState, or adding new books.
+- The file only provides the basic structure for a React application, but it lacks the TypeScript and React code necessary to fulfill the challenge requirements.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which lists the dependencies of a Node.js project. While this file is important for managing dependencies, it does not implement the book list application described in the challenge.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/package.json
+suggestions for improvement:
+- The submission only includes the package.json file. It's missing the React and TypeScript code required to build the Book List application as described in the chapter content. The core components like the `Book` type definition, the generic `List` component, the `BookApp` component, and the `addBook` function are all absent.
+- Due to the absence of the actual application code, it's impossible to assess how well it implements the requirements regarding TypeScript generics, state management with `useState`, and rendering customization.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/src/App.css
+suggestions for improvement:
+- The provided code is CSS, not TypeScript/React, and it does not address the problem described in the chapter content (building a Book List application with a generic `List` component, TypeScript generics, and React's `useState` hook).
+- The code defines CSS styles for a React application, which is irrelevant to the specific task outlined in the problem description.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/src/App.tsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/src/components/List.tsx
+suggestions for improvement:
+- The code only provides the generic `List` component. It's missing the `Book` type definition, the `BookApp` component with the `useState` hook for managing the book list, the `addBook` function, and the rendering of the app. Complete implementation is needed to address the challenge fully.
+- Consider providing a default implementation for `emptyMessage` within the component to enhance usability.
+- Add prop types validation (e.g., using `prop-types` library or TypeScript's type checking) for better error handling and developer experience.
+Correctness: 50%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/src/index.css
+suggestions for improvement:
+- The provided code snippet is CSS, but the problem asks for a React component written in TypeScript. Therefore, the code is completely unrelated to the problem.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/src/main.tsx
+suggestions for improvement:
+- The provided code only renders the App component. It doesn't implement any of the functionality described in the chapter, such as defining the Book type, creating the generic List component, managing state with useState, or adding new books.
+- The code is missing all the core elements required to build the Book List application as described in the prompt.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/src/types/Book.ts
+suggestions for improvement:
+- The provided code only defines a type. It does not implement any of the required functionality such as creating a generic `List` component, managing state with `useState`, or adding new books to the list.
+- The task requires creating React components and using the useState hook, which are completely absent from the code.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/tsconfig.app.json
+suggestions for improvement:
+- The provided code is a TypeScript configuration file (tsconfig.json) and does not implement the React component, generic list, or state management described in the problem description. It defines compiler options and settings for a TypeScript project but doesn't address the core requirements of building a book list application with a generic List component, adding new books, or managing the state of the list.
+- The submission should include the React component code using TypeScript, the generic list component, and the implementation of adding and displaying book items.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/tsconfig.json
+suggestions for improvement:
+- The submission is a configuration file (`tsconfig.json`) and not the React/TypeScript code requested by the problem description.  Therefore, it does not implement the functionality described in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/tsconfig.node.json
+suggestions for improvement:
+- The submitted code is a TypeScript configuration file, which is not relevant to the problem described in the chapter content. The chapter content asks for a React component that renders a list of books.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/DailyChallenge/todo/vite.config.ts
+suggestions for improvement:
+- The submitted code is a Vite configuration file, not the React and TypeScript code requested by the problem description. It needs to include the React components, TypeScript types, and state management logic described in the prompt.
+Correctness: 0%
+-----
