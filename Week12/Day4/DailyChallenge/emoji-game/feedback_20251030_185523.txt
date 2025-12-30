@@ -1,0 +1,2200 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/app.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/.package-lock.json
+suggestions for improvement:
+- This submission is a package-lock.json file, which describes the versions of dependencies used in a Node.js project. While package-lock.json is essential for managing dependencies and ensuring consistent builds, it doesn't contain any code related to the problem description or requirements. The task involves creating an Express API for an emoji guessing game, including handling game logic, user input, and score tracking. This file doesn't address any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/accepts/index.js
+suggestions for improvement:
+- The code provided is the 'accepts' module, which is for content negotiation. It is entirely unrelated to the emoji guessing game described in the prompt.
+- The code does not address any of the requirements outlined in the chapter content, such as setting up an Express server, managing emoji data, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/accepts/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module. It does not implement the emoji guessing game as described in the problem description.
+- The code does not set up an Express server, create an emoji array, or handle user input as required.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/body-parser/index.js
+suggestions for improvement:
+- The provided code is the body-parser middleware, which is a utility for parsing request bodies, but it doesn't directly implement the emoji guessing game described in the problem. The code is completely unrelated to the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/body-parser/lib/read.js
+suggestions for improvement:
+- The submitted code is a utility for reading and parsing request bodies, seemingly extracted from a library like `body-parser`. It does not implement any aspect of the emoji guessing game described in the problem statement. Therefore, it's entirely unrelated to the chapter content.
+- The code processes HTTP request streams, handles content encoding (gzip, deflate, brotli), and attempts to parse the body based on the request's content type. This functionality is useful in web development but not directly applicable to the stated task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/body-parser/lib/types/json.js
+suggestions for improvement:
+- The provided code is the `body-parser` middleware, specifically the JSON parser. This is a utility for parsing JSON request bodies, which is a tool that *could* be used within the emoji guessing game, but it doesn't implement any of the game logic itself.
+- The code doesn't address the core requirements of building the emoji guessing game as described in the problem statement. It doesn't create the Express server, the emoji array, the game logic, or the UI components.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/body-parser/lib/types/raw.js
+suggestions for improvement:
+- The provided code is a middleware for parsing raw request bodies, which is completely unrelated to the emoji guessing game described in the chapter content.
+- The code does not address any of the requirements of the emoji game, such as setting up an Express server, managing emoji data, handling user input, or keeping track of scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/body-parser/lib/types/text.js
+suggestions for improvement:
+- The provided code is a middleware for parsing text bodies, which is completely unrelated to the emoji guessing game described in the problem. It should implement the game logic, API endpoints, and handle user interactions as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/body-parser/lib/types/urlencoded.js
+suggestions for improvement:
+- The code provided is the `urlencoded` middleware from the `body-parser` library, which is used for parsing URL-encoded request bodies. It does not implement the emoji guessing game as described in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/body-parser/lib/utils.js
+suggestions for improvement:
+- The provided code is not related to the emoji guessing game described in the prompt. It seems to be related to content-type parsing and options normalization, which is irrelevant to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/body-parser/package.json
+suggestions for improvement:
+- This is a `package.json` file. It needs to contain the code that fulfills the requirements of the Emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/bytes/index.js
+suggestions for improvement:
+- The submitted code is a utility for formatting and parsing byte sizes, which is completely unrelated to the emoji guessing game described in the chapter content. This code does not address any of the requirements outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/bytes/package.json
+suggestions for improvement:
+- The provided JSON appears to be a package.json file for a 'bytes' utility. This file is entirely unrelated to the emoji guessing game described in the chapter content. The chapter content asks for an Express API for a specific game, which this JSON file does not address at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/.github/FUNDING.yml
+suggestions for improvement:
+- This file appears to be a funding configuration file (e.g., for a project's funding.yml), and is completely unrelated to the emoji guessing game described in the chapter content.
+- The file does not contain any Express API code, emoji data, game logic, or form handling, as required by the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/actualApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/actualApply.js
+suggestions for improvement:
+- The provided code appears to be a utility function for applying functions, which is completely unrelated to the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/applyBind.d.ts
+suggestions for improvement:
+- The provided code is completely unrelated to the emoji guessing game described in the chapter content. It appears to be a utility function involving tuple manipulation and function application, and it doesn't address any of the requirements for building an Express API for the game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/applyBind.js
+suggestions for improvement:
+- The provided code snippet seems to be related to function binding in JavaScript, which is completely unrelated to the emoji guessing game described in the chapter content. Therefore, it does not address any of the requirements outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/functionApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/functionApply.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/functionCall.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/functionCall.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/index.d.ts
+suggestions for improvement:
+- This code appears to be TypeScript type definitions related to function binding, which is entirely unrelated to the emoji guessing game and Express API described in the prompt. Therefore, it does not address any of the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/index.js
+suggestions for improvement:
+- The provided code snippet appears to be a utility function related to function binding in JavaScript. It does not implement any of the emoji guessing game requirements outlined in the instructions.
+- The code is not relevant to building an Express API for the emoji game, handling emoji objects, generating options, managing user input through forms, updating scores, providing feedback, or maintaining a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module related to function call/bind/apply helpers. This has absolutely nothing to do with the Emoji guessing game with Express, as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/reflectApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/reflectApply.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/test/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the emoji guessing game described in the chapter content. It appears to be a test suite for a `callBind` function, and not an implementation of the game's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bind-apply-helpers/tsconfig.json
+suggestions for improvement:
+- This code is a TypeScript configuration file (tsconfig.json) and not an Express API implementation for the emoji guessing game. It does not address any of the requirements outlined in the chapter content.
+- The provided file configures the TypeScript compiler and sets options like the target ECMAScript version and exclusion of the coverage directory. It doesn't involve setting up an Express server, creating emoji arrays, handling user input, or implementing game logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bound/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is not related to the emoji guessing game described in the chapter content.
+- The code appears to be metadata about funding models, not an implementation of an Express API for a game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bound/index.d.ts
+suggestions for improvement:
+- The provided code appears to be a utility for binding intrinsic JavaScript methods, which is completely unrelated to the emoji guessing game described in the prompt.
+- The code does not address any of the requirements outlined in the instructions, such as setting up an Express server, managing emoji data, or handling player interactions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bound/index.js
+suggestions for improvement:
+- The submitted code appears to be a utility for binding intrinsics in JavaScript, which is completely unrelated to the emoji guessing game described in the chapter content.
+- The code does not address any of the requirements of the emoji guessing game, such as setting up an Express server, handling emoji data, creating a form, managing player scores, or implementing a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bound/package.json
+suggestions for improvement:
+- This submission provides a `package.json` file, which is not relevant to the emoji guessing game described in the prompt.
+- The task requires the creation of an Express API, handling form data, and implementing game logic. The provided file does not address any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bound/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a Node.js module called `callBound`. This code does not implement the emoji guessing game described in the prompt, therefore it is not relevant to the chapter's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/call-bound/tsconfig.json
+suggestions for improvement:
+- This code snippet is a TypeScript configuration file, not the Express API emoji game described in the prompt.
+- The response should implement the emoji guessing game using Express, Node.js, and potentially HTML forms as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/content-disposition/index.js
+suggestions for improvement:
+- The provided code is a module for handling Content-Disposition headers, completely unrelated to the emoji guessing game described in the problem statement. It does not address any of the requirements, such as setting up an Express server, managing emojis, creating a game interface, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/content-disposition/package.json
+suggestions for improvement:
+- This package.json file does not implement the emoji guessing game as described in the problem description.
+- The provided file describes a node module named 'content-disposition', which is unrelated to creating an Express API for an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/content-type/index.js
+suggestions for improvement:
+- The submitted code is a content-type parsing library, which is completely unrelated to the emoji guessing game described in the prompt.
+- The code does not address any of the requirements outlined in the 'Chapter Content/Questions'.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/content-type/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module named 'content-type'.
+- This file does not implement any of the game logic or API endpoints required by the emoji guessing game.
+- The task requires building an Express API and implementing game logic, which is completely absent in the provided file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/cookie-signature/index.js
+suggestions for improvement:
+- The provided code is for signing and unsigning cookies, which is not directly related to building an emoji guessing game using an Express API as described in the instructions.
+- The code doesn't address any of the core requirements, such as setting up an Express server, managing emojis, handling player guesses, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/cookie-signature/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module. It doesn't implement any of the game logic or API endpoints required by the problem description. Therefore, it does not address the core requirements of creating an emoji guessing game using Express.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/cookie/index.js
+suggestions for improvement:
+- The provided code is a cookie parsing and serialization library, which is completely unrelated to the emoji guessing game described in the chapter content.  Therefore, it doesn't address any of the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/cookie/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module. This is not directly related to the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/debug/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for the `debug` npm package, which is a debugging utility. This file does not implement any of the emoji guessing game requirements outlined in the chapter content.
+- The code does not set up an Express server, handle game logic, or implement any of the specified features. It's completely unrelated to the given problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/debug/src/browser.js
+suggestions for improvement:
+- The provided code appears to be related to the `debug` module for Node.js and browsers, which is a utility for debugging. It doesn't address the prompt's core requirement of building an emoji guessing game using Express.js. The code focuses on browser-specific implementations and local storage, which are not directly relevant to creating an Express API for the game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/debug/src/common.js
+suggestions for improvement:
+- The provided code appears to be the source code for a debugging utility, possibly the `debug` module. This code is completely unrelated to the emoji guessing game described in the chapter content.
+- The code does not address any of the requirements outlined in the chapter, such as setting up an Express server, creating an emoji array, handling user input, or managing scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/debug/src/index.js
+suggestions for improvement:
+- The provided code is a module loader that distinguishes between browser and Node.js environments. This functionality is entirely unrelated to the emoji guessing game described in the chapter content, which involves creating an Express API and game logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/debug/src/node.js
+suggestions for improvement:
+- The submitted code appears to be the source code for the `debug` npm package. It has absolutely nothing to do with the emoji guessing game described in the prompt.
+- The code does not implement any of the requirements of the emoji game, such as setting up an Express server, managing emojis, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/depd/index.js
+suggestions for improvement:
+- The provided code appears to be the 'depd' module, which is a deprecation utility for Node.js. This code is completely unrelated to the emoji guessing game described in the chapter content.
+- The submission does not address any of the requirements for creating an Express API for an emoji guessing game, such as setting up an Express server, creating emoji data, handling POST requests, or managing game state.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/depd/lib/browser/index.js
+suggestions for improvement:
+- The provided code is a utility library called `depd` for handling deprecation warnings, which is completely unrelated to the emoji guessing game described in the chapter content. The code doesn't address any of the requirements for setting up an Express server, creating emoji objects, handling user input, or managing scores. It serves a different purpose altogether.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/depd/package.json
+suggestions for improvement:
+- This submission appears to be a package.json file for a completely different module ('depd'). It does not implement any of the emoji guessing game functionalities as described in the problem statement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/dunder-proto/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is a funding model configuration file, not an Express API for an emoji guessing game as requested by the problem statement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/dunder-proto/get.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/dunder-proto/get.js
+suggestions for improvement:
+- The provided code snippet seems to be a utility for getting the `__proto__` of an object. This is entirely unrelated to the emoji guessing game described in the chapter content. The chapter requires building an Express API for a game with specific functionalities like generating emojis, handling user input, scoring, and potentially a leaderboard.
+- The code doesn't address any of the instructions provided, such as setting up an Express server, creating an array of emojis, generating the game logic, or handling user input via forms and the Fetch API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/dunder-proto/package.json
+suggestions for improvement:
+- The provided code is a package.json file for a library called `dunder-proto`. It doesn't implement any of the game logic or API endpoints required by the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/dunder-proto/set.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/dunder-proto/set.js
+suggestions for improvement:
+- The code provided appears to be related to manipulating the `__proto__` property of objects, likely for compatibility in older JavaScript environments. This functionality is entirely unrelated to the emoji guessing game described in the problem statement, which involves creating an Express API, handling game logic, and managing player scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/dunder-proto/test/get.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a `getDunderProto` function. This is completely unrelated to the problem of building an emoji guessing game using Express, as described in the chapter content.
+- The code does not address any of the specific requirements outlined in the instructions, such as setting up an Express server, creating an emoji array, handling form submissions, or managing player scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/dunder-proto/test/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/dunder-proto/test/set.js
+suggestions for improvement:
+- The code provided is completely unrelated to the emoji guessing game described in the prompt.
+- The code appears to be testing functionality related to setting the prototype of an object, which has no bearing on the requirements outlined in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/dunder-proto/tsconfig.json
+suggestions for improvement:
+- This code is a tsconfig.json file, used for configuring the TypeScript compiler. It does not implement any of the game logic or server-side functionality described in the prompt.
+- The file specifies compiler options and excluded directories, but it doesn't address the core requirements of building an Express API for the emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/ee-first/index.js
+suggestions for improvement:
+- This code appears to be a utility for handling events, specifically designed to listen for the first event from a set of event emitters. It's completely unrelated to the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/ee-first/package.json
+suggestions for improvement:
+- The provided code appears to be a package.json file, which describes a Node.js module called 'ee-first'.
+- This file does not implement the emoji guessing game described in the prompt, which requires setting up an Express server, handling game logic, and interacting with a user interface.
+- The package.json file defines metadata about a module, its dependencies, and scripts, but doesn't contain any application code related to the emoji game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/encodeurl/index.js
+suggestions for improvement:
+- This code provides a function to encode a URL, which is not directly related to the emoji guessing game described in the chapter content. The submission does not attempt to create an Express API, handle emoji objects, implement game logic, or track scores.
+- The code is a utility for URL encoding, which might be indirectly useful in a web application, but it doesn't address the core requirements of the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/encodeurl/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module. While package.json files are essential in Node.js projects, this specific file doesn't implement any of the game logic or API endpoints required by the emoji guessing game. It defines metadata, dependencies, and scripts for a module named 'encodeurl', which is unrelated to the game's requirements.
+- The submission completely misses the point of the exercise, which is to build an Express API for an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-define-property/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is a funding model configuration, not an Express API for an emoji guessing game as requested by the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-define-property/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-define-property/index.js
+suggestions for improvement:
+- The provided code snippet is not related to the emoji guessing game described in the chapter content. It seems to be a utility function for defining object properties, which is irrelevant to the main task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-define-property/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module. It doesn't implement any of the game logic, Express server setup, or API endpoints required by the problem description.
+- The code does not address the core requirements of the emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-define-property/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a `defineProperty` function, which is unrelated to the emoji guessing game described in the chapter content.
+- The code doesn't implement any of the required features of the emoji game, such as setting up an Express server, creating emoji objects, presenting options, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-define-property/tsconfig.json
+suggestions for improvement:
+- This code is a tsconfig.json file, which is used for configuring TypeScript projects. While this file is useful in a development environment using TypeScript, it doesn't implement any of the requirements outlined in the Chapter Content/Questions, which focuses on creating an Express API for an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/.github/FUNDING.yml
+suggestions for improvement:
+- This code is a funding model file, unrelated to the emoji guessing game or Express API development outlined in the instructions.  It needs to be replaced with actual code addressing the challenge requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/eval.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/eval.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/package.json
+suggestions for improvement:
+- This code is a package.json file, which describes a JavaScript package. It does not implement the emoji guessing game as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/range.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/range.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/ref.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/ref.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/syntax.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/syntax.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for various JavaScript error types. This is completely unrelated to the emoji guessing game and Express API creation described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/tsconfig.json
+suggestions for improvement:
+- The provided code is a tsconfig.json file, which configures the TypeScript compiler.  It doesn't implement any of the game logic or API endpoints described in the problem statement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/type.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/type.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/uri.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-errors/uri.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/.github/FUNDING.yml
+suggestions for improvement:
+- This file seems to be a funding configuration and is completely unrelated to the emoji guessing game described in the problem statement. It doesn't address any of the requirements, such as setting up an Express server, creating emoji objects, generating a random emoji, or handling user guesses.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/RequireObjectCoercible.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/RequireObjectCoercible.js
+suggestions for improvement:
+- The provided code is a utility function for checking if a value can be coerced to an object. This has absolutely nothing to do with the Emoji guessing game requested by the prompt.
+- The code does not set up an Express server, create an array of emojis, generate a random emoji, present the player with options, allow the player to submit a guess, check if the guess is correct, update the player's score, provide feedback, keep track of the player's total score, or implement a leaderboard.
+- The code does not use Node.js modules related to creating APIs or handling form data, which are essential components of the emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/ToObject.d.ts
+suggestions for improvement:
+- This code snippet appears to be TypeScript declarations for a `ToObject` function, but it doesn't implement the Emoji guessing game as described in the instructions. The provided code has nothing to do with creating an Express API, handling emojis, or building a game.
+- The code snippet provides type definitions, which are helpful in a larger project but do not constitute a solution to the actual problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/ToObject.js
+suggestions for improvement:
+- This code snippet appears to be a utility function for converting a value to an object in JavaScript, which is not directly related to the emoji guessing game described in the problem. It doesn't implement any game logic, API endpoints, or score tracking, as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/isObject.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/isObject.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a JavaScript package. It does not implement the emoji guessing game as described in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/test/index.js
+suggestions for improvement:
+- This code appears to be a set of unit tests or internal helper functions related to object coercion and type checking in JavaScript. It does not address the emoji guessing game described in the chapter content. The code focuses on testing the behavior of functions like `ToObject`, `RequireObjectCoercible`, and `isObject`, which are not directly related to building an Express API for the game.
+- The code uses 'tape' for testing, which is fine, but completely irrelevant to the problem that must be solved.
+- The code should implement the instructions given in the prompt: Set up an Express server, create an array of emoji objects, handle form submissions, manage player scores, and potentially implement a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/es-object-atoms/tsconfig.json
+suggestions for improvement:
+- The provided code is a TypeScript configuration file, not an Express API for the emoji guessing game as described in the instructions.
+- The code does not address any of the requirements outlined in the instructions, such as setting up an Express server, managing emojis, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/escape-html/index.js
+suggestions for improvement:
+- This code provides HTML escaping functionality, which is not directly related to the emoji guessing game described in the problem. While escaping HTML might be useful for preventing XSS vulnerabilities if you were displaying user input, it's not a core requirement of the game's logic.
+- Focus your efforts on creating the Express API, handling game logic (emoji selection, score tracking), and implementing the form submission process as outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/escape-html/package.json
+suggestions for improvement:
+- This submission does not provide any code related to building an Express API for the emoji guessing game.
+- The submitted package.json file is for the 'escape-html' library, which is irrelevant to the requirements of the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/etag/index.js
+suggestions for improvement:
+- The provided code calculates ETags, which are used for caching in HTTP. This is completely unrelated to the emoji guessing game described in the prompt, which requires building an Express API, handling forms, tracking scores, and potentially implementing a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/etag/package.json
+suggestions for improvement:
+- This code is a package.json file, which describes a node module, 'etag'. This module is unrelated to the emoji guessing game described in the chapter content.
+- The submission does not implement any of the required functionality for building the emoji guessing game API using Express and Node.js.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/express/index.js
+suggestions for improvement:
+- The provided code is just the entry point for the Express library itself, not an implementation of the emoji guessing game described in the instructions.
+- The submission should include code that sets up an Express server, defines API endpoints, handles game logic, and interacts with a client-side form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/express/lib/application.js
+suggestions for improvement:
+- This submission provides the core `express` application object definition. It does not address the emoji guessing game requirements at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/express/lib/express.js
+suggestions for improvement:
+- This code is the source code of the Express.js framework itself, not a solution to the emoji guessing game problem described in the prompt. It doesn't implement any of the game's logic or features.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/express/lib/request.js
+suggestions for improvement:
+- The code provided is the 'req.js' file from the Express framework, which defines the request object prototype. It does not implement the emoji guessing game as described in the problem description.
+- The code is entirely unrelated to the task of creating an emoji guessing game API using Express, generating random emojis, handling user input, and tracking scores. Therefore, it does not address any of the specified requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/express/lib/response.js
+suggestions for improvement:
+- This code is the `res` (response) object of the Express framework itself, not a solution to the emoji guessing game challenge. It defines methods on the response object like `res.send()`, `res.json()`, `res.status()` etc.
+- To address the challenge, you'd need to create a new Express application, define routes, handle form submissions, manage game state, and implement the emoji logic as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/express/lib/utils.js
+suggestions for improvement:
+- The submitted code is a utility file from the Express.js library itself. It does not implement the emoji guessing game described in the prompt.
+- The submission needs to implement the actual game logic, including setting up the Express server, handling routes, managing emoji data, and implementing the game's scoring and feedback mechanisms.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/express/lib/view.js
+suggestions for improvement:
+- The code provided is an internal module of the Express framework, specifically the `View` class, which is responsible for handling view rendering. It does not implement any of the emoji guessing game logic described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/express/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes the dependencies and metadata for an Express project, not the actual implementation of the emoji guessing game.  It does not address any of the requirements of the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/finalhandler/index.js
+suggestions for improvement:
+- This code is an error handler, which is not related to building the emoji guessing game described in the prompt.
+- The code needs to implement the game logic, API endpoints, and data handling as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/finalhandler/package.json
+suggestions for improvement:
+- The provided code is a package.json file for the `finalhandler` npm package. This package handles final HTTP responses in Node.js. It is not relevant to building an emoji guessing game using Express as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/forwarded/index.js
+suggestions for improvement:
+- This code is completely unrelated to the emoji guessing game described in the chapter content.
+- The code appears to be a utility for parsing the X-Forwarded-For header, which is used to identify the originating IP address of a client connecting to a web server through a proxy.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/forwarded/package.json
+suggestions for improvement:
+- The provided code is a package.json file for the 'forwarded' Node.js module, which is completely unrelated to the emoji guessing game described in the chapter content.  It does not address any of the requirements for building an Express API, creating an emoji guessing game, or handling user interaction.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/fresh/index.js
+suggestions for improvement:
+- The provided code is a module for checking HTTP cache freshness, which is completely unrelated to the emoji guessing game described in the chapter content.
+- The code does not address any of the requirements for building an Express API for the game, such as setting up the server, handling game logic, or managing scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/fresh/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module named 'fresh'. This file does not implement any of the game logic or API endpoints required by the problem description. Therefore, it does not address the requirements of the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/function-bind/.github/FUNDING.yml
+suggestions for improvement:
+- This code is not related to the emoji guessing game described in the instructions. It seems to be configuration data for funding a project, which is irrelevant to the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/function-bind/implementation.js
+suggestions for improvement:
+- The code provides an implementation of `Function.prototype.bind`, which is completely unrelated to the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/function-bind/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/function-bind/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package but does not implement the emoji guessing game described in the problem.
+- The code doesn't address the core requirements of the problem, such as setting up an Express server, managing emoji data, handling user input, or updating scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/function-bind/test/index.js
+suggestions for improvement:
+- The provided code is a series of tests for a `functionBind` utility, and is not related to creating an emoji guessing game using Express. Therefore, it does not address any of the requirements outlined in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-intrinsic/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is not related to the emoji guessing game described in the chapter content. It appears to be a funding model configuration file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-intrinsic/index.js
+suggestions for improvement:
+- The provided code appears to be unrelated to the Emoji guessing game described in the instructions. The code seems to be an internal implementation detail for getting intrinsic JavaScript objects, and is not even related to building an Express API.
+- Since the code is unrelated, it does not address the task and does not implement the specified functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-intrinsic/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a JavaScript package, and it is entirely unrelated to the emoji guessing game described in the chapter content. The chapter content requires building an Express API for an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-intrinsic/test/GetIntrinsic.js
+suggestions for improvement:
+- The provided code is completely unrelated to the emoji guessing game described in the chapter content. It appears to be a test suite for a library related to JavaScript intrinsics.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-proto/.github/FUNDING.yml
+suggestions for improvement:
+- This code snippet is a configuration file specifying funding models for a project, and is not relevant to the problem of building an emoji guessing game using Express.
+- The provided code does not address any of the requirements outlined in the chapter content.
+- The code needs to implement an Express server, handle emoji data, generate game questions, process user input, manage scores, and provide feedback, as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-proto/Object.getPrototypeOf.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-proto/Object.getPrototypeOf.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-proto/Reflect.getPrototypeOf.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-proto/Reflect.getPrototypeOf.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-proto/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-proto/index.js
+suggestions for improvement:
+- The provided code appears to be a polyfill for `Object.getPrototypeOf`, which is completely unrelated to the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-proto/package.json
+suggestions for improvement:
+- The code provided is a package.json file, which describes a Node.js package. It does not implement the emoji guessing game as described in the problem description.
+- The package.json file includes metadata about the package, dependencies, devDependencies, scripts, and other configurations. It is related to Node.js modules, which is one of the topics mentioned in the 'What you will learn' section, but it is not an implementation of the problem described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-proto/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a `getProto` function, likely related to retrieving the prototype of an object in JavaScript. This has absolutely nothing to do with the stated goal of creating an emoji guessing game using an Express API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/get-proto/tsconfig.json
+suggestions for improvement:
+- The provided code is a TypeScript configuration file (tsconfig.json), not the Express API implementation described in the problem.  It doesn't address any of the requirements for creating an emoji guessing game API.
+- The file itself is valid, but it's unrelated to the task at hand.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/gopd/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is a funding model configuration file, unrelated to the emoji guessing game described in the prompt. It does not implement any of the required functionalities such as setting up an Express server, handling game logic, or managing player scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/gopd/gOPD.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/gopd/gOPD.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/gopd/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/gopd/index.js
+suggestions for improvement:
+- The provided code snippet appears to be a utility for getting object property descriptors, which is not directly related to the emoji guessing game described in the chapter content.
+- The code doesn't implement any of the specified requirements, such as setting up an Express server, managing emoji data, creating game logic, handling user input, or maintaining scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/gopd/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module. It doesn't implement any of the required game logic, Express server setup, or API endpoints as outlined in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/gopd/test/index.js
+suggestions for improvement:
+- The provided code appears to be a unit test for a `gOPD` function, likely related to getting property descriptors. This is entirely unrelated to the emoji guessing game described in the chapter content, which requires building an Express API, handling form submissions, managing scores, and creating a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/gopd/tsconfig.json
+suggestions for improvement:
+- This is a tsconfig file, which is not directly related to the task of creating an emoji guessing game using Express.js. The file configures TypeScript compilation options, but it doesn't implement any of the game's logic or API endpoints.
+- The submission needs to include the actual Express.js code that sets up the server, defines API endpoints, handles game logic, and interacts with the front-end form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/has-symbols/.github/FUNDING.yml
+suggestions for improvement:
+- This code is not related to the emoji guessing game described in the prompt.
+- The code seems to be related to funding model platforms, which is completely irrelevant to the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/has-symbols/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/has-symbols/index.js
+suggestions for improvement:
+- This code snippet appears to be related to checking for native Symbol support in JavaScript environments, which is completely unrelated to the emoji guessing game described in the chapter content. It does not address any of the specified requirements, such as setting up an Express server, managing emoji data, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/has-symbols/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a JavaScript package. It does not implement the emoji guessing game as described in the problem description.
+- The code is entirely unrelated to the problem described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/has-symbols/shams.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/has-symbols/shams.js
+suggestions for improvement:
+- The provided code appears to be related to Symbol detection in JavaScript, which is entirely unrelated to the emoji guessing game described in the prompt.
+- The code does not address any of the requirements for building an Express API for the emoji game, such as setting up the server, handling routes, or managing game logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/has-symbols/test/index.js
+suggestions for improvement:
+- This code appears to be testing for Symbol support in JavaScript, which is unrelated to the emoji guessing game described in the chapter content.
+- Consider focusing on building the Express API and game logic as outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/has-symbols/test/shams/core-js.js
+suggestions for improvement:
+- The submitted code appears to be testing for Symbol support, not an Express API emoji guessing game as requested in the prompt.
+- The code does not address any of the specific requirements of the problem description, such as setting up an Express server, managing emojis, or handling user input.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/has-symbols/test/shams/get-own-property-symbols.js
+suggestions for improvement:
+- This code appears to be related to Symbol polyfilling and testing, which is entirely unrelated to the emoji guessing game described in the prompt.
+- The provided code does not attempt to address any of the requirements of the emoji guessing game, such as setting up an Express server, handling emoji data, or implementing game logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/has-symbols/test/tests.js
+suggestions for improvement:
+- The code appears to be related to testing the functionality of Symbols in JavaScript, which is completely unrelated to the emoji guessing game described in the chapter content. Therefore, it does not address any of the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/has-symbols/tsconfig.json
+suggestions for improvement:
+- This is a tsconfig.json file, used for configuring the TypeScript compiler. It doesn't address any of the requirements of the emoji guessing game described in the chapter content.
+- The task requires building an Express API, handling game logic, and creating a user interface. This file doesn't implement any of these features.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/hasown/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code appears to be a funding model configuration file, which is completely unrelated to the emoji guessing game described in the problem statement.
+- The provided code does not address any of the requirements outlined in the problem statement, such as setting up an Express server, creating an emoji array, generating a random emoji, handling user input, or managing scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/hasown/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/hasown/index.js
+suggestions for improvement:
+- The submitted code is a utility for checking object property ownership and has no relation to the emoji guessing game described in the problem. The code addresses a completely different purpose.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/hasown/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package named `hasown`. This package seems to be related to checking if an object has its own property. However, the chapter content is about building an emoji guessing game using Express and Node.js.
+- The `package.json` file, while potentially a dependency for a Node.js project, does not directly address the requirements of the emoji guessing game. It doesn't implement the Express server, the game logic, or any of the front-end components.
+- Therefore, the code is completely unrelated to the problem described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/hasown/tsconfig.json
+suggestions for improvement:
+- This code snippet is a TypeScript configuration file (tsconfig.json), which is unrelated to the emoji guessing game requirements using Express and Node.js. The file specifies compiler options and excluded directories for a TypeScript project. It does not implement any of the game's logic or API endpoints.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/http-errors/index.js
+suggestions for improvement:
+- The submitted code is the source code for the 'http-errors' npm package, which is a utility for creating HTTP error objects in Node.js. This code is completely unrelated to the emoji guessing game described in the chapter content.
+- The submission does not address any of the requirements outlined in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/http-errors/node_modules/statuses/codes.json
+suggestions for improvement:
+- The code provided is a list of HTTP status codes and their descriptions, which is irrelevant to the emoji guessing game described in the instructions. It does not address any of the requirements for setting up an Express server, creating emoji objects, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/http-errors/node_modules/statuses/index.js
+suggestions for improvement:
+- The submitted code appears to be a module for handling HTTP status codes, which is entirely unrelated to the emoji guessing game described in the chapter content. The code defines functions for retrieving status messages and codes, and provides maps and lists of status codes. This functionality is not relevant to building an emoji guessing game with Express.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/http-errors/node_modules/statuses/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file describing a node module named `statuses`. This doesn't implement any of the requirements of the emoji game, which involves setting up an Express server, creating an array of emojis, handling form submissions, updating scores, and creating a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/http-errors/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module. It does not implement any of the game logic or API endpoints required by the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/.github/dependabot.yml
+suggestions for improvement:
+- This code is a Dependabot configuration file, not an Express API for the emoji guessing game.
+- The provided code does not address any of the requirements outlined in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/.idea/codeStyles/Project.xml
+suggestions for improvement:
+- The submitted code is a configuration file for code styling, not an implementation of the emoji guessing game as required by the prompt.
+- The code does not address any of the requirements outlined in the chapter content, such as setting up an Express server, creating emoji objects, or handling player guesses.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/.idea/codeStyles/codeStyleConfig.xml
+suggestions for improvement:
+- This submission is a project code style configuration file, not an implementation of the emoji guessing game as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/.idea/inspectionProfiles/Project_Default.xml
+suggestions for improvement:
+- The submitted file is an IntelliJ IDE inspection profile configuration and does not contain any code related to the emoji guessing game described in the chapter content.
+- The submission does not address any of the requirements outlined in the instructions, such as setting up an Express server, creating emoji objects, handling user input, or managing scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/.idea/modules.xml
+suggestions for improvement:
+- The submitted XML file is a project configuration file, not an implementation of the emoji guessing game using Express, Node.js, and the Fetch API as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/.idea/vcs.xml
+suggestions for improvement:
+- The provided XML file is a project configuration file for version control (likely IntelliJ IDEA). It does not contain any code related to the emoji guessing game described in the chapter content.
+- The submission needs to include code that sets up an Express server, handles API endpoints for the game, and implements the game logic as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/dbcs-codec.js
+suggestions for improvement:
+- This code relates to `iconv-lite`, a character encoding conversion library, and appears to implement the DBCS (Double Byte Character Set) codec for handling multi-byte character encodings. It is entirely unrelated to the emoji guessing game described in the prompt.
+- The code does not address any of the specific requirements of the emoji game, such as setting up an Express server, managing emoji data, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/dbcs-data.js
+suggestions for improvement:
+- This code appears to be character encoding definitions and is completely unrelated to the emoji guessing game described in the prompt.
+- The code does not address any of the requirements: setting up an Express server, creating an emoji array, generating a random emoji, handling form submissions, updating scores, providing feedback, or implementing a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/index.js
+suggestions for improvement:
+- The provided code snippet appears to be related to character encoding and is not relevant to the emoji guessing game described in the chapter content.
+- The code lacks comments or explanations regarding its purpose and functionality.
+- Consider restructuring the code for better organization and maintainability.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/internal.js
+suggestions for improvement:
+- This code appears to be related to character encoding and might be from a library dealing with UTF-8 or similar encoding schemes. It is completely unrelated to the emoji guessing game described in the prompt, which requires setting up an Express server, handling form data, and implementing game logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/sbcs-codec.js
+suggestions for improvement:
+- This code is completely unrelated to the emoji guessing game described in the problem statement. It appears to be a codec implementation, possibly for character encoding, and does not use Express, Node.js modules in the context of building an API for a game, handle emojis, implement game logic, or address any of the specific requirements outlined in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/sbcs-data-generated.js
+suggestions for improvement:
+- The code provided is a character encoding table, which is completely unrelated to the emoji guessing game described in the instructions.
+- The code needs to be replaced with code that sets up an Express server, defines emoji data, handles game logic, and implements the features outlined in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/sbcs-data.js
+suggestions for improvement:
+- This code is completely unrelated to the prompt. It appears to be character encoding data, and does not implement an Express API for an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/tables/big5-added.json
+suggestions for improvement:
+- The provided data appears to be character mappings, and is not relevant to the task of creating an emoji guessing game using an Express API. The task requires setting up an Express server, handling game logic, and creating a user interface. This submission does not address any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/tables/cp936.json
+suggestions for improvement:
+- This appears to be a character encoding table, completely unrelated to the emoji guessing game or any of the instructions provided in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/tables/cp949.json
+suggestions for improvement:
+- The code contains only unicode characters, and no code related to the challenge requirements. A re-submission with the correct content is recommended.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/tables/cp950.json
+suggestions for improvement:
+- The code is just a huge array of strings, not actual code to implement the emoji guessing game.
+- It doesn't fulfill any of the requirements, it doesn't set up an Express server, manage emojis, or handle user interaction.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/tables/eucjp.json
+suggestions for improvement:
+- The provided code appears to be a character map or encoding table, which is entirely unrelated to the emoji guessing game described in the chapter content. It does not set up an Express server, manage emojis, handle form submissions, track scores, or implement a leaderboard.
+- Due to its irrelevance to the task, the code receives a correctness score of 0%. There's nothing to improve in the context of the exercise, as the entire submission is off-topic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/tables/gbk-added.json
+suggestions for improvement:
+- The provided data appears to be a list of strings and numbers. This is not relevant to the emoji guessing game described in the prompt, which requires server-side code (Express) to handle game logic, API endpoints, and client-side interaction (forms, Fetch API).
+- The data doesn't include any Express server setup, emoji array creation, random emoji selection, or form handling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/tables/shiftjis.json
+suggestions for improvement:
+- The provided data is a character map and does not contain any code related to the emoji guessing game described in the instructions. Therefore, it does not address any of the requirements.
+- The character map contains a variety of character encodings and mappings, but it is not relevant to the task of building an Express API for an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/utf16.js
+suggestions for improvement:
+- The provided code is completely unrelated to the emoji guessing game described in the chapter content. It deals with UTF-16 encoding and decoding, which is not mentioned or required in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/utf32.js
+suggestions for improvement:
+- The provided code is completely unrelated to the problem description, which involves creating an emoji guessing game using Express, Node.js, and the Fetch API.
+- The code appears to be related to UTF-32 encoding and decoding, which has no relevance to the task at hand.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/encodings/utf7.js
+suggestions for improvement:
+- The code provided is a UTF-7 codec implementation, which is completely unrelated to the emoji guessing game described in the chapter content.
+- The code doesn't use Express, doesn't create an API, and doesn't implement any game logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/lib/bom-handling.js
+suggestions for improvement:
+- This code snippet appears to be related to handling Byte Order Marks (BOM) in strings, specifically prepending or stripping them.  It's completely unrelated to the emoji guessing game using Express API described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/lib/index.d.ts
+suggestions for improvement:
+- This code defines TypeScript declaration file for 'iconv-lite' library. This is not related to building an Express API for an emoji guessing game as requested in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/lib/index.js
+suggestions for improvement:
+- The submitted code is the 'iconv-lite' library, which is a character encoding conversion library. It is completely unrelated to the emoji guessing game described in the chapter content.
+- The code does not address any of the requirements of the emoji guessing game, such as setting up an Express server, creating an emoji array, generating random emojis, handling user input, or keeping track of scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/lib/streams.js
+suggestions for improvement:
+- The code appears to be related to stream encoding/decoding using iconv-lite, which is completely unrelated to the emoji guessing game described in the chapter content.
+- The code does not address any of the requirements of the emoji game, such as setting up an Express server, handling game logic, managing scores, or creating a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/iconv-lite/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a node module.  It does not implement the emoji guessing game as requested by the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/inherits/inherits.js
+suggestions for improvement:
+- The submitted code appears to be a polyfill for `util.inherits` and is completely unrelated to the emoji guessing game described in the prompt.  The prompt asks for an Express API for a game involving emojis, random selection, form submissions, score tracking, and leaderboard implementation. This code does not address any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/inherits/inherits_browser.js
+suggestions for improvement:
+- This code is not related to the emoji guessing game described in the prompt.
+- The code implements inheritance, which is a common programming concept, but irrelevant to the problem at hand.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/inherits/package.json
+suggestions for improvement:
+- This submission is a package.json file for a library called 'inherits', and is unrelated to the emoji guessing game specified in the prompt.  The prompt asked for an Express API implementation of the game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/ipaddr.js/ipaddr.min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/ipaddr.js/lib/ipaddr.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content, which focuses on building an emoji guessing game using Express and Node.js. The code appears to be a library for IP address manipulation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/ipaddr.js/lib/ipaddr.js.d.ts
+suggestions for improvement:
+- The provided code appears to be TypeScript definitions for the `ipaddr.js` library. This code does not address the requirements of the emoji guessing game, which involves creating an Express API, managing game state, and handling user input.
+- The code is irrelevant to the problem description, as it doesn't implement any game logic or API endpoints.
+- To address the problem, the submission needs to include server-side code (Node.js with Express) that handles the game logic as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/ipaddr.js/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a JavaScript library for manipulating IP addresses. This is completely unrelated to the emoji guessing game described in the chapter content.
+- The submission needs to include code that sets up an Express server, handles API endpoints, generates emoji quizzes, processes user input, and manages scores, as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/is-promise/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/is-promise/index.js
+suggestions for improvement:
+- This code snippet is completely unrelated to the emoji guessing game described in the chapter content. It's a function to check if a given object is a Promise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/is-promise/index.mjs
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/is-promise/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module. It does not implement the emoji guessing game as described in the problem description.
+- The submission needs to include the actual code for the Express API, emoji array, game logic, and form handling to meet the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/.github/FUNDING.yml
+suggestions for improvement:
+- This code is entirely unrelated to the prompt. It seems to be metadata about funding models for an open-source project, not code for an emoji guessing game using Express.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/abs.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/abs.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/constants/maxArrayLength.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/constants/maxArrayLength.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/constants/maxSafeInteger.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/constants/maxSafeInteger.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/constants/maxValue.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/constants/maxValue.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/floor.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/floor.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/isFinite.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/isFinite.js
+suggestions for improvement:
+- The provided code snippet implements an `isFinite` function, which determines if a given value is a finite number. This functionality is completely unrelated to the emoji guessing game described in the chapter content, which involves building an Express API, handling user input, and managing game state. Therefore, the code does not address any of the specified requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/isInteger.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/isInteger.js
+suggestions for improvement:
+- The submitted code appears to be a function for checking if a number is an integer. This is completely unrelated to the emoji guessing game described in the instructions, which involves creating an Express API, handling form submissions, and managing game logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/isNaN.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/isNaN.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/isNegativeZero.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/isNegativeZero.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/max.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/max.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/min.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/mod.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/mod.js
+suggestions for improvement:
+- The submitted code calculates the modulo of a number, which is not related to the emoji guessing game described in the prompt. The prompt requires creating an Express API for the game.
+- The code needs to implement the API endpoints, handle form submissions, and manage game logic as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a JavaScript package. It doesn't implement the emoji guessing game as described in the problem statement. It's completely unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/pow.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/pow.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/round.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/round.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/sign.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/sign.js
+suggestions for improvement:
+- The provided code calculates the sign of a number, which is completely unrelated to building an emoji guessing game using Express as described in the chapter content.
+- The code does not address any of the specified requirements for the emoji game, such as setting up an Express server, managing emoji data, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/test/index.js
+suggestions for improvement:
+- This code provides mathematical functions and constants, it is completely unrelated to the Emoji guessing game using an Express API requested in the prompt.
+- The code uses `tape` for testing, which is good for verifying the correctness of individual functions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/math-intrinsics/tsconfig.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/media-typer/index.js
+suggestions for improvement:
+- This code appears to be a media-typer library, which is unrelated to the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/media-typer/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module. While package.json files are crucial for Node.js development, the provided content does *not* implement any of the specific functionality requested in the challenge description. The challenge asks for building an Express API for an emoji guessing game, including setting up the server, handling game logic, and managing player scores. This package.json file does not address any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/merge-descriptors/index.d.ts
+suggestions for improvement:
+- The provided code is a utility function for merging object descriptors, which is completely unrelated to the emoji guessing game described in the problem statement. The problem statement requires setting up an Express API, handling user input, managing game state, and implementing a leaderboard. The given code does not address any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/merge-descriptors/index.js
+suggestions for improvement:
+- This code snippet implements a `mergeDescriptors` function, which is unrelated to the emoji guessing game requirements outlined in the chapter content.
+- The provided code does not address any of the specified tasks such as setting up an Express server, handling game logic, or implementing a user interface.
+- Consider focusing on implementing the game logic, API endpoints, and UI elements to align with the chapter's goals.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/merge-descriptors/package.json
+suggestions for improvement:
+- This looks like a `package.json` file, which does not implement any of the required game logic using Express, Node.js, or the Fetch API as described in the prompt.
+- The provided code doesn't address the problem of creating an emoji guessing game. It only provides metadata about a Node.js package.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/mime-db/db.json
+suggestions for improvement:
+- The submitted code is a large JSON file containing MIME type definitions, completely unrelated to the emoji guessing game described in the chapter content.
+- The code does not address any of the requirements for building an Express API, handling emojis, creating forms, managing scores, or implementing a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/mime-db/index.js
+suggestions for improvement:
+- The submitted code is a module export of a JSON file, likely a database of MIME types. This is entirely unrelated to the emoji guessing game described in the chapter content. The task requires building an Express API for a game, handling user input, and managing game state. The provided code does none of that.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/mime-db/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module (mime-db). This file does not implement any of the features or functionalities described in the chapter content, such as creating an Express API, handling emoji guessing game logic, or managing player scores.
+- Since the provided code is not relevant to the problem description, it's impossible to assess its correctness in the context of the emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/mime-types/index.js
+suggestions for improvement:
+- The provided code is a module for handling MIME types, which is entirely unrelated to the emoji guessing game described in the chapter content.  It doesn't implement any of the required functionalities like setting up an Express server, managing emoji data, presenting the game interface, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/mime-types/mimeScore.js
+suggestions for improvement:
+- This code is completely unrelated to the emoji guessing game specified in the chapter content. It's a mime-score module, which is not relevant to building an Express API for a game.
+- Consider focusing on creating an Express server, defining emoji data, handling form submissions, and managing game logic, as outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/mime-types/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js package (in this case, `mime-types`).
+- This doesn't address the prompt's requirements of creating an Express API for an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/ms/index.js
+suggestions for improvement:
+- The provided code is a utility for parsing and formatting time durations, which is completely unrelated to the emoji guessing game described in the chapter content.
+- The submission should implement an Express API for the emoji guessing game, including endpoints for presenting emojis, submitting guesses, tracking scores, and displaying a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/ms/package.json
+suggestions for improvement:
+- The submitted code is a package.json file, which describes a Node.js module named 'ms'. This is not related to the emoji guessing game described in the problem statement.
+- The problem statement requires an Express API for an emoji guessing game, including generating emojis, presenting options, handling user guesses, and managing scores. This package.json file doesn't implement any of those features.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/negotiator/index.js
+suggestions for improvement:
+- This code is completely unrelated to the emoji guessing game described in the chapter content. It's a library for content negotiation, not an API for a game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/negotiator/lib/charset.js
+suggestions for improvement:
+- The provided code is completely unrelated to the emoji guessing game described in the prompt. It appears to be a module for parsing Accept-Charset headers, which is a networking/HTTP concern, not game development with emojis and Express.
+- The code does not address any of the specified requirements, such as setting up an Express server, managing emojis, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/negotiator/lib/encoding.js
+suggestions for improvement:
+- The code provided does not implement the emoji guessing game described in the instructions. It appears to be a module for handling HTTP Accept-Encoding headers.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/negotiator/lib/language.js
+suggestions for improvement:
+- The provided code is completely unrelated to the emoji guessing game described in the prompt. It appears to be a module for parsing and negotiating preferred languages based on the 'Accept-Language' header, which is a totally different functionality than creating an Express API for an emoji game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/negotiator/lib/mediaType.js
+suggestions for improvement:
+- The submitted code is completely unrelated to the emoji guessing game described in the chapter content. It appears to be a module for handling HTTP Accept headers.
+- Since the code does not address the problem described in the instructions, it needs to be replaced with code that implements the emoji guessing game using Express, Node.js, and the specified requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/negotiator/package.json
+suggestions for improvement:
+- This code is a package.json file, which describes a Node.js module named 'negotiator'. It does not implement the emoji guessing game as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/.github/FUNDING.yml
+suggestions for improvement:
+- This file appears to be a funding model configuration file (likely for a package or project) and does not implement any of the requirements outlined in the instructions for building an emoji guessing game API using Express and Node.js. It doesn't involve Express, Node.js modules for the game logic, handling requests, or managing game state.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/example/all.js
+suggestions for improvement:
+- This code snippet is unrelated to the emoji guessing game described in the instructions. It appears to be a utility for inspecting objects, possibly for debugging, but doesn't implement any part of the game's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/example/circular.js
+suggestions for improvement:
+- The provided code does not address the requirements outlined in the chapter content. It's a simple inspection tool, not an Express API for an emoji guessing game.
+- The code needs to implement an Express server, handle routes for serving emojis and processing guesses, manage scores, and optionally include a leaderboard. The provided code does none of these.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/example/fn.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/example/inspect.js
+suggestions for improvement:
+- The provided code does not address the emoji guessing game requirements using Express and Node.js. It seems to be using a browser environment (document) and `require('../')`, suggesting a different module. The code is unrelated to the chapter's goal of building an Express API.
+- The code needs to be completely rewritten to implement the emoji guessing game using Express as outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/index.js
+suggestions for improvement:
+- This code is completely unrelated to the emoji guessing game described in the prompt.
+- The code appears to be related to object inspection and debugging, which is a valid programming topic but not relevant to the task at hand.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/package-support.json
+suggestions for improvement:
+- This submission is not code related to the emoji guessing game described in the prompt. It seems to be some configuration file or metadata, unrelated to the task.
+- The provided content doesn't address any of the requirements of the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module. It does not implement any of the game logic described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test-core-js.js
+suggestions for improvement:
+- The provided code seems to be related to testing and inspecting data structures like Maps, WeakMaps, Sets, and WeakSets, which is unrelated to building an emoji guessing game using Express as described in the chapter content.
+- Since the code does not address the chapter's requirements, it would be beneficial to focus on creating an Express API with routes for handling the game logic, presenting emojis, receiving guesses, and managing scores.
+- Consider implementing the game logic step by step, starting with setting up the Express server and defining the emoji array.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/bigint.js
+suggestions for improvement:
+- The provided code is for inspecting BigInt objects and is not related to building an emoji guessing game using Express, as described in the problem statement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/browser/dom.js
+suggestions for improvement:
+- The provided code snippet appears to be a test case for a DOM element inspection library, and is entirely unrelated to the emoji guessing game specified in the problem description.
+- The code does not use Express to build an API, nor does it create an emoji guessing game, manage scores, or implement a leaderboard as required by the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/circular.js
+suggestions for improvement:
+- The code appears to be testing a circular object inspection utility, which is completely unrelated to the emoji guessing game using Express API described in the chapter content.
+- The code doesn't implement any of the required functionalities like setting up an Express server, managing emojis, creating a form, handling POST requests, or managing scores/leaderboards.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/deep.js
+suggestions for improvement:
+- This code is a test suite for a node module called 'inspect' and does not implement any of the game logic described in the prompt.
+- The tests themselves are relatively clear, but irrelevant to the task at hand.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/element.js
+suggestions for improvement:
+- This code appears to be related to DOM element inspection and is not relevant to the emoji guessing game described in the problem statement.
+- The code uses 'tape' for testing, which is good for unit testing, but it's completely unrelated to the task of creating an emoji guessing game API with Express.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/err.js
+suggestions for improvement:
+- The provided code appears to be testing and utility code related to error inspection in JavaScript, and not code that implements an emoji guessing game using Express as requested by the chapter content.
+- The code does not set up an Express server, create an array of emojis, handle form submissions, or implement any game logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/fakes.js
+suggestions for improvement:
+- The provided code is completely unrelated to the emoji guessing game described in the prompt. It appears to be a testing file for a JavaScript library, and it doesn't address any of the requirements for building the game using Express, Node.js, or the Fetch API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/fn.js
+suggestions for improvement:
+- The provided code is completely unrelated to the emoji guessing game described in the chapter content. It appears to be testing the inspection of function names in JavaScript.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/global.js
+suggestions for improvement:
+- This code appears to be testing the inspection of the global object in different environments (Node.js and potentially browser). It's completely unrelated to the emoji guessing game described in the chapter content, which requires building an Express API and implementing game logic.
+- The code does not address any of the requirements outlined in the chapter, such as setting up an Express server, creating an emoji array, generating random emojis, handling form submissions, tracking scores, or implementing a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/has.js
+suggestions for improvement:
+- The submitted code appears to be a test case for a JavaScript library, and it's unrelated to the emoji guessing game described in the chapter content. The chapter content asks for an Express API and a front end form. This is a test case for a library.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/holes.js
+suggestions for improvement:
+- The provided code is a test script using 'tape' and 'inspect' modules, which are unrelated to the emoji guessing game described in the chapter content. It does not implement an Express API, handle emojis, create forms, or manage game logic as instructed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/indent-option.js
+suggestions for improvement:
+- The submitted code does not implement the emoji guessing game as described in the prompt. It appears to be testing code, possibly related to an inspection/debugging utility, and is entirely unrelated to the Express API and game logic outlined in the instructions.
+- Since the code is unrelated to the prompt, no improvements can be suggested within the context of the prompt's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/inspect.js
+suggestions for improvement:
+- The provided code is completely unrelated to the emoji guessing game described in the chapter content. It appears to be a testing suite for a JavaScript inspection library.
+- There is no attempt to create an Express server, handle emoji data, manage game logic, or implement user interaction as outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/lowbyte.js
+suggestions for improvement:
+- The submitted code appears to be a testing module, possibly for a library that handles string inspection or formatting. This code is completely unrelated to the emoji guessing game using an Express API described in the instructions.
+- The code does not address any of the requirements outlined in the prompt, such as setting up an Express server, creating an emoji array, handling user input, or maintaining a score.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/number.js
+suggestions for improvement:
+- The provided code appears to be testing the `inspect` function, possibly related to debugging or value representation. However, it is completely unrelated to the emoji guessing game described in the chapter content, which involves building an Express API, handling form submissions, and managing game logic.
+- Therefore, the code does not address any of the specified requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/quoteStyle.js
+suggestions for improvement:
+- The code appears to be a test suite for an 'inspect' module, specifically focusing on the 'quoteStyle' option. This has absolutely nothing to do with creating an Express API for an emoji guessing game, as described in the chapter content.
+- The code uses `require('../')` which suggests it is part of a larger module, but without the rest of the module, it's impossible to determine its overall purpose or correctness in a broader context.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/toStringTag.js
+suggestions for improvement:
+- The provided code is a series of tests related to `Symbol.toStringTag` and object inspection, and is completely unrelated to building an emoji guessing game with an Express API as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/undef.js
+suggestions for improvement:
+- The submitted code uses the 'tape' module for testing and the 'inspect' module, seemingly for object inspection. This code is completely unrelated to the emoji guessing game described in the problem statement, which involves building an Express API, handling form submissions, updating scores, and managing a leaderboard. The code does not address any of the specified requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/test/values.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content, which asks for an Express API for an emoji guessing game. The code appears to be tests for a Javascript inspection library.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/object-inspect/util.inspect.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/on-finished/index.js
+suggestions for improvement:
+- The provided code is a module called 'on-finished' which is used to execute a callback when a HTTP request is finished. This is completely unrelated to the emoji guessing game described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/on-finished/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module. It does not implement any of the game logic or API endpoints required by the problem description.
+- The code doesn't create an Express server, handle API requests, implement the emoji game logic, or manage scores/leaderboards as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/once/once.js
+suggestions for improvement:
+- This code snippet provides a 'once' function, which ensures that a given function is only executed once. However, it is entirely unrelated to the emoji guessing game described in the chapter content.
+- The chapter content requires building an Express API for an emoji guessing game, handling user input, updating scores, and potentially implementing a leaderboard. This code does none of that.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/once/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module called 'once'.
+- This file does not implement any of the game logic or API endpoints required by the emoji guessing game described in the instructions.
+- The package.json file is relevant to setting up a Node.js project, but it does not directly address the core requirements of the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/parseurl/index.js
+suggestions for improvement:
+- The submitted code is a URL parsing utility, completely unrelated to the emoji guessing game described in the chapter content. The code does not attempt to address any of the specified requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/parseurl/package.json
+suggestions for improvement:
+- The provided code is a package.json file for the 'parseurl' library, which is a URL parsing utility. It doesn't implement any of the emoji guessing game requirements outlined in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/path-to-regexp/dist/index.d.ts
+suggestions for improvement:
+- This code appears to be a path-to-regexp library, which is not relevant to the emoji guessing game described in the prompt.
+- The prompt requires building an Express API for a game. This code does not fulfill that requirement at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/path-to-regexp/dist/index.js
+suggestions for improvement:
+- The submitted code is a path-to-regexp library, which is not related to the emoji guessing game described in the chapter content. The code does not address the problem of creating an emoji guessing game using Express, Node.js, and the Fetch API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/path-to-regexp/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a node module, not the code for the Emoji game described in the prompt.
+- The submission does not implement any of the required functionalities (Express server, emoji array, game logic, form handling, score tracking, leaderboard).
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/proxy-addr/index.js
+suggestions for improvement:
+- The code provided does not implement the emoji guessing game as described in the prompt. It appears to be related to IP address handling, which is completely unrelated to the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/proxy-addr/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module but doesn't implement any of the game logic required by the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/.github/FUNDING.yml
+suggestions for improvement:
+- This code snippet appears to be a funding model configuration file and is completely unrelated to the emoji guessing game requirements outlined in the chapter content.
+- The provided content does not implement any of the required functionalities such as setting up an Express server, handling game logic, or managing player scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/dist/qs.js
+suggestions for improvement:
+- The code provided appears to be a polyfill or a library for query string parsing and serialization (likely 'qs' library). It doesn't implement any of the game logic or server setup described in the problem statement. The code is entirely unrelated to the requirements of the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/lib/formats.js
+suggestions for improvement:
+- The provided code appears to be URL encoding utilities, which are not directly related to the emoji guessing game described in the chapter content. Therefore, it does not address any of the specific requirements of the assignment.
+- The code is not using Express to build an API, is not handling emoji data, and is not implementing any game logic as requested.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/lib/index.js
+suggestions for improvement:
+- The submitted code appears to be a utility for stringifying and parsing data, which is not directly related to the emoji guessing game described in the instructions.
+- The code lacks the necessary Express server setup, emoji array creation, game logic, and score tracking required by the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/lib/parse.js
+suggestions for improvement:
+- The provided code appears to be a module for parsing query strings, which is entirely unrelated to the emoji guessing game described in the chapter content.
+- The code does not address any of the specific requirements of the emoji game, such as setting up an Express server, creating an emoji array, handling user input, or managing scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/lib/stringify.js
+suggestions for improvement:
+- The provided code appears to be a utility for query string serialization, completely unrelated to the emoji guessing game described in the problem statement.  It doesn't use Express, handle emojis, or manage game state.
+- This submission does not address the prompt's requirements, which involve creating an Express API for an emoji guessing game. The code is for query string manipulation and does not implement any game logic or API endpoints.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/lib/utils.js
+suggestions for improvement:
+- This code appears to be a utility library for query string parsing and manipulation, which is completely unrelated to the emoji guessing game described in the prompt.
+- The code should implement the game logic as described in the prompt, setting up an Express server, handling emoji data, generating questions, processing user input, and managing scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file describing the `qs` library, which is a query string parser. It is completely unrelated to the emoji guessing game described in the problem statement, which involves building an Express API, handling form submissions, and managing game state.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/test/empty-keys-cases.js
+suggestions for improvement:
+- This code is not related to creating an emoji game using Express, Node.js, and the Fetch API. It appears to be test cases for query string parsing.
+- The code does not address any of the requirements outlined in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/test/parse.js
+suggestions for improvement:
+- The provided code is a test suite for a query string parsing library (qs). It does not implement any of the features described in the chapter content, such as setting up an Express server, creating an emoji guessing game, or handling user input.
+- The code is entirely unrelated to the emoji guessing game and Express API requested in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/test/stringify.js
+suggestions for improvement:
+- The submitted code is a test suite for the `qs` library, which is used for query string parsing and stringification. This is completely unrelated to the emoji guessing game described in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/qs/test/utils.js
+suggestions for improvement:
+- The submitted code is a series of unit tests for utility functions and is unrelated to the emoji guessing game described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/range-parser/index.js
+suggestions for improvement:
+- The provided code is a module for parsing HTTP Range headers, which is completely unrelated to the emoji guessing game described in the chapter content. The code doesn't address any of the requirements of the game, such as setting up an Express server, managing emoji objects, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/range-parser/package.json
+suggestions for improvement:
+- The code provided is a package.json file, which describes a node module named 'range-parser'.
+- This does not address the problem of creating an emoji guessing game using Express, as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/index.d.ts
+suggestions for improvement:
+- The provided code appears to be TypeScript declaration file for the `getRawBody` library, which is used for reading the raw body of a stream. This is completely unrelated to the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/index.js
+suggestions for improvement:
+- The code provided is a module for reading the raw body of a stream, which is unrelated to the emoji guessing game described in the problem statement. The code does not address any of the specified requirements for building an Express API for the game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/dbcs-codec.js
+suggestions for improvement:
+- This code appears to be a complex codec implementation, likely for character encoding/decoding, and is completely unrelated to the emoji guessing game described in the prompt. It doesn't use Express, handle HTTP requests, or implement any game logic.
+- The provided code does not address any of the specified requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/dbcs-data.js
+suggestions for improvement:
+- The provided code appears to be a character encoding table, which is entirely unrelated to the emoji guessing game described in the problem statement.  The code defines mappings and configurations for double-byte character sets like Shift_JIS, EUC-JP, GBK, and Big5, and is not relevant to creating an Express API for a game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/index.js
+suggestions for improvement:
+- The provided code appears to be related to character encoding and is completely unrelated to the emoji guessing game described in the prompt. It does not address any of the requirements outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/internal.js
+suggestions for improvement:
+- The submitted code appears to be related to string encoding and decoding, specifically dealing with UTF-8 and CESU-8. This is completely unrelated to building an Emoji guessing game using Express as specified in the instructions. Therefore, the code does not address the problem at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-codec.js
+suggestions for improvement:
+- This code appears to be a codec implementation, possibly related to character encoding. It does not address any of the requirements for the emoji guessing game described in the chapter content.
+- The code needs to implement an Express server, handle emoji data, present a form to the user, process user input, track scores, and potentially implement a leaderboard, none of which are present in this submission.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-data-generated.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content. It appears to be a character encoding map, not code related to building an Express API for an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-data.js
+suggestions for improvement:
+- The code provided is completely unrelated to the emoji guessing game described in the prompt. It seems to be related to character encodings.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/big5-added.json
+suggestions for improvement:
+- The submitted code is not related to the chapter content. It appears to be some form of character encoding table, not code for an emoji guessing game using Express, Node.js, and forms.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp936.json
+suggestions for improvement:
+- This appears to be the character encoding table, and is unrelated to creating an emoji guessing game using an Express API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp949.json
+suggestions for improvement:
+- The code is not in a recognizable programming language. Therefore, it cannot be assessed for correctness, readability, performance, or security.
+- The provided data appears to be encoded or compressed, making it impossible to understand or evaluate its functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp950.json
+suggestions for improvement:
+- This submission is just a text file with unicode characters, without any code related to the emoji guessing game. The response does not address any of the instructions in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/eucjp.json
+suggestions for improvement:
+- The 'code' provided is a large data structure containing unicode characters. It does not implement the emoji guessing game as described in the prompt.
+- The provided data could potentially be used as a data source for emojis and their names in an actual implementation, but it doesn't by itself satisfy the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/gbk-added.json
+suggestions for improvement:
+- The submitted code consists of a list of seemingly random strings and numbers, which doesn't align with the problem description of creating an emoji guessing game using an Express API.
+- The code does not include any Express server setup, emoji data structure creation, game logic, or form handling as required by the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/shiftjis.json
+suggestions for improvement:
+- The provided data resembles character encoding tables, which are entirely unrelated to the emoji guessing game described in the problem statement. The data does not include any code for setting up an Express server, creating an emoji array, handling form submissions, managing scores, or implementing a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/utf16.js
+suggestions for improvement:
+- The provided code appears to be a codec for UTF-16 encoding, which is completely unrelated to the emoji guessing game described in the chapter content.  The code doesn't implement any of the required functionalities such as setting up an Express server, handling game logic, or managing player scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/utf32.js
+suggestions for improvement:
+- The code provided is a UTF-32 encoder/decoder, which is completely unrelated to the emoji guessing game described in the chapter content. Therefore, it does not address any of the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/encodings/utf7.js
+suggestions for improvement:
+- The provided code appears to be related to UTF-7 encoding and decoding, which is completely unrelated to the emoji guessing game described in the chapter content.
+- The code does not address any of the requirements of the emoji game, such as setting up an Express server, creating an array of emojis, generating random emojis, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/lib/bom-handling.js
+suggestions for improvement:
+- This code appears to be related to handling Byte Order Marks (BOMs) in text encoding, which is not related to the emoji guessing game described in the chapter content. The code does not implement any of the specified functionalities such as setting up an Express server, creating an emoji array, generating random emojis, handling user input, or managing scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/lib/helpers/merge-exports.js
+suggestions for improvement:
+- This code snippet is a utility function for merging modules, which is not directly related to the emoji guessing game described in the chapter content. Therefore, it doesn't address the core requirements of the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/lib/index.d.ts
+suggestions for improvement:
+- The code provided defines TypeScript type declarations for the 'iconv-lite' library, which is unrelated to the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/lib/index.js
+suggestions for improvement:
+- The provided code is for the 'iconv-lite' library, which is used for character encoding conversion. It has absolutely nothing to do with creating an emoji guessing game using Express, Node.js, and the Fetch API, as described in the problem statement.
+- The code does not address any of the requirements outlined in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/lib/streams.js
+suggestions for improvement:
+- This code appears to be related to stream processing and character encoding, specifically using the `iconv-lite` library. It's completely unrelated to the emoji guessing game described in the chapter content. Therefore, it doesn't address the problem or implement any of the required functionalities.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/node_modules/iconv-lite/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module (iconv-lite) for character encoding conversion. It doesn't implement any of the emoji guessing game logic or API endpoints as described in the chapter content.
+- The code is entirely irrelevant to the chapter content, which focuses on creating an Express API for an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/raw-body/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which doesn't implement any of the game logic required by the chapter. It only describes a Node.js package called 'raw-body'.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/router/index.js
+suggestions for improvement:
+- The provided code is the implementation of the Express Router, which is a core component of the Express.js framework for handling routing in web applications. While it's technically correct and functional in its own context, it completely misses the point of the exercise, which is to create a specific emoji guessing game API.
+- The code doesn't address any of the specific requirements of the emoji game, such as creating an array of emojis, generating random emojis, handling form submissions, or managing player scores. It's a low-level routing mechanism, not a game implementation.
+- The submission should contain code that directly implements the emoji guessing game functionality as described in the problem description, including setting up an Express server, defining API endpoints for the game, and implementing the game logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/router/lib/layer.js
+suggestions for improvement:
+- The code provided is an internal module of Express (router layer) and doesn't implement the emoji guessing game described in the instructions.
+- The code does not address any of the specific requirements such as creating an Express server, managing emojis, or handling user guesses.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/router/lib/route.js
+suggestions for improvement:
+- This code is an internal part of Express.js, specifically the `Route` object. It does not implement the emoji guessing game described in the prompt.
+- The prompt requests the creation of an Express API for an emoji guessing game, including handling POST requests, managing scores, and generating a leaderboard. This code does not address any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/router/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a node module named 'router'. This file does not implement any of the game logic or API endpoints required by the chapter. The chapter asks for the use of Express to build an API for a game, and this file doesn't contain anything related to that.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/safe-buffer/index.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file for the 'safe-buffer' module, which defines the interface for working with Buffers in Node.js. This code is completely unrelated to the emoji guessing game described in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/safe-buffer/index.js
+suggestions for improvement:
+- The code provided does not implement the emoji guessing game described in the prompt.
+- The code appears to be related to buffer management in Node.js, which is unrelated to the task of creating an Express API for an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/safe-buffer/package.json
+suggestions for improvement:
+- The provided code is a package.json file for the safe-buffer library, which is unrelated to the emoji guessing game described in the chapter content.
+- The code does not implement any of the required functionalities, such as setting up an Express server, creating emoji objects, generating random emojis, presenting options to the player, handling submissions, checking guesses, updating scores, providing feedback, keeping track of the total score, or implementing a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/safer-buffer/dangerous.js
+suggestions for improvement:
+- This code appears to be related to buffer manipulation and security, which is entirely unrelated to the Emoji guessing game described in the problem. The provided code does not address any of the requirements for setting up an Express server, creating an emoji array, handling user input, or managing game state.
+- The code seems to be related to `safer-buffer` library.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/safer-buffer/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a node module. This file is not directly related to creating an Express API for the emoji guessing game as requested by the problem description.
+- The response doesn't implement any of the requirements of the emoji game, such as setting up an express server, handling emojis, presenting the quiz, or managing scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/safer-buffer/safer.js
+suggestions for improvement:
+- This code appears to be a buffer-related module, potentially aimed at providing safer alternatives to the standard Node.js Buffer API. However, it's completely unrelated to the emoji guessing game described in the prompt. Therefore, it does not address any of the specified requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/safer-buffer/tests.js
+suggestions for improvement:
+- The provided code relates to buffer manipulation in Node.js, which is completely unrelated to the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/send/index.js
+suggestions for improvement:
+- The submitted code is the 'send' module, which is for serving static files in Express.js. This is not relevant to the emoji guessing game described in the chapter content, which requires building an API to handle game logic, emoji data, score tracking, and user interactions.
+- The code does not address any of the specific requirements outlined in the instructions, such as creating an array of emoji objects, generating random emojis, presenting options to the player, handling form submissions, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/send/package.json
+suggestions for improvement:
+- This code is a package.json file, which describes a node module, but doesn't implement any of the emoji game logic. It's entirely unrelated to the problem described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/serve-static/index.js
+suggestions for improvement:
+- The code provided is the `serve-static` middleware for Express, which is used for serving static files. This code is completely unrelated to the emoji guessing game described in the chapter content.
+- The submission should contain the code for the emoji guessing game, including setting up the Express server, handling the game logic, and implementing the required features.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/serve-static/package.json
+suggestions for improvement:
+- This package.json file is for the 'serve-static' middleware, not the emoji guessing game described in the prompt.
+- The submission needs to implement the game logic, Express API, and front-end interaction as outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/setprototypeof/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/setprototypeof/index.js
+suggestions for improvement:
+- The provided code snippet appears to be a polyfill for `Object.setPrototypeOf`. It's not related to building an Express API for an emoji guessing game as described in the instructions. Therefore, it completely misses the task requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/setprototypeof/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module named `setprototypeof`. This file contains metadata about the module, its dependencies, scripts, and other relevant information. It is not related to the emoji guessing game requested in the prompt.
+- The provided code does not implement any of the required functionalities, such as setting up an Express server, creating emoji objects, generating random emojis, handling user input, or managing scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/setprototypeof/test/index.js
+suggestions for improvement:
+- The submitted code does not implement the emoji guessing game as described in the instructions.
+- The code appears to be a test suite for a `setPrototypeOf` function, which is unrelated to the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-list/.github/FUNDING.yml
+suggestions for improvement:
+- This code is unrelated to the emoji guessing game and the Express API building instructions provided in the chapter content. It seems to be a funding model configuration file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-list/index.d.ts
+suggestions for improvement:
+- This code does not implement any of the features mentioned in the prompt, like creating an Express server, handling emoji objects, form submission, score tracking, or leaderboard implementation. It defines a TypeScript declaration for a function related to side channels, which is irrelevant to the Emoji guessing game requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-list/index.js
+suggestions for improvement:
+- This code appears to be a utility for managing a side channel using a linked list, which is unrelated to the emoji guessing game described in the problem. The code does not address any of the requirements set in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-list/list.d.ts
+suggestions for improvement:
+- The provided code snippet seems to be related to linked list operations, which is completely unrelated to the emoji guessing game described in the chapter content. The chapter content focuses on building an Express API for a game involving emojis and user interaction.
+- The code does not address any of the specific requirements outlined in the chapter, such as setting up an Express server, handling form submissions, managing game state, or implementing a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-list/package.json
+suggestions for improvement:
+- The code provided is a `package.json` file, which describes a JavaScript package. It does not implement the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-list/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a module called `getSideChannelList`. This code is completely unrelated to the emoji guessing game described in the instructions. The instructions require building an Express API for a game, while the code provided is a test suite for a completely different module.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-list/tsconfig.json
+suggestions for improvement:
+- This is a tsconfig file, not the requested Express API game. It doesn't address the core requirements of the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-map/.github/FUNDING.yml
+suggestions for improvement:
+- This is a FUNDING.yml file, which is unrelated to the emoji guessing game described in the chapter content.
+- The submission does not address any of the requirements outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-map/index.d.ts
+suggestions for improvement:
+- The code provided does not address the problem described in the instructions.
+- The code does not implement the emoji guessing game using an Express API.
+- The provided code defines a TypeScript declaration for `getSideChannelMap` and exports a boolean or the function itself which is unrelated to creating an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-map/index.js
+suggestions for improvement:
+- The provided code appears to be a utility for managing side channels using a Map, which is unrelated to the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-map/package.json
+suggestions for improvement:
+- The code provided is a package.json file, which describes a javascript package. It does not implement any of the functionality described in the problem, namely building an Express API for an emoji guessing game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-map/test/index.js
+suggestions for improvement:
+- The provided code appears to be a unit test for a `getSideChannelMap` function, which is unrelated to the emoji guessing game described in the chapter content. The code does not implement any of the required features like setting up an Express server, handling emoji data, creating a form, or managing player scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-map/tsconfig.json
+suggestions for improvement:
+- This code is a TypeScript configuration file and is unrelated to the emoji guessing game described in the problem statement. It doesn't implement any of the required functionalities like setting up an Express server, managing emojis, handling user input, or keeping track of scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-weakmap/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code snippet appears to be a funding model configuration file, unrelated to the emoji guessing game described in the chapter content.
+- The file does not address any of the requirements outlined in the instructions, such as setting up an Express server, managing emoji data, handling user input, or tracking scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-weakmap/index.d.ts
+suggestions for improvement:
+- The provided code appears to be TypeScript declaration files for a utility related to WeakMaps, but it doesn't implement any of the game logic described in the chapter content.  It doesn't create an Express server, manage emoji data, handle user input, or track scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-weakmap/index.js
+suggestions for improvement:
+- The provided code appears to be a utility for managing side-channel data using WeakMaps or a fallback mechanism. This code does not implement any of the requirements outlined in the problem description, which involves creating an emoji guessing game using Express, handling player scores, and implementing a leaderboard.
+- The code does not set up an Express server, handle emoji data, implement game logic, or manage player scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-weakmap/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a JavaScript package, but it does not implement any of the game logic or API endpoints required by the problem description.
+- The code does not address the core task of creating an emoji guessing game using Express.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-weakmap/test/index.js
+suggestions for improvement:
+- The submitted code is a test suite for a `getSideChannelWeakMap` function, which is completely unrelated to the emoji guessing game described in the chapter content. The code focuses on testing the behavior of a WeakMap or Map implementation, which has nothing to do with creating an Express API for a game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel-weakmap/tsconfig.json
+suggestions for improvement:
+- This is a configuration file, not the Express API for the emoji game as described in the instructions. You need to provide the code that creates the Express server, defines the API endpoints, handles the game logic, and interacts with the client-side form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code appears to be related to funding models, not to building an emoji guessing game using Express, Node.js, and forms as specified in the instructions.
+- The code does not address any of the specified requirements (setting up an Express server, creating emoji objects, generating random emojis, handling form submissions, etc.).
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel/index.d.ts
+suggestions for improvement:
+- The provided code appears to be a utility for managing side channels in JavaScript, possibly for storing metadata associated with objects. This code is completely unrelated to the emoji guessing game described in the Chapter Content/Questions. Therefore, it does not address the problem or implement any of the functionality required.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel/index.js
+suggestions for improvement:
+- This code does not implement the emoji guessing game described in the instructions. It appears to be a module for managing side channels, which is unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel/package.json
+suggestions for improvement:
+- This code is a package.json file, which describes a JavaScript package. It doesn't implement any of the game logic described in the prompt, such as setting up an Express server, handling emoji data, or managing player scores. Therefore, it's entirely unrelated to the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel/test/index.js
+suggestions for improvement:
+- The submitted code is completely unrelated to the emoji guessing game described in the chapter content. It appears to be code for a 'getSideChannel' module, which has nothing to do with building an Express API, handling emojis, or creating a guessing game.
+- The code does not address any of the requirements outlined in the instructions, such as setting up an Express server, creating an array of emojis, or implementing game logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/side-channel/tsconfig.json
+suggestions for improvement:
+- This submission is a tsconfig file, which configures TypeScript compilation options. It does not implement any part of the emoji guessing game described in the instructions. Therefore it does not address any of the requirements.
+- The submission is completely irrelevant to the given task. It defines how to compile typescript, which is not what the task asked for.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/statuses/codes.json
+suggestions for improvement:
+- The provided code is a JSON object containing HTTP status codes and their descriptions, which is completely unrelated to the emoji guessing game described in the chapter content. The chapter requires building an Express API for a game, while the given code provides HTTP status codes.
+- The response should include code that initializes an express server, uses an array of emojis, serves the game, and manages the game logic as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/statuses/index.js
+suggestions for improvement:
+- This code is completely unrelated to the emoji guessing game described in the chapter content. It's a module for handling HTTP status codes, not an Express API for a game.
+- There's no Express server setup, no emoji array, no game logic, and no form handling as required by the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/statuses/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module named 'statuses'. This file contains metadata about the module, its dependencies, scripts, and other relevant information. It does not implement the emoji guessing game described in the prompt.
+- The submission completely misses the requirements outlined in the prompt. It does not set up an Express server, manage emoji data, handle user input, or implement game logic. It is unrelated to the problem described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/toidentifier/index.js
+suggestions for improvement:
+- This code transforms a string into a JavaScript identifier, which is completely unrelated to the emoji guessing game described in the chapter content.
+- The code is not relevant to the task of creating an Express API for the game.
+- The code does not address any of the requirements: setting up an Express server, creating emoji objects, generating random emojis, handling form submissions, updating scores, providing feedback, tracking scores, or implementing a leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/toidentifier/package.json
+suggestions for improvement:
+- This code is a package.json file, which describes a Node.js module. It does not implement the emoji guessing game described in the problem statement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/type-is/index.js
+suggestions for improvement:
+- The submitted code appears to be a module for determining content type, which is entirely unrelated to the emoji guessing game described in the chapter content. The chapter content focuses on building an Express API for a game involving emojis, form submissions, score tracking, and leaderboard implementation. This code does not address any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/type-is/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module named 'type-is'.
+- This file does not implement any of the game logic, Express server setup, or API endpoints described in the problem statement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/unpipe/index.js
+suggestions for improvement:
+- This code is completely unrelated to the emoji guessing game described in the prompt.
+- It appears to be a utility function for unpiping streams in Node.js, which has no relevance to building an Express API for a game.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/unpipe/package.json
+suggestions for improvement:
+- The provided code is a package.json file for a Node.js module named 'unpipe', which is unrelated to the emoji guessing game described in the chapter content.
+- The submission doesn't include any code related to creating an Express API, handling emoji data, building a game interface, or managing player scores, as required by the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/vary/index.js
+suggestions for improvement:
+- The code provided is a module for handling the 'Vary' HTTP header and is unrelated to the emoji guessing game described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/vary/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module named 'vary'. This module manipulates the HTTP Vary header. This code does not address the emoji guessing game requirements outlined in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/wrappy/package.json
+suggestions for improvement:
+- The provided code is a package.json file for the `wrappy` library, which is a callback wrapping utility. It is unrelated to the emoji guessing game described in the instructions, which involves creating an Express API, handling form submissions, and managing game state.
+- The task requires building an Express API for an emoji guessing game, handling game logic, and implementing features like score tracking and a leaderboard. The provided code does not address any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/node_modules/wrappy/wrappy.js
+suggestions for improvement:
+- The provided code appears to be a module for wrapping functions, which is unrelated to the emoji guessing game described in the chapter content.
+- The code does not address any of the requirements of setting up an Express server, creating emoji objects, handling user input, or managing game state.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/package-lock.json
+suggestions for improvement:
+- The provided code only contains the package-lock.json file which lists the dependencies of an npm project. It doesn't implement any of the game logic, API endpoints, or UI elements described in the problem statement.
+- The file confirms the intention to use Express, which is correct. However, it doesn't demonstrate its usage or any other game-related functionalities.
+Correctness: 20%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/package.json
+suggestions for improvement:
+- The provided code is only the package.json file. It needs to include the actual server-side logic using Express to handle the emoji game as described in the instructions.
+- The code should include routes for serving the game, handling player guesses, updating scores, and potentially displaying the leaderboard.
+- The code is missing the game logic, including the emoji array, random emoji generation, score tracking, and feedback mechanisms.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/public/index.html
+suggestions for improvement:
+- The provided HTML code seems to be for the client-side of the emoji guessing game. However, the challenge specifically requires building an Express API. This code doesn't include any Express server setup or API endpoints as requested, therefore it misses the mark completely.
+- The javascript provided is client-side but it fetches from `/api/round` and there is no server-side code for the API. The client side code is also incomplete, it should POST the score to the server to be saved and displayed on the leaderboard.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week12/Day4/DailyChallenge/emoji-game/public/script.js
+suggestions for improvement:
+- The code only handles the client-side logic. The instructions explicitly require creating an Express API to serve the emoji data and handle the game logic. The code is missing the entire backend component including setting up an Express server to serve the game data.
+- The code does not track or display the player's score.
+- The code does not implement a leaderboard.
+- The code assumes the existence of an API endpoint `/api/round` without providing the server-side code that defines this endpoint. This needs to be implemented using Express.
+- Error handling could be improved. For example, the `loadRound` function should handle potential errors from the `fetch` API call.
+- The CSS class 'row' is used but no CSS styles have been provided. Also, the structure is not fully utilizing the HTML structure.
+Correctness: 50%
+-----
