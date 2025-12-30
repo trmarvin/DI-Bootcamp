@@ -1,0 +1,90 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/eslint.config.js
+suggestions for improvement:
+- This code configures ESLint, which is a code linting tool. While useful in a React/TypeScript project, the provided exercises focus on creating React components, using hooks, and fetching data. This ESLint configuration doesn't directly address those tasks.
+- Consider showing an example of eslint configuration inside a React component.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/index.html
+suggestions for improvement:
+- The provided code is just the basic HTML structure and doesn't address any of the exercises. It needs to include the React components and TypeScript implementations described in each exercise.
+Correctness: 0.0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/package-lock.json
+suggestions for improvement:
+- This package-lock.json represents the state of the node_modules directory after dependencies are installed.  It doesn't directly address the instructions, which focus on creating a Vite project with React and TypeScript.
+- The provided code is not directly executable or modifiable, and does not offer direct insight into best practices.
+Correctness: 50%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/package.json
+suggestions for improvement:
+- The submission provides a package.json file, which defines the dependencies and scripts for a React project, but it does not contain any React components (Greeting.tsx, Counter.tsx, UserCard.tsx, UserList.tsx). Therefore it does not fully implement all the instructions outlined in Exercises 2, 3, 4 and 5. While Exercise 1 is addressed by setting up a Vite project, the subsequent exercises are completely missing.
+Correctness: 0.0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/src/App.css
+suggestions for improvement:
+- This code is for styling and doesn't directly address any of the exercises which are about creating React components with TypeScript, using useState and useEffect, and fetching data.
+- Consider creating components and functionalities as described in the exercises.
+Correctness: 0.0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/src/App.tsx
+suggestions for improvement:
+- Consider adding some styling or layout to improve the visual presentation of the components.
+- While the `App` component integrates all created components, further breakdown into more specific components could improve maintainability, depending on future complexity.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/src/components/Counter.tsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/src/components/Greeting.tsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/src/components/UserCard.tsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/src/components/UserList.tsx
+suggestions for improvement:
+- Consider adding memoization or useCallback where appropriate for performance optimization if the component re-renders frequently.
+- The error handling is good, but consider using a more specific error type for non-network errors if possible.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/src/index.css
+suggestions for improvement:
+- The provided code is a CSS file, and not related to the exercises described in the prompt which are on React components and TypeScript. It does not address any of the exercises related to creating React components, using useState, useEffect, or optional props.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/src/main.tsx
+suggestions for improvement:
+- The code provided is the entry point for a React application and does not address any of the exercises outlined in the chapter content.
+- The exercises focus on creating components, using hooks with TypeScript, and fetching data, none of which are demonstrated in the given code.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/tsconfig.app.json
+suggestions for improvement:
+- This code is a TypeScript configuration file, not an implementation of any of the exercises described in the chapter content.
+- The exercises require creating React components and using hooks with TypeScript, which this file does not address.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/tsconfig.json
+suggestions for improvement:
+- The provided code snippet is a configuration file (likely tsconfig.json or similar). It doesn't implement any of the React components or functionalities described in the exercises.
+- To address the exercises, you need to write actual React components with TypeScript, incorporating useState, useEffect, prop typing, and data fetching as outlined in the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/tsconfig.node.json
+suggestions for improvement:
+- This code is a tsconfig.json file, which configures the TypeScript compiler. While TypeScript is used in the exercises, this specific file is for configuring Vite and Node, and not directly related to the React components and hooks described in Exercises 2-5.  It only becomes relevant in Exercise 1.
+- Consider submitting React components and hooks, as detailed in exercises 2-5 to be properly evaluated based on the exercise descriptions.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week22/Day2/ExerciseXP/exercise1/vite.config.ts
+suggestions for improvement:
+- This code only includes the vite.config.js file, which is part of Exercise 1. However, it doesn't contain any of the React components created in Exercises 2-5. It is missing the components that define Typescript interfaces and utilize useState and useEffect, therefore not addressing the core learning objectives of the chapter.
+- Consider providing code snippets or file structures from all exercises to showcase a complete understanding.
+Correctness: 0%
+-----

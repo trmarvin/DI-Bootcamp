@@ -1,0 +1,5 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week21/Day4/DailyChallenge/library.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

@@ -1,0 +1,95 @@
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/eslint.config.js
+suggestions for improvement:
+- This code configures ESLint, a linting tool, which is not directly related to the daily planner application described in the prompt. The prompt asks for code implementing React-Redux components and logic for managing tasks.
+- Consider focusing on implementing the React components, Redux actions, and reducers as outlined in the problem description.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/index.html
+suggestions for improvement:
+- The provided code is a basic HTML structure and doesn't implement any of the Redux-related functionalities or React components required by the problem description. It lacks the Redux store setup, actions, reducers, calendar component, and task management components.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which only describes the dependency tree of a Node.js project. It doesn't contain any source code that implements the daily planner application's functionality as described in the prompt.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/package.json
+suggestions for improvement:
+- This package.json file only sets up the basic dependencies for a React-Redux project. It doesn't implement any of the specific functionality required by the chapter content, such as defining actions, reducers, or components for task management. The core logic of the daily planner application is missing.
+- The file should include scripts to run tests and potentially format the code.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/src/App.css
+suggestions for improvement:
+- The provided CSS does not address the requirements of the Daily Planner application using React-Redux.
+- The code should include React components, Redux store setup, actions, and reducers as outlined in the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/src/App.jsx
+suggestions for improvement:
+- The code lacks Redux implementation. It needs reducers, actions, and store setup as defined in step 1 and 2.
+- The application does not implement the edit and delete functionality, thus not satisfying all requirements.
+- The components DayPicker, AddTask, and TaskList are not provided, making it impossible to fully evaluate the code.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/src/components/AddTask.jsx
+suggestions for improvement:
+- The `addTask` action is dispatched with `selectedDay` and `text`. Ensure your reducer correctly handles these arguments. Specifically, the reducer should update the state to include the new task under the correct day.
+- Consider adding error handling or user feedback (e.g., a message confirming the task was added).
+- Sanitize the input `text` to prevent potential cross-site scripting (XSS) vulnerabilities.
+Correctness: 70%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/src/components/DayPicker.jsx
+suggestions for improvement:
+- This component focuses on just picking a date and doesn't use Redux at all. It needs to be integrated with Redux to dispatch an action to update the selected day in the Redux store.
+- The `onChangeDay` prop should dispatch a Redux action.  Currently, it just calls a function passed from a parent. This prop needs to be connected to `useDispatch`.
+- Consider adding error handling or validation for the date input.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/src/components/DeleteTask.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/src/components/EditTask.jsx
+suggestions for improvement:
+- Consider adding PropTypes for better component documentation and type safety.
+- The inline styling can be moved to a CSS file for better organization and maintainability.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/src/components/TaskList.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/src/index.css
+suggestions for improvement:
+- The provided code is just CSS styling. It does not implement any of the React-Redux functionality required by the chapter content, such as setting up the Redux store, defining actions and reducers, creating React components, or connecting components to the Redux store.
+- The code does not address the core problem of building a daily planner application using React-Redux as described in the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/src/main.jsx
+suggestions for improvement:
+- The provided code only sets up the React application with Redux, rendering the App component within a Redux Provider. It does not implement any of the core functionalities described in the problem statement, such as setting up the Redux store with initial state, reducers, and actions for task management, creating calendar/date picker, task list, add task, edit task, or delete task components, or connecting these components to the Redux store using useSelector and useDispatch.
+Correctness: 0%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/src/store/plannerSlice.js
+suggestions for improvement:
+- Consider adding comments to explain the purpose of the state variables and actions, enhancing readability for other developers.
+- While Immer simplifies state updates, be mindful of potential performance implications with very large state objects. Consider alternative approaches if performance becomes a bottleneck.
+Correctness: 100%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/src/store/store.js
+suggestions for improvement:
+- Implement actions and reducers for adding, editing, and deleting tasks, as outlined in Step 2.
+- Create the `plannerSlice` to manage the state for tasks on different days. The current code only sets up the store.
+- Consider using selectors to access specific parts of the state more efficiently.
+Correctness: 20%
+-----
+URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week19/Day2/DailyChallenge/planner/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file and does not implement any of the required functionality for the Daily Planner application as described in the chapter content. It only configures Vite to use the React plugin.
+- The submission needs to include Redux store setup, actions, reducers, calendar component, task management components, and the logic to connect these components to the Redux store to manage tasks for specific days.
+Correctness: 0%
+-----
