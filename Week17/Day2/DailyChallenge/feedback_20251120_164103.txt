@@ -1,0 +1,2182 @@
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/client/eslint.config.js
+suggestions for improvement:
+- This code appears to be ESLint configuration, not code related to building an Express server and React form as described in the problem. Therefore, it does not address the problem at all.
+- The ESLint configuration itself seems reasonably well-structured, but without the React and Express code, its utility in this context is zero.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/client/index.html
+suggestions for improvement:
+- The provided code is a basic HTML structure, likely the index.html file for a React application.  It doesn't implement any of the required functionality for the Express server, React form creation, or data communication between the client and server, as described in the chapter content.
+- The file only sets up the basic HTML structure for a React application, including the root div and script tag to load the main JavaScript file.  It does not include any React components, form elements, or API calls.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/client/package-lock.json
+suggestions for improvement:
+- This file is a `package-lock.json` file, which is automatically generated and managed by npm. It is not code that implements the functionality described in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/client/package.json
+suggestions for improvement:
+- The provided code is a package.json file which describes the dependencies and scripts for a React project. It doesn't implement the required functionality of fetching data from an Express server, displaying it, creating a form to post data, or handling the post request on the server side. The file only sets up the React project environment.
+- The task requires creating both a server and a client with specific functionalities. This file only pertains to the client-side setup.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/client/src/App.css
+suggestions for improvement:
+- This code is CSS and does not address any of the requirements in the chapter content/questions. The instructions ask for the creation of an Express server and a React app that communicates with it via GET and POST requests. This CSS provides styling and doesn't implement any of that functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/client/src/App.jsx
+suggestions for improvement:
+- Consider adding error handling for the initial GET request in `componentDidMount` similar to the POST request in `handleSubmit`.
+- The code could benefit from more comments, especially explaining the purpose of the state variables.
+Correctness: 100%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/client/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling and does not address any of the functionality described in the Chapter Content/Questions. It defines styles for various HTML elements and color schemes but doesn't include any JavaScript or server-side code to create an Express server or a React form that interacts with it.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/client/src/main.jsx
+suggestions for improvement:
+- The provided code only contains the entry point for the React application (index.js/jsx). It needs to include the server-side code (server.js) and the React component (App.jsx) to fully address the problem statement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/client/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file, designed to set up a development environment for a React application. It configures a proxy server to forward API requests from the client to a backend server running on `http://localhost:5000`. While this configuration is useful for development, it doesn't directly address the core requirements of the daily challenge, which involves creating an Express server, implementing specific API endpoints (`/api/hello` and `/api/world`), building a React form to interact with these endpoints, and displaying data received from the server.
+- The provided vite config does not contain the express backend nor the React components and functionality to send the data to the specified endpoints.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/.package-lock.json
+suggestions for improvement:
+- The provided code is a package-lock.json file and does not contain the server.js or App.js files required by the prompt. It is not possible to assess the code's correctness, readability, performance or security as it does not implement the requested functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/accepts/index.js
+suggestions for improvement:
+- The code provided is the 'accepts' library, which is a utility for content negotiation in HTTP. This library is not related to the daily challenge, which involves creating an Express server, a React form, sending data between them, and displaying the data. The code does not address any of the requirements of the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/accepts/package.json
+suggestions for improvement:
+- This code is a `package.json` file, which describes a Node.js package. It does not implement the React front-end or Express back-end described in the problem statement.
+- The file provides metadata and dependencies for a content negotiation library, which is not directly related to the task of sending data from a React form to an Express server.
+- The submission needs to include the `server.js` file for the Express server and the React components in the `client` folder.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/body-parser/index.js
+suggestions for improvement:
+- This code is an unrelated module export of body-parser and does not implement the functionality requested in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/body-parser/lib/read.js
+suggestions for improvement:
+- This code is an excerpt from the body-parser library, and it is not related to the problem described in the prompt, which asks for the creation of a React app and an Express server to exchange data.
+- The submission should include the `server.js` file with the GET and POST routes, and the `App.js` file with the React form and the logic to fetch and post data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/body-parser/lib/types/json.js
+suggestions for improvement:
+- The provided code is the body-parser middleware for handling JSON requests, which is not directly related to the challenge of creating an Express server, a React form, and communication between them as specified in the problem description.
+- The code doesn't implement the creation of an Express server with specific routes or a React form for data submission, making it irrelevant to the challenge's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/body-parser/lib/types/raw.js
+suggestions for improvement:
+- The provided code appears to be middleware for parsing raw request bodies, likely from a library like body-parser.  It is completely unrelated to the React and Express application described in the Chapter Content/Questions, which involves creating routes, handling form submissions, and displaying data between the client and server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/body-parser/lib/types/text.js
+suggestions for improvement:
+- This code is a middleware for parsing text bodies, which is irrelevant to the chapter's instructions on creating an Express server, handling GET and POST requests, and interacting with a React form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/body-parser/lib/types/urlencoded.js
+suggestions for improvement:
+- This code is an unrelated middleware for parsing URL-encoded request bodies, not a solution to the React-Express full-stack task. The code addresses concerns like character sets, query string parsing, and parameter limits, which are relevant to its intended use but entirely unrelated to the given problem description.
+- The code is from the `body-parser` npm package, and attempts to parse URL-encoded data, which is not part of the daily challenge requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/body-parser/lib/utils.js
+suggestions for improvement:
+- This code is completely unrelated to the prompt. It appears to be from a content parsing library. It does not create an Express server, implement React forms, or handle data transfer between them as described in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/body-parser/package.json
+suggestions for improvement:
+- This is a package.json file, not the server.js or App.js file requested by the instructions.
+- The provided file does not address the instructions at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/bytes/index.js
+suggestions for improvement:
+- This code is completely unrelated to the challenge. It provides a utility for converting bytes to human-readable formats and vice versa, but the challenge requires creating a React app and an Express server to send data between them.
+- The challenge specifically outlines creating a server with a `server.js` file and a React app within a `client` folder, neither of which is present here.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/bytes/package.json
+suggestions for improvement:
+- This is a package.json file, it doesn't address any part of the problem description.
+- The problem requires creating an Express server with specific routes and a React app with a form that interacts with the server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/.github/FUNDING.yml
+suggestions for improvement:
+- The provided content is a funding model configuration file, completely unrelated to the React and Express server task described in the chapter content.
+- The chapter content focuses on creating a React application that interacts with an Express server to send and display data. The provided code does not address this in any way.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/actualApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/actualApply.js
+suggestions for improvement:
+- This code snippet appears to be a utility function related to function application in JavaScript, and is not related to building a React app that communicates with an Express server as outlined in the prompt. The code doesn't address the core requirements of creating a server and client, setting up routes, handling form submissions, or displaying data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/applyBind.d.ts
+suggestions for improvement:
+- The provided code appears to be TypeScript utility types and a function declaration related to function application, which is completely unrelated to the prompt's request to create an Express server and a React form for sending and displaying data.
+- The code does not address any part of the instructions, including creating a server, handling GET/POST requests, or building a React form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/applyBind.js
+suggestions for improvement:
+- The submitted code appears to be a utility function related to function binding and application, likely from a library like `function-bind`. This code is entirely unrelated to the instructions provided in the prompt, which involve creating a React app and an Express server for sending and receiving data.
+- The code doesn't address the core requirements of setting up an Express server with a `/api/hello` GET route and a `/api/world` POST route, nor does it involve creating a React form for submitting data to the server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/functionApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/functionApply.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/functionCall.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/functionCall.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/index.d.ts
+suggestions for improvement:
+- This code appears to be a complex TypeScript definition related to function binding, specifically the `callBind` function. This is completely unrelated to the React and Express task described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/index.js
+suggestions for improvement:
+- The provided code is a JavaScript utility for binding function context and arguments, which is completely unrelated to the React and Express server task described in the chapter content.
+- The chapter requires creating an Express server with specific routes and handling data sent from a React form. The given code doesn't implement any of these functionalities.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package. It doesn't implement the Express server or React form described in the problem description. It is therefore irrelevant to the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/reflectApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/reflectApply.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/test/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter's instructions, which involve creating an Express server and a React form to send data between them.  The code appears to be a unit test for a `callBind` function, which is irrelevant to the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bind-apply-helpers/tsconfig.json
+suggestions for improvement:
+- This code snippet is a tsconfig.json file which configures the TypeScript compiler.  It is completely unrelated to the instructions, which involve creating a React app and an Express server to send and display data.
+- The prompt asks for code that implements a React frontend with form submission and an Express backend to handle the submitted data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bound/.github/FUNDING.yml
+suggestions for improvement:
+- This code is unrelated to the chapter's instructions. The chapter outlines building a React app that sends and receives data from an Express server. The code provided appears to be a configuration file for funding models, completely unrelated to the React/Express task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bound/index.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript definition file for a library called `callBound`. This library seems to be designed for securely accessing intrinsic JavaScript functions. It is not related to creating an Express server or a React form for sending data between them, as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bound/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the React and Express task outlined in the chapter content. It seems to be a utility function for binding intrinsics in JavaScript, which has nothing to do with creating a React form and sending data to an Express server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bound/package.json
+suggestions for improvement:
+- The code provided is a `package.json` file, not the source code for a React app and Express server as requested by the instructions.
+- A React app with form and Express server is expected with GET and POST methods.
+- This `package.json` file does not implement the required functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bound/test/index.js
+suggestions for improvement:
+- The provided code is a test suite for a `callBound` utility, which is completely unrelated to the chapter's instructions on creating an Express server and React form to send and display data.
+- The chapter focuses on setting up a basic full-stack application with a React frontend and an Express backend. The submitted code does not address any aspect of this task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/call-bound/tsconfig.json
+suggestions for improvement:
+- This code is a `tsconfig.json` file, which configures the TypeScript compiler. It's not React or Express code as described in the instructions, therefore it does not address any of the requirements of the problem. The prompt asks for a React frontend that sends data to an Express backend.
+- The task is to create a React application with a form and an Express server that receives and responds to form submissions. The given code does not perform any of these tasks.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/content-disposition/index.js
+suggestions for improvement:
+- The code provided is completely unrelated to the daily challenge question. It appears to be a library for handling Content-Disposition headers, not an implementation of a React app and Express server.
+- The code does not implement any of the functionalities required by the challenge, such as creating an Express server, handling GET and POST requests, or creating a React form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/content-disposition/package.json
+suggestions for improvement:
+- This package.json file is not relevant to the problem. The problem asks to create an Express server and a React app that communicates with it.
+- The submitted code does not implement any of the required functionality (creating an Express server, creating a React app, setting up GET/POST requests, displaying data).
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/content-type/index.js
+suggestions for improvement:
+- The provided code relates to content-type parsing and formatting, and is not related to creating an Express server, React form, or sending data between them as described in the instructions. Therefore, it is completely irrelevant to the problem.
+- The submission should contain server.js and App.js files implementing the described functionality of creating an Express server and React app for data transfer.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/content-type/package.json
+suggestions for improvement:
+- The provided code appears to be a package.json file, which is not code that directly addresses the problem of creating an Express server, a React form, or handling data transfer between them as described in the chapter content.
+- This submission doesn't include the server-side (Node.js/Express) code or the client-side (React) code required to fulfill the instructions. It only provides metadata about a package.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/cookie-signature/index.js
+suggestions for improvement:
+- This code appears to be related to cookie signing and unsigning, using cryptographic functions. It's completely unrelated to the chapter's instructions on creating an Express server and React form to send data between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/cookie-signature/package.json
+suggestions for improvement:
+- This package.json file does not implement the required functionality of creating an Express server, a React app, handling GET/POST requests, or displaying data. It's a metadata file for a completely unrelated npm package.
+- The submission should include server-side code (server.js) with Express routes and client-side React code (App.js) with form and API interactions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/cookie/index.js
+suggestions for improvement:
+- The code is entirely unrelated to the chapter content.  It's cookie parsing/serialization logic, not an Express server and React form interaction.
+- The provided code doesn't implement any of the required functionality: creating an Express server, setting up routes, creating a React app, sending data between them, or displaying the data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/cookie/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a node module but does not implement any of the required functionality of creating an Express server, handling routes, or creating a React form. The `package.json` file seems to describe a cookie parsing library, which is entirely unrelated to the prompt's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/debug/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for the `debug` npm package, which is a debugging utility. This is completely unrelated to the task of creating a React app and an Express server to send and display data.
+- The submission should include code for both the client-side (React) and server-side (Express) implementations as specified in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/debug/src/browser.js
+suggestions for improvement:
+- The code provided appears to be a browser-based implementation of a debugging library, and is completely unrelated to the instructions. The instructions are to create a React app and an Express server that communicate with each other, specifically sending data from a form in React to the Express server and displaying the response.
+- This code does not implement any of the required functionalities, such as creating an Express server, defining routes, building a React form, or sending data between the client and server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/debug/src/common.js
+suggestions for improvement:
+- The code provided is the source code for the `debug` npm package, which is a debugging utility. It is entirely unrelated to the task of creating an Express server and a React form to send and display data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/debug/src/index.js
+suggestions for improvement:
+- This code is unrelated to the chapter content. The chapter describes building a React app with an Express server to send and receive data. The provided code seems to be related to detecting the environment (browser vs. node) which is not part of the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/debug/src/node.js
+suggestions for improvement:
+- The submitted code is unrelated to the problem description.  It appears to be a debugging utility, not the React/Express application requested in the prompt.
+- The code needs to implement both a React frontend with a form that sends data to an Express backend and the Express backend to receive and process the data.  The provided code does not fulfill either requirement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/depd/index.js
+suggestions for improvement:
+- The code provided is the source code for the `depd` npm package, which is a utility for marking methods as deprecated. This is completely unrelated to the React and Express task described in the chapter content.
+- Since the code doesn't address the problem, no amount of improvement can make it fulfill the task requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/depd/lib/browser/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content. It appears to be the source code for the 'depd' Node.js module, which is a dependency used for marking APIs as deprecated. The chapter focuses on creating a React app and an Express server to handle form submissions and data display.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/depd/package.json
+suggestions for improvement:
+- This submission is a package.json file, which does not address the problem description at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/dunder-proto/.github/FUNDING.yml
+suggestions for improvement:
+- This file appears to be a funding model configuration file, completely unrelated to the React/Express task described in the chapter content. It doesn't involve creating an Express server, React form, or any client-server communication as instructed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/dunder-proto/get.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/dunder-proto/get.js
+suggestions for improvement:
+- This code appears to be a utility for getting the `__proto__` of an object or using `Object.getPrototypeOf` as a fallback. It is completely unrelated to the chapter content, which involves creating a React app and an Express server to handle form submissions.
+- The chapter requires building a client-server interaction with React and Express, involving specific routes and data handling. This code snippet does not address any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/dunder-proto/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package. It doesn't implement the Express server and React form functionality described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/dunder-proto/set.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/dunder-proto/set.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/dunder-proto/test/get.js
+suggestions for improvement:
+- The provided code is a test suite for a function called `getDunderProto` and does not implement an Express server, React form, or the communication between them as described in the chapter content.  Therefore, it is completely unrelated to the assignment.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/dunder-proto/test/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/dunder-proto/test/set.js
+suggestions for improvement:
+- The code provided appears to be testing code related to setting the `__proto__` property of objects in JavaScript. This is completely unrelated to the chapter content, which focuses on building a React form and sending data to an Express server. The code does not attempt to address the instructions given in the prompt at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/dunder-proto/tsconfig.json
+suggestions for improvement:
+- This submission appears to be a `tsconfig.json` file, which configures the TypeScript compiler. This is completely unrelated to the instructions, which involve creating a React application and an Express server to send and display data.
+- The instructions explicitly require building a React frontend and a Node.js/Express backend, including specific API endpoints and data handling logic. This submission does not address any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/ee-first/index.js
+suggestions for improvement:
+- This code appears to be a utility for handling events, specifically designed to listen for the first event emitted from a set of event emitters. It is not related to the creation of an Express server, React forms, or sending data between them as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/ee-first/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which is not relevant to the instructions provided in the prompt. The prompt asks for code implementing a React frontend and an Express backend, including GET and POST requests. The submitted code doesn't fulfill any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/encodeurl/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which involves creating a React app and an Express server to send and display data. The provided code appears to be a URL encoding utility, which is irrelevant to the task at hand.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/encodeurl/package.json
+suggestions for improvement:
+- This appears to be a package.json file, which is unrelated to the tasks of creating an Express server, a React form, and having them communicate.
+- The content does not address the instructions provided at all. The submission needs to include server-side (Node/Express) code and client-side (React) code that fulfill the described functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-define-property/.github/FUNDING.yml
+suggestions for improvement:
+- This response contains only funding model platform information and is unrelated to the prompt's instructions on creating a React app and Express server for data transfer.
+- The prompt requires creating a React app with a form that sends data to an Express server, which is not addressed at all in this response.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-define-property/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-define-property/index.js
+suggestions for improvement:
+- The provided code snippet has nothing to do with the prompt requirements. The prompt is about building a React form and connecting it to an Express server, while this code snippet is related to `Object.defineProperty`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-define-property/package.json
+suggestions for improvement:
+- This code is a package.json file, which describes a JavaScript package. It does not implement the React form or the Express server described in the problem.  It is completely unrelated to the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-define-property/test/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content, which focuses on creating an Express server, building a React form to send data to the server, and displaying the server's response.
+- This code appears to be a test suite for a `defineProperty` function, which is not mentioned or relevant to the chapter's objectives.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-define-property/tsconfig.json
+suggestions for improvement:
+- This code is a tsconfig file, which configures the TypeScript compiler. It has nothing to do with the instructions about creating an Express server and a React form to send and display data. Therefore it does not address the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/.github/FUNDING.yml
+suggestions for improvement:
+- This file appears to be related to funding or sponsorship models, which is completely unrelated to the React/Express server and form submission task described in the chapter content. The file does not contain any code related to creating an Express server, React components, or handling form submissions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/eval.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/eval.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/package.json
+suggestions for improvement:
+- This code is a package.json file, not the server-side and client-side code required by the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/range.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/range.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/ref.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/ref.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/syntax.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/syntax.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/test/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which describes building a React app with an Express server to send and display data. The provided code appears to be testing error types in a JavaScript environment, which has nothing to do with the instructions given.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/tsconfig.json
+suggestions for improvement:
+- The code provided is a `tsconfig.json` file, which configures the TypeScript compiler. While TypeScript is often used with React and Node.js, this configuration file itself doesn't directly address the task of creating an Express server, building a React form, sending data between them, or displaying messages. Therefore, it's unrelated to the core requirements of the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/type.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/type.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/uri.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-errors/uri.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/.github/FUNDING.yml
+suggestions for improvement:
+- This code snippet is a list of supported funding model platforms and does not relate to the chapter content, which is about creating an Express server, React form, and sending/displaying data between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/RequireObjectCoercible.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/RequireObjectCoercible.js
+suggestions for improvement:
+- This code snippet is a utility function for checking if a value can be coerced to an object and throwing a TypeError if not. This is not related to the Express server and React form task described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/ToObject.d.ts
+suggestions for improvement:
+- This code appears to be TypeScript declaration for a `ToObject` function. It doesn't implement an Express server or React form as required by the problem description. The provided code is completely unrelated to the daily challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/ToObject.js
+suggestions for improvement:
+- This code snippet is completely unrelated to the problem description. It seems to be a utility function for converting a value to an object, but it doesn't address the task of creating an Express server, a React form, or sending data between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/isObject.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/isObject.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Javascript package. It does not implement the Express server or React form described in the Chapter Content/Questions.  Therefore, it is entirely unrelated to the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/test/index.js
+suggestions for improvement:
+- The provided code is a set of tests for Javascript object coercion and type checking, and has nothing to do with creating an Express server, React form, or sending data between them as described in the Chapter Content/Questions.  It's completely irrelevant.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/es-object-atoms/tsconfig.json
+suggestions for improvement:
+- This appears to be a TypeScript configuration file, not code related to the React/Express challenge. It should be providing the server and client code as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/escape-html/index.js
+suggestions for improvement:
+- This code is a utility for escaping HTML special characters, and it's not related to creating an Express server and a React form as instructed in the problem description.
+- The problem requires the creation of a server with a GET and POST route and a React application that interacts with the server using async/await to fetch and send data. The provided code doesn't address any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/escape-html/package.json
+suggestions for improvement:
+- This JSON file appears to be a package.json file, which is unrelated to the instructions for creating an Express server and React form. The instructions specify creating server-side routes and client-side form interaction.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/etag/index.js
+suggestions for improvement:
+- The provided code is an etag generator and does not address the instructions of creating an Express server, a React form, sending data between them, and displaying the data.
+- The code is completely unrelated to the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/etag/package.json
+suggestions for improvement:
+- This is a package.json file for the 'etag' package, which is irrelevant to the instructions. The instructions require creating an Express server, a React app, and implementing communication between them using GET and POST requests. This file does not fulfill any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/express/index.js
+suggestions for improvement:
+- The submitted code is the entry point for the Express framework itself, which is unrelated to the daily challenge instructions. The task requires creating an Express server and a React app that interact with each other.
+- The code should include a `server.js` file with routes for `/api/hello` (GET) and `/api/world` (POST), and a React app with a form that sends data to the `/api/world` route.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/express/lib/application.js
+suggestions for improvement:
+- The provided code is the source code for the Express.js framework itself, not a solution to the daily challenge. It does not implement the required server-side logic for handling GET and POST requests as described in the prompt.
+- The code is not related to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/express/lib/express.js
+suggestions for improvement:
+- This code is the source code of the Express.js framework itself, not a solution to the daily challenge of creating an Express server and React form to send data between them. It is entirely unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/express/lib/request.js
+suggestions for improvement:
+- This code provides the request object and its properties for express. It does not solve the given problem which focuses on creating a React app that sends data to an Express server and displays it.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/express/lib/response.js
+suggestions for improvement:
+- The code is the 'res' (response) object prototype of the Express framework, not the solution to the given problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/express/lib/utils.js
+suggestions for improvement:
+- This code is a utility library for Express.js, focusing on tasks like ETag generation, content type normalization, and query string parsing. It doesn't implement the specific server-client interaction described in the chapter's instructions (creating an Express server, handling GET/POST requests, creating a React form, etc.).
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/express/lib/view.js
+suggestions for improvement:
+- This code is not related to the challenge. The challenge asks to create a React application with a form and an Express server to handle POST requests. The code provided seems to be an internal module of Express related to views, which is irrelevant to the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/express/package.json
+suggestions for improvement:
+- This appears to be a package.json file, and not the server.js or App.js files required by the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/finalhandler/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content. It appears to be the `finalhandler` middleware for Express.js, which is used for handling errors and sending final responses. The chapter content describes creating a React app to send data to an Express server and display it, which this code does not address at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/finalhandler/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a node module. It does not implement the Express server or React form as required by the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/forwarded/index.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/forwarded/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js package. This file doesn't implement any of the functionalities described in the chapter content (Express server, React form, data exchange between them).  It's entirely unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/fresh/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content. It appears to be a module for checking HTTP cache freshness, not related to creating an Express server or React form.
+- The code does not address the instructions to create an Express server with specific GET and POST routes, nor does it implement a React form for sending data to the server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/fresh/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a node module. It does not implement any of the functionality described in the chapter content regarding creating an Express server, React form, or communication between them.
+- The code should contain the server.js and App.js files with the logic described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/function-bind/.github/FUNDING.yml
+suggestions for improvement:
+- This file seems to be a funding model configuration file, likely for a project on GitHub. It is completely unrelated to the Chapter Content/Questions, which are about creating a React app to send data to an Express server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/function-bind/implementation.js
+suggestions for improvement:
+- This code appears to implement `Function.prototype.bind`. While it's a valid JavaScript function, it is entirely unrelated to the task of creating an Express server, a React form, sending data between them, and displaying it, as described in the chapter content.
+- The code doesn't address the specified requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/function-bind/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/function-bind/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file which is unrelated to the instructions which ask for an Express server and a React form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/function-bind/test/index.js
+suggestions for improvement:
+- This code is a set of tests for a function binding implementation. It's completely unrelated to the Chapter Content/Questions, which ask for creating a React app and an Express server to exchange data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-intrinsic/.github/FUNDING.yml
+suggestions for improvement:
+- This file seems to be a funding configuration file, unrelated to the React/Express task described in the chapter content.
+- The chapter content involves creating a React frontend and an Express backend to send and receive data.  The provided code snippet does not implement any part of this functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-intrinsic/index.js
+suggestions for improvement:
+- The provided code is a complex JavaScript library for retrieving intrinsic JavaScript objects and doesn't relate to the prompt instructions about creating a React form and sending data to an Express server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-intrinsic/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a javascript package. It does not contain any code related to creating an Express server, a React form, or sending data between them as described in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-intrinsic/test/GetIntrinsic.js
+suggestions for improvement:
+- The provided code is a JavaScript library for retrieving native JavaScript intrinsics (built-in objects and functions). It is completely unrelated to the chapter's requirements, which involve creating an Express server, a React form, and communication between them. Therefore, it does not address the problem described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-proto/.github/FUNDING.yml
+suggestions for improvement:
+- This file is a funding model configuration, entirely unrelated to the React and Express server tasks described in the problem statement.
+- The file does not contain code that attempts to create a server, a React app, or implement any of the required functionalities.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-proto/Object.getPrototypeOf.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-proto/Object.getPrototypeOf.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-proto/Reflect.getPrototypeOf.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-proto/Reflect.getPrototypeOf.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-proto/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-proto/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which describes building a React app with an Express server to send and display data. The provided code appears to be a utility for getting the prototype of an object, which has nothing to do with the stated problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-proto/package.json
+suggestions for improvement:
+- The code provided is a `package.json` file, which is a configuration file for a Node.js project. It does not contain any of the server-side (Express) or client-side (React) code that the challenge requires.
+- The task specifically asks for the creation of an Express server with API endpoints and a React application with form handling and data fetching.
+- The `package.json` file only describes the project's dependencies and metadata, but doesn't implement any of the required functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-proto/test/index.js
+suggestions for improvement:
+- The code appears to be testing a function called `getProto`, which is unrelated to the chapter's instructions on creating an Express server and React form to send data.
+- The code uses `tape` for testing, which is not part of the requirements outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/get-proto/tsconfig.json
+suggestions for improvement:
+- This code snippet is a tsconfig.json file which is a configuration file for TypeScript projects. It is not relevant to the instructions which require creating a React app and an Express server to send and display data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/gopd/.github/FUNDING.yml
+suggestions for improvement:
+- This file does not implement any of the required functionalities of creating an Express server, React app, or sending data between them as outlined in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/gopd/gOPD.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/gopd/gOPD.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/gopd/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/gopd/index.js
+suggestions for improvement:
+- This code is completely unrelated to the instructions provided in the chapter content. It seems to be a utility for gettingOwnPropertyDescriptor, which has nothing to do with creating an Express server, React form, or sending data between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/gopd/package.json
+suggestions for improvement:
+- This code is a package.json file and is completely unrelated to the task of creating an Express server and React form to send and display data. It defines metadata about a JavaScript package, but doesn't implement any of the server-side or client-side logic required by the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/gopd/test/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content about creating an Express server and a React form to send data to the server. It appears to be a testing file for a JavaScript library, which has nothing to do with the specified task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/gopd/tsconfig.json
+suggestions for improvement:
+- This configuration file is irrelevant to the problem description, which involves creating a React app, an Express server, and communication between them.
+- The file seems to be a TypeScript configuration, but the task focuses on React and Express, not TypeScript compilation settings.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/has-symbols/.github/FUNDING.yml
+suggestions for improvement:
+- This code is a funding model configuration and is entirely unrelated to the React and Express server task described in the chapter content. It does not address any of the requirements related to creating a server, handling GET/POST requests, or displaying data in a React app.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/has-symbols/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/has-symbols/index.js
+suggestions for improvement:
+- This code appears to be related to checking for native Symbol support in JavaScript environments, which is unrelated to the React/Express task described in the prompt.
+- The provided code does not implement an Express server or a React form for sending and displaying data.
+- It needs to implement the complete functionality as described in the problem statement, which includes creating a server with GET and POST requests, a React form, and displaying the data received from the server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/has-symbols/package.json
+suggestions for improvement:
+- The provided code appears to be a `package.json` file, which describes a JavaScript package. It does not implement any of the functionality described in the chapter content, which involves creating an Express server, a React form, and communication between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/has-symbols/shams.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/has-symbols/shams.js
+suggestions for improvement:
+- The code appears to be a utility for checking Symbol support in JavaScript environments, but it is completely unrelated to the Express/React task described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/has-symbols/test/index.js
+suggestions for improvement:
+- The code provided appears to be a test suite for checking Symbol support in JavaScript environments, which is completely unrelated to the chapter content about creating an Express server, building a React form, and sending data between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/has-symbols/test/shams/core-js.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter's instructions on creating an Express server and React form to send and display data. It seems to be related to Symbol polyfills, which is not mentioned in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/has-symbols/test/shams/get-own-property-symbols.js
+suggestions for improvement:
+- This code appears to be related to testing or polyfilling Symbol functionality, which is completely unrelated to the React/Express task described in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/has-symbols/test/tests.js
+suggestions for improvement:
+- The code provided is a series of tests related to the Symbol object in JavaScript, not an Express server or React form as requested by the problem description.  It is completely unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/has-symbols/tsconfig.json
+suggestions for improvement:
+- This code snippet is a `tsconfig.json` file. It's used for configuring the TypeScript compiler. This file does not address any of the requirements outlined in the provided problem description, which involves creating a React app and an Express server to send and display data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/hasown/.github/FUNDING.yml
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/hasown/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/hasown/index.js
+suggestions for improvement:
+- This code snippet appears to be a utility function related to checking object properties, but it's completely unrelated to the chapter's instructions on creating an Express server and React form for data exchange.
+- The chapter requires creating a client-server application with specific routes and data handling, which this code does not address at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/hasown/package.json
+suggestions for improvement:
+- This looks like a package.json file, not code related to the daily challenge instructions which involve creating a React app and an Express server to send data between them.
+- The provided content is entirely unrelated to the prompt's instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/hasown/tsconfig.json
+suggestions for improvement:
+- This code appears to be a TypeScript configuration file, but the instructions in the prompt are for creating an Express server and a React app that communicate with each other. This file doesn't address any of the specific tasks requested.
+- The file provides basic TypeScript configuration, but it's completely unrelated to the chapter's content on building a React form and connecting it to an Express server. Therefore it will not work.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/http-errors/index.js
+suggestions for improvement:
+- The code provided is a library for creating HTTP errors, and is unrelated to the prompt, which asks to create an express server and a react app that sends data to the server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/http-errors/node_modules/statuses/codes.json
+suggestions for improvement:
+- The provided code is a JSON object containing HTTP status codes and their corresponding messages. This is unrelated to the instructions which specify creating an Express server, a React app with a form, sending data between them, and displaying it.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/http-errors/node_modules/statuses/index.js
+suggestions for improvement:
+- This code is completely unrelated to the daily challenge. It seems to be a module for handling HTTP status codes, not a React application communicating with an Express server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/http-errors/node_modules/statuses/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a node module. It does not contain the server-side or client-side javascript code required to solve the problem. It is completely irrelevant to the steps outlined in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/http-errors/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a node module. This is not relevant to the challenge instructions, which describe implementing an Express server and React client to send and receive data.
+- The response should include the React and Node.js code necessary to fulfill the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/.github/dependabot.yml
+suggestions for improvement:
+- This file is a dependabot configuration file, and is completely unrelated to the prompt which asks for React and Express server code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/.idea/codeStyles/Project.xml
+suggestions for improvement:
+- The provided code appears to be a configuration file for code style settings, not an implementation of the React and Express application described in the problem.  It does not contain any code that attempts to fulfill the requirements of creating a server with a GET and POST endpoint, nor does it contain a React application that interacts with the server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/.idea/codeStyles/codeStyleConfig.xml
+suggestions for improvement:
+- The provided code is a configuration file related to project code style, not a solution to the Express/React problem described in the prompt.  Therefore, it does not address any of the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/.idea/inspectionProfiles/Project_Default.xml
+suggestions for improvement:
+- The provided code is an IntelliJ inspection profile, not a solution to the React/Express task.
+- It does not implement the required server or client-side functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/.idea/modules.xml
+suggestions for improvement:
+- The provided XML file is a project configuration file (likely for IntelliJ IDEA) and does not contain any code related to the Express server, React form, or data transfer as described in the chapter content.
+- The file is completely irrelevant to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/.idea/vcs.xml
+suggestions for improvement:
+- The provided XML file is a project configuration file and does not address the instructions to create an Express server, React app, or implement the described data exchange between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/dbcs-codec.js
+suggestions for improvement:
+- The provided code is a complex DBCS codec implementation, completely unrelated to the prompt's request for a simple React form sending data to an Express server. It doesn't address any aspect of the given problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/dbcs-data.js
+suggestions for improvement:
+- The provided code seems to be related to character encoding, specifically double-byte character sets (DBCS) like Shift_JIS, GBK, and Big5. This is entirely unrelated to the prompt that asks for creating a React app that sends data to an Express server. The code does not address the problem or implement any of the functionality described in the Chapter Content/Questions.
+- Because the code is unrelated, it should not be submitted as a solution to the stated problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/index.js
+suggestions for improvement:
+- This code appears to be related to encoding and decoding, which is completely unrelated to the Chapter Content/Questions provided. The chapter specifically requests creating an Express server and a React form to send data between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/internal.js
+suggestions for improvement:
+- This code appears to be related to encoding and decoding, specifically dealing with character encodings like UTF-8, CESU-8, base64, etc., within a Node.js environment. It's part of the 'iconv-lite' library.  It has absolutely nothing to do with the prompt, which involves creating an Express server, a React form, and exchanging data between them.
+- The submission demonstrates no understanding of the prompt requirements.
+- The entire submission is irrelevant.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/sbcs-codec.js
+suggestions for improvement:
+- The provided code relates to single-byte character set (SBCS) encoding and decoding, and has nothing to do with creating an Express server or a React form to send data, which is what the chapter content is about. Therefore, it's entirely unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/sbcs-data-generated.js
+suggestions for improvement:
+- This code is completely unrelated to the daily challenge instructions and seems to be a character encoding table. It does not create an Express server, a React form, or handle any data transfer between them as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/sbcs-data.js
+suggestions for improvement:
+- This code appears to be character encoding data, which is completely unrelated to the prompt's instructions on creating an Express server and React form for data submission and display. The prompt explicitly asks for server-side and client-side code to handle GET and POST requests between them, along with form input and display on the React side and request handling and response construction on the Express side.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/tables/big5-added.json
+suggestions for improvement:
+- This submission contains a large amount of unicode character data, and no relevant code.  Therefore, it does not address the chapter content which requests the creation of a React application and an Express server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/tables/cp936.json
+suggestions for improvement:
+- The provided data is character encoding information, completely unrelated to the daily challenge instructions. It does not contain code for creating an Express server, a React form, or handling data transfer between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/tables/cp949.json
+suggestions for improvement:
+- The code provided seems to be only non-ASCII characters, unable to create server.js or client side React App.
+- Improve the explanation or add code for the server.js and React App, including the necessary imports and configurations for Express and React.
+- Add error handling to the fetch and post requests for better user experience.
+Correctness: 70%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/tables/cp950.json
+suggestions for improvement:
+- The provided data is a character mapping table, which is completely irrelevant to the chapter's instructions on creating an Express server and React form.  This response receives a zero because it doesn't address the problem at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/tables/eucjp.json
+suggestions for improvement:
+- The response consists of unicode character mappings, and does not provide code that addresses the challenge. The response is unrelated to the chapter content, and thus cannot be evaluated for correctness, readability, performance, or security.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/tables/gbk-added.json
+suggestions for improvement:
+- The provided code snippet appears to be a data file containing unicode characters and some numerical values. It does not implement any of the functionalities described in the problem description (creating an Express server, React form, sending data between them, etc.).
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/tables/shiftjis.json
+suggestions for improvement:
+- The code provided does not have any code related to express server or react form
+- This looks like a Japanese character set which isn't part of the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/utf16.js
+suggestions for improvement:
+- The provided code appears to be related to UTF-16 encoding/decoding, which is not relevant to the instructions. The instructions are about creating a React app and an Express server for sending and receiving data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/utf32.js
+suggestions for improvement:
+- The code provided is a codec implementation for UTF-32 encoding, completely unrelated to the problem of creating an Express server and a React form to send and display data.
+- The code does not address any of the instructions given in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/encodings/utf7.js
+suggestions for improvement:
+- The provided code is a UTF-7 codec implementation, which is completely unrelated to the chapter's instructions on creating an Express server and a React form to send and display data.
+- The code doesn't address the creation of a server with a GET request to `/api/hello` or a POST request to `/api/world`. It also doesn't implement the React form to interact with these endpoints.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/lib/bom-handling.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which focuses on creating a React frontend and an Express backend to send and display data.
+- The provided code deals with BOM (Byte Order Mark) manipulation, which has no relevance to the given instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/lib/index.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript definition file for the 'iconv-lite' library. This is entirely unrelated to the Daily Challenge instructions, which require creating an Express server and a React app for sending and receiving data.
+- The provided code doesn't address any of the tasks outlined in the challenge: creating a server, defining routes, handling GET and POST requests, or interacting with a React form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/lib/index.js
+suggestions for improvement:
+- The submitted code is the `iconv-lite` library, a character encoding conversion library. This library is completely unrelated to the daily challenge instructions, which involve creating a React app and an Express server to send and receive data between them.
+- The code does not address any of the instructions provided in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/lib/streams.js
+suggestions for improvement:
+- This code relates to character encoding and stream processing which is completely unrelated to the chapter's focus on creating an Express server, handling React forms, and sending data between them. Therefore, it is not a solution to the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/iconv-lite/package.json
+suggestions for improvement:
+- The submitted code is a `package.json` file, which describes a node module named `iconv-lite`. This file doesn't implement the React form or Express server requested by the problem description. It doesn't attempt to create a server, handle GET or POST requests, or create a React application with a form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/inherits/inherits.js
+suggestions for improvement:
+- The provided code appears to be a polyfill for the `util.inherits` function, which is not related to the chapter's requirements of creating an Express server and React form to send and display data.
+- The chapter asks for a server-side (Node.js with Express) implementation and a client-side (React) implementation. This code snippet does not fulfill either.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/inherits/inherits_browser.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter's instructions. The chapter outlines creating an Express server and a React app to send and display data, including setting up GET and POST requests. The provided code appears to be a utility for implementing inheritance in JavaScript, which is not relevant to the given task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/inherits/package.json
+suggestions for improvement:
+- This code snippet appears to be a package.json file, which describes a JavaScript package. It doesn't contain the server-side (Express) or client-side (React) code required to fulfill the challenge instructions. Therefore, it's completely unrelated to the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/ipaddr.js/ipaddr.min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/ipaddr.js/lib/ipaddr.js
+suggestions for improvement:
+- The provided code is an IP address manipulation library, completely unrelated to the React/Express server task outlined in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/ipaddr.js/lib/ipaddr.js.d.ts
+suggestions for improvement:
+- This code appears to be type definitions for the `ipaddr.js` library, not an implementation of the React/Express application described in the prompt.
+- The code does not create an Express server or a React form as requested.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/ipaddr.js/package.json
+suggestions for improvement:
+- This code is a package.json file, which describes a JavaScript library for manipulating IP addresses. It does not implement an Express server, a React form, or any of the specific instructions outlined in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/is-promise/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/is-promise/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which describes building a React app with an Express server to handle GET and POST requests. The code provided is a utility function to check if an object is a promise, which is not requested or relevant to the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/is-promise/index.mjs
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/is-promise/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js package. It doesn't implement any of the functionality described in the chapter content, such as creating an Express server, handling GET/POST requests, or building a React form. The file is completely unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/.github/FUNDING.yml
+suggestions for improvement:
+- This code is not related to the challenge instructions.
+- The provided code seems to be a funding model configuration file, which is irrelevant to the task of creating an Express server and a React form to send and display data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/abs.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/abs.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/constants/maxArrayLength.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/constants/maxArrayLength.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/constants/maxSafeInteger.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/constants/maxSafeInteger.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/constants/maxValue.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/constants/maxValue.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/floor.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/floor.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/isFinite.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/isFinite.js
+suggestions for improvement:
+- The submitted code is unrelated to the task described in the chapter content. It provides a function to check if a value is finite, whereas the task involves creating an Express server, a React form, and sending data between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/isInteger.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/isInteger.js
+suggestions for improvement:
+- This code snippet appears to be a JavaScript module for checking if a number is an integer. It's completely unrelated to the chapter content, which focuses on creating a React app that interacts with an Express server to send and display data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/isNaN.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/isNaN.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/isNegativeZero.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/isNegativeZero.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/max.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/max.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/min.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/mod.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/mod.js
+suggestions for improvement:
+- The submitted code calculates the modulo operation. This has absolutely nothing to do with the prompt, which describes creating a React app and Express server to send and receive data between them.
+- The provided code is completely irrelevant to the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package. It doesn't implement any of the server-side or client-side logic required by the challenge. The challenge requires creating an Express server with specific routes and a React application to interact with it.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/pow.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/pow.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/round.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/round.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/sign.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/sign.js
+suggestions for improvement:
+- This code calculates the sign of a number. However, it's completely unrelated to the chapter content, which focuses on creating an Express server, a React form, and communication between them.
+- The chapter requires building a full-stack application with specific routes and data handling. This code snippet addresses none of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/test/index.js
+suggestions for improvement:
+- The code appears to be a series of unit tests for JavaScript math functions, which is completely unrelated to the prompt's instructions for creating an Express server, a React form, and exchanging data between them.
+- The submission does not include any server-side (Node.js/Express) or client-side (React) code that would fulfill the requirements of the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/math-intrinsics/tsconfig.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/media-typer/index.js
+suggestions for improvement:
+- This code seems to be a utility for handling MIME types, which is completely unrelated to the prompt's instructions of creating an Express server and React form to send and display data.  The code does not address the requirements outlined in the problem description at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/media-typer/package.json
+suggestions for improvement:
+- This code is a package.json file, which describes metadata about a Node.js package. It does not implement the server or client-side logic described in the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/merge-descriptors/index.d.ts
+suggestions for improvement:
+- This code snippet is completely unrelated to the provided chapter content, which describes building a React app that interacts with an Express server. The given code is a TypeScript declaration for a function that merges object descriptors.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/merge-descriptors/index.js
+suggestions for improvement:
+- The code provided has nothing to do with the Chapter Content/Questions. It's a utility function for merging object descriptors, completely unrelated to creating an Express server, React form, or sending data between them.
+- Since the code is unrelated, there's no point in suggesting improvements within the context of the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/merge-descriptors/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js package. It does not contain any code related to creating an Express server, a React form, or sending data between them as described in the problem description. Therefore, it does not address any part of the challenge.
+- The task requires building a full-stack application with a React frontend and an Express backend to handle data submission, and this package.json snippet does not contribute to that goal at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/mime-db/db.json
+suggestions for improvement:
+- The provided code is a comprehensive list of MIME types and file extensions, which is unrelated to the chapter's instructions to create an Express server and a React form to send and display data.
+- The code does not address the task of creating a server with a GET request to `/api/hello`.
+- The code does not address the task of creating a React application with a form that POSTs data to `/api/world`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/mime-db/index.js
+suggestions for improvement:
+- This code is not relevant to the instructions. It seems to be the contents of a `db.json` file, while the instructions ask for an Express server and a React app with form submission capabilities.
+- The code should implement a GET request on the server to `/api/hello` and a POST request to `/api/world`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/mime-db/package.json
+suggestions for improvement:
+- This is a package.json file, which is not the code requested in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/mime-types/index.js
+suggestions for improvement:
+- This code appears to be the `mime-types` library, which is unrelated to the React/Express task described in the chapter content. It doesn't implement a server, a React form, or the communication between them.
+- The code is difficult to understand without prior knowledge of the `mime-types` library.
+- There's no evident effort to address the instructions of the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/mime-types/mimeScore.js
+suggestions for improvement:
+- This code has nothing to do with the prompt. The prompt is about creating a React app that sends data to an Express server.
+- This code is related to mime types, which is not mentioned in the prompt.
+- Ensure that submitted code is directly related to the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/mime-types/package.json
+suggestions for improvement:
+- This is a package.json file and does not implement the requested functionality. It defines metadata, dependencies, and scripts for a Node.js project, but it does not contain any code related to creating an Express server, handling HTTP requests, or building a React form as described in the prompt.
+- The code does not address the instructions related to setting up an Express server to handle GET and POST requests or creating a React app with a form to interact with the server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/ms/index.js
+suggestions for improvement:
+- The provided code calculates time durations and has nothing to do with creating an Express server and React form to send data between them.
+- The code addresses a completely different problem domain than the one described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/ms/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a node module. This doesn't implement any of the required functionalities of creating an Express server, a React form, or sending/receiving data between them as specified in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/negotiator/index.js
+suggestions for improvement:
+- The provided code is the 'negotiator' library, which is a content negotiation tool for HTTP requests. This code is completely unrelated to the problem description, which involves creating a React app and an Express server to send and receive data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/negotiator/lib/charset.js
+suggestions for improvement:
+- The provided code is completely unrelated to the task of creating an Express server, a React form, and sending data between them. It appears to be a library for handling charset negotiation, which is not relevant to the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/negotiator/lib/encoding.js
+suggestions for improvement:
+- The code provided is entirely unrelated to the chapter content, which focuses on creating an Express server, building a React form, and sending data between them using GET and POST requests. This code appears to be a library for handling HTTP Accept-Encoding headers.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/negotiator/lib/language.js
+suggestions for improvement:
+- The code provided appears to be a library for handling Accept-Language headers, which is completely unrelated to the task of creating a React app that sends data to an Express server and displays it.  The code doesn't even attempt to address the problem described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/negotiator/lib/mediaType.js
+suggestions for improvement:
+- The provided code appears to be a library for handling HTTP Accept headers, completely unrelated to the daily challenge which involves creating an Express server, a React form, and communication between them.
+- The code does not address the problem statement at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/negotiator/package.json
+suggestions for improvement:
+- This looks like a `package.json` file, which is useful for describing the project but doesn't actually implement the required functionality. It needs to include both the server-side (Express) and client-side (React) code to fulfill the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/.github/FUNDING.yml
+suggestions for improvement:
+- This file appears to be a funding model configuration, not code related to the React and Express tasks described in the chapter content. It does not address any of the instructions provided.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/example/all.js
+suggestions for improvement:
+- This code snippet is not relevant to the instructions provided in the prompt. The instructions outline creating a React application and an Express server to send and display data, while the provided code snippet seems to be related to object inspection and buffering in Node.js.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/example/circular.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content. It seems to be using the `inspect` module, which is not mentioned or required in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/example/fn.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/example/inspect.js
+suggestions for improvement:
+- The provided code snippet is entirely unrelated to the chapter content, which focuses on creating an Express server, a React form, sending data between them using GET and POST requests, and displaying the received data.
+- The code snippet appears to be using a browser environment and the 'inspect' function, and creates a div element. It is not related to creating a server or sending data using React.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/index.js
+suggestions for improvement:
+- This code appears to be a utility for inspecting objects, and is not related to creating an Express server, a React form, or sending data between them as described in the problem.
+- The code does not address any of the specific instructions provided in the prompt, such as creating GET and POST routes on an Express server or implementing a React form to interact with the server.
+- The entire code submission is unrelated to the task at hand.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/package-support.json
+suggestions for improvement:
+- The provided code appears to be related to package metadata or funding information, rather than the React and Express server implementation described in the chapter. Therefore, it does not address the core requirements of the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/package.json
+suggestions for improvement:
+- This appears to be the package.json file for the 'object-inspect' npm package, and not code related to the daily challenge described in the prompt. It does not implement a React form, an Express server, or any of the required API endpoints.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test-core-js.js
+suggestions for improvement:
+- This code is completely irrelevant to the problem description. It's a testing suite for a JavaScript library and doesn't create an Express server or a React form as requested in the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/bigint.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter's instructions, which involve creating an Express server and a React form to send and display data. The provided code appears to be related to testing the inspection of BigInt values, which is entirely outside the scope of the chapter's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/browser/dom.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content which involves creating an Express server and a React form to send and display data.
+- The code appears to be related to DOM element inspection, which is outside the scope of the provided instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/circular.js
+suggestions for improvement:
+- This code tests the `inspect` function's ability to handle circular references. It doesn't implement the Express server and React form functionality required by the chapter content.
+- Consider creating separate server and client folders as requested in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/deep.js
+suggestions for improvement:
+- The submitted code appears to be a testing module unrelated to the daily challenge. It uses 'tape' to perform unit tests on a deep inspection function, which is not related to creating an Express server, React form, or sending data between them as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/element.js
+suggestions for improvement:
+- This code appears to be related to a testing framework and DOM element inspection, which is entirely unrelated to the Chapter Content/Questions about creating an Express server, React form, and data exchange between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/err.js
+suggestions for improvement:
+- The provided code appears to be a test suite for an error inspection library, which is completely unrelated to the React and Express server task described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/fakes.js
+suggestions for improvement:
+- The provided code seems to be a test file for a JavaScript library, and it doesn't relate to the chapter's instructions, which involve creating an Express server, a React form, and sending data between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/fn.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which describes creating a React app with an Express server to send and display data. The provided code appears to be related to testing function names, which is not within the scope of the chapter's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/global.js
+suggestions for improvement:
+- This code appears to be testing the inspection of the global object in different environments, which is unrelated to the Daily Challenge of creating an Express server and React form to send and display data.
+- The code uses `tape` for testing and `globalthis` to access the global object, which are not part of the instructions for this particular task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/has.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which describes creating an Express server and a React form to send and display data. The submitted code involves testing the `inspect` function when `Object.prototype.hasOwnProperty` is deleted, using `tape` for testing and `mock-property` for mocking. This is entirely outside the scope of the provided instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/holes.js
+suggestions for improvement:
+- This code is a test file for a library called 'inspect'. It's completely unrelated to the React and Express server task described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/indent-option.js
+suggestions for improvement:
+- The code is completely unrelated to the chapter content, which involves creating an Express server, a React form, and sending data between them. The provided code appears to be a test suite for a JavaScript object inspection library.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/inspect.js
+suggestions for improvement:
+- The code provided is a test suite for an `inspect` function, seemingly related to object inspection and formatting for debugging purposes. This code is completely unrelated to the prompt, which asks for building a React app with an Express server to handle form data submission and display.
+- The submission should include two separate projects: a React application in a 'client' folder and an Express server in a 'server' folder. The React app should contain a form that POSTs data to the Express server. The server should handle the POST request and send back a response to be displayed in the React app.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/lowbyte.js
+suggestions for improvement:
+- This code appears to be a test case for a utility that inspects and formats objects, particularly focusing on how it handles special characters. It is completely unrelated to the instructions provided, which involve creating an Express server, a React form, and communication between them. This code does not address any of the requirements in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/number.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a JavaScript inspection library, and is completely unrelated to the chapter content, which focuses on creating an Express server and a React form to send and display data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/quoteStyle.js
+suggestions for improvement:
+- The provided code is a test suite for a `quoteStyle` option within an `inspect` function, and it has nothing to do with the React/Express application described in the prompt. The code does not address creating an Express server, React form, or any communication between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/toStringTag.js
+suggestions for improvement:
+- The provided code appears to be related to testing the `Symbol.toStringTag` functionality within a JavaScript environment, possibly for a library or utility related to object inspection or debugging. This is completely unrelated to the daily challenge requirements of creating an Express server and a React form to exchange data.
+- The challenge specifically asks for the creation of a server with a GET and POST route, and a React application that uses `componentDidMount` and `async/await` to interact with the server. The provided code has none of these elements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/undef.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content. The provided code is a unit test for a JavaScript library, while the chapter describes building a React app to interact with an Express server. Therefore, the code does not address the problem or implement any functionality described in the chapter.
+- Focus on creating a React app in a 'client' folder and an Express server in a 'server' folder, as detailed in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/test/values.js
+suggestions for improvement:
+- This code appears to be testing the functionality of a JavaScript inspection library. It does not implement the specific tasks outlined in the chapter content which involves creating an Express server, a React form, sending data between them, and displaying the received data.
+- The code is completely unrelated to the prompt, it is testing various JavaScript types and their representation using an `inspect` function.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/object-inspect/util.inspect.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/on-finished/index.js
+suggestions for improvement:
+- This code is entirely unrelated to the daily challenge instructions. It provides the source code for the `on-finished` npm package, which is a utility for detecting when a server response has finished.  The challenge involves creating a React app that communicates with an Express server, sending and receiving data. This code does not address any part of that.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/on-finished/package.json
+suggestions for improvement:
+- This `package.json` file is not related to the React and Express application described in the problem description.
+- The submission should contain `server.js` and `App.js` files implementing the required functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/once/once.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter's instructions on creating an Express server, a React form, and communication between them. The 'once' module deals with ensuring a function is only executed once, which is not relevant to the assignment.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/once/package.json
+suggestions for improvement:
+- This JSON represents package metadata and doesn't implement the React/Express application described in the instructions. It needs to be replaced with code for the React client and Express server.
+- The provided code is a package.json file, which defines metadata about a Node.js package. It does not contain the React components or Express server logic necessary to fulfill the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/parseurl/index.js
+suggestions for improvement:
+- The provided code is a utility for parsing URLs, which is not related to the problem description. The problem requires building a React app and an Express server to handle data submission from a form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/parseurl/package.json
+suggestions for improvement:
+- This code is a package.json file and does not implement the functionalities requested in the instructions (creating an Express server, a React form, and communication between them).
+- The provided code does not address the core requirements of the challenge, which are related to creating a client-server application with React and Express.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/path-to-regexp/dist/index.d.ts
+suggestions for improvement:
+- This code appears to be a library for path parsing and manipulation, likely 'path-to-regexp'. It does not implement the specific server-client communication and form handling described in the chapter content.
+- The code doesn't create an Express server, a React form, or implement the data posting mechanism outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/path-to-regexp/dist/index.js
+suggestions for improvement:
+- The provided code appears to be a library for parsing and compiling path strings into regular expressions, and vice versa. This has absolutely nothing to do with creating an Express server and a React form to send and display data, as described in the instructions. The entire code submission is irrelevant.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/path-to-regexp/package.json
+suggestions for improvement:
+- This is a package.json file, not the code required by the problem description.
+- The provided code should include an Express server (`server.js`) and a React app (`client` folder with `App.js`) as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/proxy-addr/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter's instructions. It appears to be the source code for the `proxy-addr` npm package, which deals with determining the address of a proxied request.
+- The chapter requires creating a React application with a form that sends data to an Express server and displays the response. The given code does not implement any of these functionalities.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/proxy-addr/package.json
+suggestions for improvement:
+- The submitted code is a `package.json` file, which describes a Node.js package. This file does not implement the functionalities requested in the problem description: creating an Express server, building a React form, sending data between them, and displaying the data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/.github/FUNDING.yml
+suggestions for improvement:
+- This file appears to be a funding model configuration file and has nothing to do with the React and Express application described in the problem statement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/dist/qs.js
+suggestions for improvement:
+- The code is a minified javascript library called 'qs'. This library is for query string parsing and stringifying. It is completely unrelated to the instructions, which describe creating a React application that sends data to an Express server.
+- The entire purpose of the submission is unrelated to the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/lib/formats.js
+suggestions for improvement:
+- The provided code appears to be URL encoding related, which is completely unrelated to the chapter's instructions on creating an Express server, React form, and data exchange between them.
+- The code does not address the core requirements of setting up an Express server, creating API endpoints, building a React form, and handling data submission.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/lib/index.js
+suggestions for improvement:
+- This code appears to be related to query string parsing and stringification, which is completely unrelated to the chapter's instructions on building a React app to send data to an Express server.
+- The chapter specifically asks for building a React frontend and an Express backend to handle data submission and retrieval, which is not addressed by the provided code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/lib/parse.js
+suggestions for improvement:
+- The provided code appears to be related to query string parsing and is not relevant to the daily challenge described, which involves creating an Express server and a React form to send data to the server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/lib/stringify.js
+suggestions for improvement:
+- The code provided is URL encoding logic, completely unrelated to the Express and React task outlined in the prompt.  It doesn't create an Express server, a React form, or handle any data transfer between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/lib/utils.js
+suggestions for improvement:
+- The provided code appears to be a utility library for query string parsing and manipulation, which is entirely unrelated to the problem description that asks for building a React app with an Express server to handle form submissions. The code has nothing to do with creating an Express server, defining routes, handling requests, building a React form, or making API calls between the client and server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/package.json
+suggestions for improvement:
+- The provided code is a package.json file, not the code implementing the described React and Express application. The task requires creating a React frontend and an Express backend that communicate with each other. The package.json file describes a querystring parsing library, which is not related to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/test/empty-keys-cases.js
+suggestions for improvement:
+- This code appears to be test cases for a query string parser, and it's not related to the task of creating an Express server and a React form to send and display data.
+- The provided code does not address the instructions related to creating an Express server and a React application for data submission and retrieval.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/test/parse.js
+suggestions for improvement:
+- The provided code is a comprehensive test suite for the `qs` library, a query string parser. This code is completely unrelated to the task of creating an Express server and a React form to send and display data.
+- The code does not address any of the instructions provided in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/test/stringify.js
+suggestions for improvement:
+- The provided code is entirely unrelated to the problem description. It contains test cases for the `qs` library, which is a query string parser and stringifier. It does not implement an Express server or a React form as described in the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/qs/test/utils.js
+suggestions for improvement:
+- This code is a series of unit tests for utility functions, completely unrelated to the task of creating an Express server and a React form for data submission and display as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/range-parser/index.js
+suggestions for improvement:
+- The code provided is a library for parsing HTTP Range headers, which is completely unrelated to the daily challenge instructions. The challenge involves creating a React app and an Express server to send data between them.
+- The provided code does not address the creation of an Express server or a React form as described in the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/range-parser/package.json
+suggestions for improvement:
+- The provided code appears to be a `package.json` file, likely for a library or module named `range-parser`. This has nothing to do with the prompt, which requires creating an Express server and a React app to send data between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/index.d.ts
+suggestions for improvement:
+- The provided code appears to be TypeScript declaration files for a library called `getRawBody`. This has absolutely nothing to do with the instructions, which require creating a React app and an Express server to exchange data.
+- The submission completely fails to address the instructions provided.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content. It appears to be the 'raw-body' npm package, which is a utility for reading the body of a stream.  The instructions describe creating a React app with a form and an Express server to handle POST requests.
+- Since the code has nothing to do with the problem description, it is impossible to evaluate its correctness, readability, performance, or security in the context of the given task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/dbcs-codec.js
+suggestions for improvement:
+- The provided code is a complex implementation of a DBCS codec for encoding and decoding multibyte character sets, which is entirely unrelated to the task of creating a simple React form and sending data to an Express server.
+- The code should implement a React form with an input field and a submit button, and an Express server that receives and processes the form data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/dbcs-data.js
+suggestions for improvement:
+- The provided code is a character encoding table, which is entirely unrelated to the task of creating an Express server and a React form for data submission.
+- The code does not address any of the requirements specified in the chapter content, such as setting up a server, creating API endpoints, or building a React form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/index.js
+suggestions for improvement:
+- This code appears to be related to character encoding and module merging, which is completely unrelated to the chapter's content on creating an Express server and a React form for sending data. The code doesn't address any of the instructions or requirements provided in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/internal.js
+suggestions for improvement:
+- This code appears to be related to encoding and decoding, specifically dealing with UTF-8 and base64.  It's completely unrelated to the prompt's requirements of creating an Express server, a React form, and sending data between them.
+- The prompt asks for creating a server with specific GET and POST routes, handling form submissions from a React application.  This code does none of that.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-codec.js
+suggestions for improvement:
+- The provided code appears to be a codec implementation, likely for character encoding. This is completely unrelated to the instructions, which are about building a React frontend and an Express backend to send and receive data.
+- The code doesn't address creating an Express server, defining routes, handling requests, or building a React form to interact with the server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-data-generated.js
+suggestions for improvement:
+- This code seems to be a character encoding table, which is entirely unrelated to the task of creating an Express server and a React form for sending and displaying data.
+- The code doesn't address the instructions at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/sbcs-data.js
+suggestions for improvement:
+- This code appears to be a character encoding table, and is completely unrelated to the chapter content, which describes setting up a React app and Express server to send data between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/big5-added.json
+suggestions for improvement:
+- The provided data is a list of strings and other characters which is unrelated to the daily challenge instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp936.json
+suggestions for improvement:
+- The provided data appears to be character mappings and doesn't contain any code related to the chapter's instructions. Thus, it cannot be evaluated for correctness.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp949.json
+suggestions for improvement:
+- The provided data is just a lookup table and does not contain any server or React code. There is no actual implementation of an Express server or a React form that interacts with the server.
+- The correctness is rated at 0% since the code does not address the challenge instructions at all. The code provided appears to be character data that has no relevance to the task
+- Without actual code, readability, performance, and security cannot be properly assessed.
+Correctness: 70%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/cp950.json
+suggestions for improvement:
+- The provided data is not code related to the challenge description. It appears to be character encoding data and does not implement any of the required functionalities like creating an Express server or a React form.
+- The provided code does not address the problem or implement the functionality described in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/eucjp.json
+suggestions for improvement:
+- The submission only contains character encodings. It does not contain any code related to creating an Express server or React application as requested by the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/gbk-added.json
+suggestions for improvement:
+- The provided code appears to be a data dump or character map and has absolutely nothing to do with the problem description related to creating an Express server, React form, and sending data between them.
+- The code is completely irrelevant to the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/shiftjis.json
+suggestions for improvement:
+- The code provided appears to be a character encoding table, which is entirely unrelated to the task of creating a React app and an Express server to send and display data. The content is not relevant to React, Express, or form handling.
+- Since the provided content is completely irrelevant to the task, it cannot be used to fulfill any of the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/utf16.js
+suggestions for improvement:
+- This code appears to be related to UTF-16 encoding/decoding, which is not directly relevant to the instructions of creating an Express server and a React form to send data between them. The code does not address the core requirements of the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/utf32.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which describes creating a React app with an Express server to send and display data.
+- The provided code appears to be a UTF-32 codec implementation, having nothing to do with React or Express.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/encodings/utf7.js
+suggestions for improvement:
+- This code appears to be a UTF-7 encoder/decoder implementation, which is completely unrelated to the prompt. The prompt asks for creating an Express server and a React form to send and display data.
+- The provided code does not address the core requirements of the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/lib/bom-handling.js
+suggestions for improvement:
+- The submitted code appears to deal with Byte Order Marks (BOMs), specifically prepending and stripping them from strings or buffers.  This is completely unrelated to the chapter's instructions, which focus on creating an Express server, a React form, and sending data between them using GET and POST requests.
+- The code should implement the specified functionalities of creating a React form, sending data to an Express server, and displaying the received data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/lib/helpers/merge-exports.js
+suggestions for improvement:
+- This code does not address the problem described in the instructions. The instructions require building a React app that interacts with an Express server, while the provided code is a utility function for merging modules. This function is completely unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/lib/index.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript definition file for the `iconv-lite` library, which is a character encoding conversion library. It does not implement any of the functionality described in the Chapter Content/Questions. The chapter asks for the creation of an Express server and a React form to send and display data.
+- The code should implement an Express server with a GET route `/api/hello` and a POST route `/api/world`.
+- The code should implement a React form with an input field and submit button to send data to the Express server and display the response.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/lib/index.js
+suggestions for improvement:
+- This code is an encoding library and is completely unrelated to the task of creating an Express server, a React form, and exchanging data between them.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/lib/streams.js
+suggestions for improvement:
+- The provided code is related to stream encoding and decoding using the iconv-lite library. It does not address the requirements of the chapter, which are to create an Express server, a React form, and to send data between them.
+- Since the code doesn't relate to the problem description, there is no point in reviewing its performance, security, or readability in the context of the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/node_modules/iconv-lite/package.json
+suggestions for improvement:
+- This submission is a package.json file which is unrelated to the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/raw-body/package.json
+suggestions for improvement:
+- The code provided is a package.json file, which describes a Node.js package but does not implement the functionality described in the chapter content (creating an Express server, React app, handling GET/POST requests, etc.).
+- The task requires building a full-stack application with specific server and client-side logic, and this file does not contribute to that.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/router/index.js
+suggestions for improvement:
+- The provided code is an excerpt from the `router` library, which is a low-level component used in Express.js for handling routing logic. It does not directly address the instructions given in the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/router/lib/layer.js
+suggestions for improvement:
+- The submitted code is not related to the task described in the prompt. It appears to be an internal module of the express router, not the server or client-side React code requested.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/router/lib/route.js
+suggestions for improvement:
+- This code is not related to the problem description. It is a module for routing HTTP requests, not the solution to the express/react task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/router/package.json
+suggestions for improvement:
+- The provided code appears to be a package.json file, likely for a routing library. It doesn't implement the Express server or React form as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/safer-buffer/dangerous.js
+suggestions for improvement:
+- This code appears to be related to buffer manipulation and security, specifically dealing with potentially unsafe buffer operations. This code is entirely unrelated to the chapter content, which focuses on creating an Express server, handling GET and POST requests, and integrating it with a React form.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/safer-buffer/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a node module. This file is completely unrelated to the express and react tasks described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/safer-buffer/safer.js
+suggestions for improvement:
+- This code appears to be a polyfill or shim for the Node.js Buffer API, potentially aiming to provide safer alternatives to certain Buffer methods. However, it's completely unrelated to the prompt, which asks for creating an Express server and a React app to send and display data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/safer-buffer/tests.js
+suggestions for improvement:
+- The provided code appears to be a series of tests related to Buffer objects in Node.js, and is entirely unrelated to the prompt, which asks for the creation of a React app that sends data to an Express server.
+- The code does not address the prompt at all.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/send/index.js
+suggestions for improvement:
+- The provided code is the 'send' module, a Node.js library for serving static files. It's completely unrelated to the task description, which involves creating an Express server, a React form, and communication between them.
+- The submission does not include any of the required server-side (Express) or client-side (React) code to fulfill the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/send/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js package named `send`. This file is used for managing dependencies, scripts, and other metadata related to the package. It doesn't implement any of the functionality described in the chapter content, which involves creating an Express server, handling GET and POST requests, and building a React form to interact with the server. The content is completely irrelevant to the instructions.
+- The code should consist of `server.js` for the Express server and the React app in `client` folder.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/serve-static/index.js
+suggestions for improvement:
+- The provided code is not related to the chapter content or instructions. It appears to be the code for the `serve-static` middleware, which is a utility for serving static files in Express, but it doesn't implement the API endpoints or React form interaction as described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/serve-static/package.json
+suggestions for improvement:
+- This submission provides a package.json file, which is unrelated to the instructions. The instructions require creating a server.js file with GET and POST routes, and a React app with a form that interacts with the server. This submission does not address any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/setprototypeof/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/setprototypeof/index.js
+suggestions for improvement:
+- This code is not related to the instructions provided, which detail building an Express server and React app for data submission and display. The provided code appears to be a polyfill for setting the prototype of an object and does not address any of the specified requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/setprototypeof/package.json
+suggestions for improvement:
+- This code is a `package.json` file, which is a configuration file for a Node.js project. It does not implement the React form or the Express server described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/setprototypeof/test/index.js
+suggestions for improvement:
+- The provided code is a test suite for a `setPrototypeOf` function. It doesn't implement the Express server or React form described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-list/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is a list of funding model platforms and has nothing to do with the React/Express application described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-list/index.d.ts
+suggestions for improvement:
+- This code appears to be a TypeScript declaration file for a side channel list utility.  It's completely unrelated to the React and Express server task described in the instructions. The instructions require setting up a client-server interaction with GET and POST requests, creating React forms, and displaying data.
+- The code is purely a type definition and doesn't implement any of the required client-server functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-list/index.js
+suggestions for improvement:
+- This code appears to be an implementation of a side channel list data structure, potentially for managing object metadata.  It is entirely unrelated to the chapter content, which focuses on creating a React app and an Express server to handle form submissions.
+- Since the code is irrelevant, a complete rewrite is necessary to address the actual problem described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-list/list.d.ts
+suggestions for improvement:
+- This code is completely unrelated to the prompt. The prompt asks for an Express server and React form to send data, whereas the code defines a linked list data structure in TypeScript.
+- The code does not implement any of the requirements specified in the 'Chapter Content/Questions'.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-list/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package. It doesn't implement any of the functionalities described in the chapter content, such as creating an Express server, handling GET/POST requests, or creating a React form.  It's entirely unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-list/test/index.js
+suggestions for improvement:
+- This code appears to be a test suite for a side-channel list utility, which is completely unrelated to the React and Express server task described in the prompt.  The code does not address any part of the instructions provided in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-list/tsconfig.json
+suggestions for improvement:
+- This is a tsconfig.json file, which is not code related to the prompt's express and react app instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-map/.github/FUNDING.yml
+suggestions for improvement:
+- This code is unrelated to the chapter content. The chapter content describes building a React application that interacts with an Express server. The provided code appears to be related to funding models for open-source projects, and has no connection to React or Express.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-map/index.d.ts
+suggestions for improvement:
+- The submitted code is completely unrelated to the React and Express server task described in the instructions. It appears to be TypeScript type definitions for a `getSideChannelMap` function, which has no relevance to creating a React form that sends data to an Express server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-map/index.js
+suggestions for improvement:
+- The submitted code is completely unrelated to the prompt. It provides a side channel map implementation, whereas the prompt describes creating a React app that sends data to an Express server and displays it.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-map/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Javascript package. It does not implement the functionalities described in the chapter content, which involves creating an Express server, a React form, and communication between them.
+- The package.json file is for a library called 'side-channel-map', completely unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-map/test/index.js
+suggestions for improvement:
+- This code appears to be a unit test for a `getSideChannelMap` function, which is completely unrelated to the React/Express server task described in the problem statement.
+- The code uses `tape` for testing and focuses on the behavior of a side channel map, which is not relevant to building a client-server application with React and Express.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-map/tsconfig.json
+suggestions for improvement:
+- This appears to be a TypeScript configuration file, which is not relevant to the problem description that involves creating a React app and an Express server for data communication.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-weakmap/.github/FUNDING.yml
+suggestions for improvement:
+- This code is entirely unrelated to the instructions provided in the chapter content. The chapter asks for React and Express code to implement a client-server interaction, while this appears to be a funding/sponsorship configuration file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-weakmap/index.d.ts
+suggestions for improvement:
+- The provided code appears to be TypeScript declaration file defining a module related to `WeakMap` usage, potentially for side-channel data storage. This code is entirely unrelated to the instructions that describe creating a React app with an Express server to send and display data.
+- The chapter content explicitly requires the creation of an Express server, a React client with form submission, and communication between them using GET and POST requests. This submission does not address any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-weakmap/index.js
+suggestions for improvement:
+- This code appears to be a polyfill or utility for managing side-channel data associated with objects, potentially using WeakMaps if available. It's completely unrelated to the instructions, which describe building a React app that communicates with an Express server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-weakmap/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js package. It doesn't implement any of the functionalities described in the Chapter Content/Questions, such as creating an Express server, handling GET and POST requests, or building a React form.  The package.json file describes the 'side-channel-weakmap' library, which is completely unrelated to the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-weakmap/test/index.js
+suggestions for improvement:
+- The provided code is a test suite for a `getSideChannelWeakMap` function, which is completely unrelated to the chapter content about creating an Express server and a React form to send and display data.
+- The code uses `tape` for testing, which is not mentioned or relevant to the task described in the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel-weakmap/tsconfig.json
+suggestions for improvement:
+- This file is a tsconfig file and not code related to the challenge. Therefore, it does not address the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel/.github/FUNDING.yml
+suggestions for improvement:
+- This file does not contain code relevant to the daily challenge requirements which involve creating an Express server and React form to send and display data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel/index.d.ts
+suggestions for improvement:
+- The submitted code appears to be a utility library for managing side channels, which is completely unrelated to the task of creating an Express server and a React form to send data between them as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel/index.js
+suggestions for improvement:
+- The provided code appears to be a utility for managing side channels, potentially for storing data associated with objects. However, it does not address the core problem described in the Chapter Content/Questions, which involves creating an Express server, a React form, and sending data between them. The code is therefore completely unrelated to the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel/package.json
+suggestions for improvement:
+- The provided code appears to be a `package.json` file, which describes a Javascript package. This is unrelated to the task described in the prompt which asks for the creation of a React application and an Express server that communicate with each other.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel/test/index.js
+suggestions for improvement:
+- The code appears to be a test suite for a `getSideChannel` function, completely unrelated to the instructions provided in the prompt (creating an Express server and a React form to send and display data).  It does not address any part of the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/side-channel/tsconfig.json
+suggestions for improvement:
+- This code is a tsconfig file. It's completely unrelated to the chapter content which involves creating a React app, an Express server, and communication between them.
+- The tsconfig defines compiler options for TypeScript projects and is not relevant to the prompt's objective.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/statuses/codes.json
+suggestions for improvement:
+- The provided code is a JSON object containing HTTP status codes and their corresponding descriptions. It does not implement any of the functionalities described in the chapter content (Express server, React form, GET/POST requests).
+- The code is completely unrelated to the task of creating a React app with a form and an Express server to handle data submission.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/statuses/index.js
+suggestions for improvement:
+- The provided code appears to be a utility for handling HTTP status codes and messages. While it's a useful module in general, it's completely unrelated to the specific instructions in the Chapter Content/Questions, which involve creating an Express server, a React form, and sending data between them.
+- The code does not address the core problem of setting up a client-server interaction with React and Express for data submission and display.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/statuses/package.json
+suggestions for improvement:
+- This submission is a package.json file, which does not address the instructions in the Chapter Content/Questions. The instructions require creating an Express server, a React app with a form that sends data to the server, and displaying the received data. This file does not contain any of the required code or functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/toidentifier/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which involves creating an Express server, a React form, and communication between them using GET and POST requests. The provided code is a utility function to convert a string to a JavaScript identifier, which has no connection to the problem description.
+- Consider focusing on the instructions in the Chapter Content/Questions to create the server and client side components described.
+- The readability can be improved by adding comments explaining the function's purpose and the logic behind the transformations.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/toidentifier/package.json
+suggestions for improvement:
+- This package.json file does not implement the React form submission and Express server logic as outlined in the problem description. It's a package manifest file, not the application code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/type-is/index.js
+suggestions for improvement:
+- This code appears to be the 'type-is' library, which is unrelated to the prompt's instructions on creating an Express server and React form for data submission and display. It focuses on content type checking, which is a different topic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/type-is/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js package named 'type-is'. This file provides metadata about the package and lists its dependencies, scripts, and other configuration details.
+- This file does not address the problem of creating an Express server, implementing React forms, or sending/receiving data between them as described in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/unpipe/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content, which describes creating a React app and an Express server to send and display data between them. The provided code appears to be a utility for unpiping streams in Node.js, which is not relevant to the instructions given.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/unpipe/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file which is not directly related to the chapter's instructions of creating an Express server and a React form to send and display data.
+- The `package.json` file defines metadata and dependencies for a Node.js project, but it doesn't implement any of the functionality described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/vary/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter's instructions. It is a utility for handling the 'Vary' HTTP header, not code for setting up an Express server, creating React forms, or handling data transfer between them as requested by the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/vary/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module named 'vary'. This module is related to manipulating the HTTP Vary header. However, the chapter content requests the creation of a React app and an Express server to send and display data. The submitted code is completely unrelated to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/wrappy/package.json
+suggestions for improvement:
+- This is a package.json file, not the code requested in the prompt.  It doesn't implement a React form or an Express server as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/node_modules/wrappy/wrappy.js
+suggestions for improvement:
+- This code is completely unrelated to the Chapter Content/Questions. It provides a function `wrappy` which is a utility for wrapping callback functions, but the chapter is about creating a React app that communicates with an Express server using GET and POST requests, including form submission.
+- The code doesn't address the core problem of sending data from a React form to an Express server and displaying the response.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/package-lock.json
+suggestions for improvement:
+- This package-lock.json is not runnable code, it only describes the dependencies of a node project. Hence it does not attempt to fulfil any of the requirements of the problem description.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/package.json
+suggestions for improvement:
+- The provided code is just a package.json file, which defines the dependencies for a Node.js project. It doesn't implement the Express server logic or the React form as described in the instructions.
+- The instructions require creating a server.js file with specific GET and POST routes, and a React app with a form that interacts with the server. The provided package.json doesn't fulfill any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/trmarvin/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/server/server.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
