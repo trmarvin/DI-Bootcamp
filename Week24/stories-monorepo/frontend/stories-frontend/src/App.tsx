@@ -1,5 +1,5 @@
 import { useAppDispatch, useAppSelector } from "./app/hooks";
-import { setUser } from "./features/user/userSlice";
+import { hydrate } from "./features/auth/authSlice"; // or whatever action you have
 
 export default function App() {
   const dispatch = useAppDispatch();
@@ -10,7 +10,7 @@ export default function App() {
       <button
         className="btn btn-primary"
         onClick={() =>
-          dispatch(setUser({ id: "1", email: "tamar@example.com", name: "Tamar" }))
+          dispatch(hydrate({ user: { id: "1", email: "tamar@example.com", name: "Tamar" }, token: null }))
         }
       >
         Set user

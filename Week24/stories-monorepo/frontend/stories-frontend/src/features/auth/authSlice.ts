@@ -1,6 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import type { User } from "../../models/user";
 import { api } from "../../api/client";
+import type { PayloadAction } from "@reduxjs/toolkit";
 
 type AuthState = {
   user: User | null;
@@ -33,16 +34,19 @@ const authSlice = createSlice({
   name: "auth",
   initialState,
   reducers: {
+    setUser(state, action: PayloadAction<User | null>) {
+      state.user = action.payload;
+    },
     logout(state) {
       state.user = null;
       state.token = null;
       state.status = "idle";
       state.error = null;
     },
-    hydrate(state, action: { payload: { user: User | null; token: string | null } }) {
+    hydrate(state, action: PayloadAction<{ user: User | null; token: string | null }>) {
       state.user = action.payload.user;
       state.token = action.payload.token;
-    },
+    }
   },
   extraReducers(builder) {
     builder
@@ -62,5 +66,5 @@ const authSlice = createSlice({
   },
 });
 
-export const { logout, hydrate } = authSlice.actions;
+export const { setUser, logout, hydrate } = authSlice.actions;
 export default authSlice.reducer;
