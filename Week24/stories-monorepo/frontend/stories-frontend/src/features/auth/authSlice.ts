@@ -17,7 +17,7 @@ const initialState: AuthState = {
   error: null,
 };
 
-type LoginRequest = { email: string; password: string };
+type LoginRequest = { emailOrUsername: string; password: string };
 type LoginResponse = { user: User; token: string };
 
 export const login = createAsyncThunk<LoginResponse, LoginRequest>(
@@ -43,10 +43,13 @@ const authSlice = createSlice({
       state.status = "idle";
       state.error = null;
     },
-    hydrate(state, action: PayloadAction<{ user: User | null; token: string | null }>) {
+    hydrate(
+      state,
+      action: PayloadAction<{ user: User | null; token: string | null }>
+    ) {
       state.user = action.payload.user;
       state.token = action.payload.token;
-    }
+    },
   },
   extraReducers(builder) {
     builder
