@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import type { PayloadAction } from "@reduxjs/toolkit";
 import type { Story } from "../../models/story";
 import { api } from "../../api/client";
-import type { PayloadAction } from "@reduxjs/toolkit";
 
 /* ======================
    STATE
@@ -11,7 +11,7 @@ type StoriesState = {
   items: Story[];
   selected: Story | null;
 
-  // 3️⃣ draft editing state
+  // Draft editing state (local unsaved changes)
   drafts: Record<string, Partial<Story>>;
 
   status: "idle" | "loading" | "succeeded" | "failed";
@@ -21,10 +21,7 @@ type StoriesState = {
 const initialState: StoriesState = {
   items: [],
   selected: null,
-
-  // 3️⃣ initial drafts
   drafts: {},
-
   status: "idle",
   error: null,
 };
@@ -33,26 +30,46 @@ const initialState: StoriesState = {
    ASYNC THUNKS
 ====================== */
 
+// READ: list
 export const fetchStories = createAsyncThunk<Story[]>(
   "stories/fetchStories",
   async () => api<Story[]>("/stories")
 );
 
+// READ: one
 export const fetchStoryById = createAsyncThunk<Story, string>(
   "stories/fetchStoryById",
   async (id) => api<Story>(`/stories/${id}`)
 );
 
-// 4️⃣ SAVE STORY THUNK (sync with backend)
+// UPDATE: save existing story
 export const saveStory = createAsyncThunk<
   Story,
   { id: string; story: Partial<Story> }
->(
-  "stories/saveStory",
-  async ({ id, story }) =>
-    api<Story>(`/stories/${id}`, {
-      method: "PUT",
-      body: JSON.stringify(story),
+>("stories/saveStory", async ({ id, story }) =>
+  api<Story>(`/stories/${id}`, {
+    method: "PUT", // change to PATCH if your backend uses PATCH
+    body: JSON.stringify(story),
+  })
+);
+
+// CREATE: new story
+export const createStory = createAsyncThunk<
+  Story,
+  { title: string; content: string }
+>("stories/createStory", async (body) =>
+  api<Story>("/stories", {
+    method: "POST",
+    body: JSON.stringify(body),
+  })
+);
+
+// DELETE: story
+export const deleteStory = createAsyncThunk<{ id: string }, string>(
+  "stories/deleteStory",
+  async (id) =>
+    api<{ id: string }>(`/stories/${id}`, {
+      method: "DELETE",
     })
 );
 
@@ -64,53 +81,40 @@ const storiesSlice = createSlice({
   name: "stories",
   initialState,
 
-  /* --------
-     3️⃣ SYNC REDUCERS
-     (local editing, no backend)
-  -------- */
   reducers: {
     clearSelected(state) {
       state.selected = null;
     },
 
-    // start editing a story
+    // Optional: start editing explicitly (not required if we seed drafts on fetchStoryById.fulfilled)
     beginEdit(state, action: PayloadAction<string>) {
       const id = action.payload;
-      const story =
-        state.items.find((s) => s.id === id) ?? state.selected;
-
+      const story = state.items.find((s) => s.id === id) ?? state.selected;
       if (!story) return;
-
       state.drafts[id] = { ...story };
     },
 
-    // update draft fields
+    // Update draft fields
     updateDraft(
       state,
-      action: PayloadAction<{
-        id: string;
-        changes: Partial<Story>;
-      }>
+      action: PayloadAction<{ id: string; changes: Partial<Story> }>
     ) {
       const { id, changes } = action.payload;
-
       state.drafts[id] = {
         ...(state.drafts[id] ?? {}),
         ...changes,
       };
     },
 
-    // discard local edits
+    // Discard local edits
     discardDraft(state, action: PayloadAction<string>) {
       delete state.drafts[action.payload];
     },
   },
 
-  /* --------
-     ASYNC RESULTS
-  -------- */
   extraReducers(builder) {
     builder
+      // fetchStories
       .addCase(fetchStories.pending, (state) => {
         state.status = "loading";
         state.error = null;
@@ -123,25 +127,56 @@ const storiesSlice = createSlice({
         state.status = "failed";
         state.error = action.error.message ?? "Failed to load stories";
       })
+
+      // fetchStoryById (ONLY ONE fulfilled handler — fixes your crash)
+      .addCase(fetchStoryById.pending, (state) => {
+        state.status = "loading";
+        state.error = null;
+      })
       .addCase(fetchStoryById.fulfilled, (state, action) => {
+        state.status = "succeeded";
         state.selected = action.payload;
+
+        // Seed draft so viewer inputs show values immediately
+        state.drafts[action.payload.id] = {
+          title: action.payload.title,
+          content: action.payload.content,
+        };
+      })
+      .addCase(fetchStoryById.rejected, (state, action) => {
+        state.status = "failed";
+        state.error = action.error.message ?? "Failed to load story";
       })
 
-      // 4️⃣ COMMIT SAVED STORY FROM BACKEND
+      // createStory
+      .addCase(createStory.fulfilled, (state, action) => {
+        const created = action.payload;
+        state.items.unshift(created);
+        state.selected = created;
+
+        state.drafts[created.id] = {
+          title: created.title,
+          content: created.content,
+        };
+      })
+
+      // deleteStory
+      .addCase(deleteStory.fulfilled, (state, action) => {
+        const { id } = action.payload;
+        state.items = state.items.filter((s) => s.id !== id);
+        if (state.selected?.id === id) state.selected = null;
+        delete state.drafts[id];
+      })
+
+      // saveStory (update)
       .addCase(saveStory.fulfilled, (state, action) => {
         const saved = action.payload;
 
         state.selected = saved;
 
-        const idx = state.items.findIndex(
-          (s) => s.id === saved.id
-        );
-
-        if (idx !== -1) {
-          state.items[idx] = saved;
-        } else {
-          state.items.unshift(saved);
-        }
+        const idx = state.items.findIndex((s) => s.id === saved.id);
+        if (idx !== -1) state.items[idx] = saved;
+        else state.items.unshift(saved);
 
         // remove draft after successful save
         delete state.drafts[saved.id];
@@ -149,15 +184,7 @@ const storiesSlice = createSlice({
   },
 });
 
-/* ======================
-   EXPORTS
-====================== */
-
-export const {
-  clearSelected,
-  beginEdit,
-  updateDraft,
-  discardDraft,
-} = storiesSlice.actions;
+export const { clearSelected, beginEdit, updateDraft, discardDraft } =
+  storiesSlice.actions;
 
 export default storiesSlice.reducer;

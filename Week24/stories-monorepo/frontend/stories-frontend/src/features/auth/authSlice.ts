@@ -21,20 +21,25 @@ const initialState: AuthState = {
 
 type LoginRequest = { emailOrUsername: string; password: string };
 type LoginResponse = { user: User; token: string };
+type AuthError = { message: string; fieldErrors?: Record<string, string> };
 
-export const login = createAsyncThunk<LoginResponse, LoginRequest>(
-  "auth/login",
-  async (body) => {
-    return api<LoginResponse>("/auth/login", {
+export const login = createAsyncThunk<
+  LoginResponse,
+  LoginRequest,
+  { rejectValue: AuthError }
+>("auth/login", async (body, { rejectWithValue }) => {
+  try {
+    return await api<LoginResponse>("/auth/login", {
       method: "POST",
       body: JSON.stringify(body),
     });
+  } catch (err) {
+    return rejectWithValue(err as AuthError);
   }
-);
+});
 
 type RegisterRequest = { email: string; password: string; username: string };
 type AuthResponse = { user: User; token: string };
-type AuthError = { message: string; fieldErrors?: Record<string, string> };
 
 export const register = createAsyncThunk<
   AuthResponse,
@@ -83,6 +88,8 @@ const authSlice = createSlice({
         state.status = "succeeded";
         state.user = action.payload.user;
         state.token = action.payload.token;
+        state.error = null;
+        state.fieldErrors = null;
       })
       .addCase(login.rejected, (state, action) => {
         state.status = "failed";
@@ -101,7 +108,7 @@ const authSlice = createSlice({
       .addCase(register.rejected, (state, action) => {
         state.status = "failed";
         state.error = action.payload?.message ?? "Registration failed";
-        state.fieldErrors = action.payload?.fieldErrors;
+        state.fieldErrors = action.payload?.fieldErrors ?? null;
       });
   },
 });
