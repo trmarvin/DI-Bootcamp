@@ -1,22 +1,17 @@
-import { useAppDispatch, useAppSelector } from "./app/hooks";
-import { hydrate } from "./features/auth/authSlice"; // or whatever action you have
+import { Routes, Route, Navigate } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import StoryViewerPage from "./pages/StoryViewerPage";
+import LoginPage from "./pages/LoginPage";
+import SignupPage from "./pages/SignupPage";
 
 export default function App() {
-  const dispatch = useAppDispatch();
-  const user = useAppSelector((s) => s.auth.user);
-
   return (
-    <div className="p-4">
-      <button
-        className="btn btn-primary"
-        onClick={() =>
-          dispatch(hydrate({ user: { id: "1", email: "tamar@example.com", name: "Tamar" }, token: null }))
-        }
-      >
-        Set user
-      </button>
-
-      <pre className="mt-4">{JSON.stringify(user, null, 2)}</pre>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/stories/:id" element={<StoryViewerPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/signup" element={<SignupPage />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
   );
 }
