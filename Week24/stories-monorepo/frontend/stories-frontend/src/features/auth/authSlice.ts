@@ -8,6 +8,7 @@ type AuthState = {
   token: string | null;
   status: "idle" | "loading" | "succeeded" | "failed";
   error: string | null;
+  fieldErrors: Record<string, string> | null;
 };
 
 const initialState: AuthState = {
@@ -15,6 +16,7 @@ const initialState: AuthState = {
   token: null,
   status: "idle",
   error: null,
+  fieldErrors: null,
 };
 
 type LoginRequest = { emailOrUsername: string; password: string };
@@ -29,6 +31,25 @@ export const login = createAsyncThunk<LoginResponse, LoginRequest>(
     });
   }
 );
+
+type RegisterRequest = { email: string; password: string; username: string };
+type AuthResponse = { user: User; token: string };
+type AuthError = { message: string; fieldErrors?: Record<string, string> };
+
+export const register = createAsyncThunk<
+  AuthResponse,
+  RegisterRequest,
+  { rejectValue: AuthError }
+>("auth/register", async (body, { rejectWithValue }) => {
+  try {
+    return await api<AuthResponse>("/auth/register", {
+      method: "POST",
+      body: JSON.stringify(body),
+    });
+  } catch (err) {
+    return rejectWithValue(err as AuthError);
+  }
+});
 
 const authSlice = createSlice({
   name: "auth",
@@ -56,6 +77,7 @@ const authSlice = createSlice({
       .addCase(login.pending, (state) => {
         state.status = "loading";
         state.error = null;
+        state.fieldErrors = null;
       })
       .addCase(login.fulfilled, (state, action) => {
         state.status = "succeeded";
@@ -65,6 +87,21 @@ const authSlice = createSlice({
       .addCase(login.rejected, (state, action) => {
         state.status = "failed";
         state.error = action.error.message ?? "Login failed";
+      })
+      .addCase(register.pending, (state) => {
+        state.status = "loading";
+        state.error = null;
+        state.fieldErrors = null;
+      })
+      .addCase(register.fulfilled, (state, action) => {
+        state.status = "succeeded";
+        state.user = action.payload.user;
+        state.token = action.payload.token;
+      })
+      .addCase(register.rejected, (state, action) => {
+        state.status = "failed";
+        state.error = action.payload?.message ?? "Registration failed";
+        state.fieldErrors = action.payload?.fieldErrors;
       });
   },
 });
